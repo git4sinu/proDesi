@@ -4,81 +4,190 @@
 
 <html lang="en">
 <head>
-    <title><decorator:title default="Welcome"/> | <fmt:message key="webapp.name"/></title>
-    <meta http-equiv="Cache-Control" content="no-cache"/>
-    <meta http-equiv="Pragma" content="no-cache"/>
-    <meta http-equiv="Expires" content="0"/>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <link rel="shortcut icon" href="${ctx}/images/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="${ctx}/webjars/bootstrap/1.0-SNAPSHOT/css/bootstrap.min.css">
-    <link rel="stylesheet" href="${ctx}/styles/app.css">
-    <script type="text/javascript" src="${ctx}/webjars/jquery/1.8.2/jquery.min.js"></script>
-    <script type="text/javascript" src="${ctx}/webjars/bootstrap/1.0-SNAPSHOT/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="${ctx}/scripts/app.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Desiengg</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="${ctx}/css/bootstrap.css" rel="stylesheet">
+    <link rel="shortcut icon" href="${ctx}/images/favicon.ico">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!--[if gte IE 9]>
+
+
+    <style type="text/css">
+        .gradient {
+            filter: none;
+        }
+    </style>
+    <![endif]-->
+
+        <script type="text/javascript" src="${ctx}/js/respond.proxy.js"></script>
     <decorator:head/>
-</head>
+
 <body<decorator:getProperty property="body.id" writeEntireProperty="true"/><decorator:getProperty property="body.class" writeEntireProperty="true"/>>
+
+<header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="navbar navbar-default" role="navigation">
+
+                    <!-- <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3"> -->
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <div class="logo">
+                            <a class="navbar-brand" href="index.html"><img src="${ctx}/images/logo.png"></a>
+                        </div>
+                    </div>
+                    <!-- </div> --> <!-- col first -->
+
+                    <div class="navbar-collapse collapse">
+                        <!-- <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9"> -->
+                        <ul class="nav navbar-nav clearfix">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#Bucket elevator design">Bucket elevator design</a></li>
+                            <li><a href="#Pricing">Pricing</a></li>
+                            <li><a href="#Pricing">Contact</a></li>
+
+                        </ul>
+                        <!--  </div> --><!-- col two -->
+                        <!-- <div class="col-sm-3 col-md-3 col-lg-3"> -->
+                        <div class="get-started">
+                            <ul class="navbar-right">
+                                <li><a href="#">Get statrted</a></li>
+                                <li class="zero"><a href=""></a></li>
+                                <li><a href="#">Login</a></li>
+                            </ul>
+                        </div>
+                        <!-- </div> -->
+                        <!-- </div> --><!--/.nav-collapse -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+
 <a name="top"></a>
+<%@ include file="/messages.jsp"%>
+<decorator:body/>
 
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container-fluid">
-                <%-- For smartphones and smaller screens --%>
-                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="brand" href="<c:url value='/'/>">AppFuse Light</a>
-                <div class="nav-collapse collapse">
-                    <ul class="nav">
-                        <li><a href="${ctx}/" title="Home">Home</a></li>
-                        <li><a href="${ctx}/users" title="View Users">Users</a></li>
-                        <!-- Add new menu items here -->
-                        <security:authorize ifAnyGranted="ROLE_USER,ROLE_ADMIN">
-                            <li class="logout"><a href="${ctx}/logout">Logout</a></li>
-                        </security:authorize>
-                    </ul>
+<div class="footer">
+    <div class="container">
+        <div class="foot">
+            <div class="row">
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="footlogo">
+                            <a href="index.html"><img src="images/logofoot.png"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                        <div class="menu">
+                            <ul class="clearfix">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#Bucket elevator design">Bucket elevator design</a></li>
+                                <li><a href="#Pricing">Pricing</a></li>
+                                <li><a href="#Pricing">Contact</a></li>
+                                <p>© 2014, Design Engineering. All Rights Reserved.</p>
+                            </ul>
+
+                        </div>
+                    </div>
+
+
                 </div>
-                <script type="text/javascript">
-                    $('a[href="${pageContext.request.requestURI}"]').parent().addClass('active');
-                </script>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <div class="span7">
-                <%@ include file="/messages.jsp"%>
-                <decorator:body/>
-
-                <decorator:getProperty property="page.underground"/>
-            </div>
-            <div class="span2">
-                <div id="branding">
-                    <a href="http://appfuse.org" title="AppFuse - eliminating project startup time">
-                        <img src="${ctx}/images/powered-by-appfuse.gif" width="203" height="75" alt="AppFuse"/></a>
+                <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+                    <div class="power">
+                        <p>Powered by :<a href="http://www.dzineden.com">dzineDen - the web agency</a></p>
+                    </div>
                 </div>
-                <h3>Resources</h3>
-
-                <p>The following is a list of resources that will make <a href="http://springframework.org">Spring</a> infinitely easier to use.</p>
-
-                <ul class="glassList">
-                    <li><a href="http://static.springsource.org/spring/docs/3.2.x/spring-framework-reference/html/">Spring 3.2 Docs</a></li>
-                    <li><a href="http://static.springsource.org/spring/docs/3.2.x/javadoc-api/">Spring 3.2 API</a></li>
-                    <li><a href="http://www.amazon.com/s/ref=nb_ss?url=search-alias%3Daps&field-keywords=spring+framework">Spring Books</a></li>
-                    <li><a href="http://forum.springframework.org/">Spring Forums</a></li>
-                </ul>
 
             </div>
         </div>
+
     </div>
 
-    <div id="footer">
-        <p>
-            Created by <a href="http://appfuse.org">AppFuse</a>.
-        </p>
-    </div>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/holder.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        $('div.inputEmail3').hide();
+        $('#inputEmail3').focus(function() {
+            $('div.inputEmail3').show();
+            $(document).bind('focusin.inputEmail3 click.inputEmail3',function(e) {
+                if ($(e.target).closest('.inputEmail3, #inputEmail3').length) return;
+                $(document).unbind('.inputEmail3');
+                $('div.inputEmail3').fadeOut('medium');
+            });
+        });
+
+        $('div.inputEmail3').hide();
+    });
+
+    $(document).ready(function() {
+        $('div.inputPassword3').hide();
+        $('#inputPassword3').focus(function() {
+            $('div.inputPassword3').show();
+            $(document).bind('focusin.inputPassword3 click.inputPassword3',function(e) {
+                if ($(e.target).closest('.inputPassword3, #inputPassword3').length) return;
+                $(document).unbind('.inputPassword3');
+                $('div.inputPassword3').fadeOut('medium');
+            });
+        });
+
+        $('div.inputPassword3').hide();
+    });
+
+
+    $(document).ready(function() {
+        $('div.inputPassword4').hide();
+        $('#inputPassword4').focus(function() {
+            $('div.inputPassword4').show();
+            $(document).bind('focusin.inputPassword4 click.inputPassword4',function(e) {
+                if ($(e.target).closest('.inputPassword4, #inputPassword4').length) return;
+                $(document).unbind('.inputPassword4');
+                $('div.inputPassword4').fadeOut('medium');
+            });
+        });
+
+        $('div.inputPassword4').hide();
+    });
+
+</script>
 </body>
 </html>

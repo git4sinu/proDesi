@@ -61,6 +61,18 @@
         <from>/webjars/**</from>
         <to>/webjars/$1</to>
     </rule>
+    <rule>
+        <from>/css/**</from>
+        <to>/css/$1</to>
+    </rule>
+    <rule>
+        <from>/fonts/**</from>
+        <to>/fonts/$1</to>
+    </rule>
+    <rule>
+        <from>/js/**</from>
+        <to>/js/$1</to>
+    </rule>
 
     <!-- Spring MVC -->
     <rule>

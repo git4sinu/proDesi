@@ -21,6 +21,7 @@
            onsubmit="return validateUser(this)" id="userForm" cssClass="well form-horizontal">
 <form:hidden path="id"/>
 <form:hidden path="version"/>
+<input type="hidden" name="enabled" value="true">
 
     <spring:bind path="user.username">
     <div class="control-group${(not empty status.errorMessage) ? ' error' : ''}">

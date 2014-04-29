@@ -1,14 +1,14 @@
 package org.appfuse.service.impl;
 
+import org.appfuse.Constants;
+import org.appfuse.dao.RoleDao;
 import org.appfuse.dao.UserDao;
+import org.appfuse.model.Role;
 import org.appfuse.model.User;
 import org.appfuse.service.UserExistsException;
 import org.appfuse.service.UserManager;
 import org.appfuse.service.UserService;
-import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DataIntegrityViolationException;
-import org.springframework.orm.jpa.JpaSystemException;
 import org.springframework.security.authentication.dao.SaltSource;
 import org.springframework.security.authentication.encoding.PasswordEncoder;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -28,6 +28,8 @@ import java.util.List;
 public class UserManagerImpl extends GenericManagerImpl<User, Long> implements UserManager, UserService {
     private PasswordEncoder passwordEncoder;
     private UserDao userDao;
+    @Autowired
+    private RoleDao roleDao;
     @Autowired(required = false)
     private SaltSource saltSource;
 
@@ -101,6 +103,11 @@ public class UserManagerImpl extends GenericManagerImpl<User, Long> implements U
         }
 
         try {
+            if (user.getId() != null && user.getId()==-2) {
+                user.addRole(roleDao.getRoleByName(Constants.ADMIN_ROLE));
+            } else {
+                user.addRole(roleDao.getRoleByName(Constants.USER_ROLE));
+            }
             return userDao.saveUser(user);
         } catch (Exception e) {
             e.printStackTrace();
