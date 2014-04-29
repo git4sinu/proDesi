@@ -10,8 +10,9 @@
     <http pattern="/scripts/**" security="none"/>
     <http pattern="/webjars/**" security="none"/>
 
-    <http auto-config="false">
-        <intercept-url pattern="/app/**" access="ROLE_ADMIN,ROLE_USER"/>
+    <http auto-config="true" use-expressions="true">
+        <intercept-url pattern="/app/home" access="permitAll"/>
+        <intercept-url pattern="/app/**" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
         <form-login login-page="/login" authentication-failure-url="/login?error=true"
                     login-processing-url="/j_security_check"/>
         <logout logout-url="/logout"/>
@@ -19,8 +20,23 @@
             <concurrency-control max-sessions="1" error-if-maximum-exceeded="false"/>
         </session-management>
     </http>
+    <!--authentication changes-->
+    <beans:bean id="saltSource" class="org.springframework.security.authentication.dao.ReflectionSaltSource">
+        <beans:property name="userPropertyToUse" value="username"/>
+    </beans:bean>
 
-    <authentication-manager>
+
+    <beans:bean id="loginAuthenticatorService" class="com.desiEngg.security.LoginAuthenticatorService"/>
+    <authentication-manager alias="authenticationManager">
+        <authentication-provider user-service-ref="loginAuthenticatorService" >
+            <password-encoder hash="sha">
+                <salt-source user-property="username"/>
+            </password-encoder>
+        </authentication-provider>
+    </authentication-manager>
+    <!--authentication changes-->
+
+    <!--<authentication-manager>
         <authentication-provider>
             <password-encoder hash="sha"/>
             <user-service>
@@ -28,7 +44,7 @@
                 <user name="admin" password="d033e22ae348aeb5660fc2140aec35850c4da997" authorities="ROLE_ADMIN"/>
             </user-service>
         </authentication-provider>
-    </authentication-manager>
+    </authentication-manager>-->
 
     <global-method-security>
         <protect-pointcut expression="execution(* *..service.UserManager.removeUser(..))" access="ROLE_ADMIN"/>
