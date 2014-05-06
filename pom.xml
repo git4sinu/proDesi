@@ -521,6 +521,6 @@
 
         <!-- Search index settings -->
         <search.index.basedir>${project.build.testOutputDirectory}</search.index.basedir>
-        <skipTests>true</skipTests>
+        <skipTests>false</skipTests>
     </properties>
 </project>
