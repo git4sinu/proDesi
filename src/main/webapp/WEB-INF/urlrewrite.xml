@@ -7,10 +7,10 @@
     <!-- Add rules here for anything that shouldn't be served up by Spring MVC. -->
     <rule>
         <from>/</from>
-        <to>/app/home</to>
+        <to>/desi/home</to>
     </rule>
     <rule>
-        <from>/app/**</from>
+        <from>/desi/**</from>
         <to last="true" type="redirect">%{context-path}/$1</to>
     </rule>
     <rule>
@@ -77,10 +77,10 @@
     <!-- Spring MVC -->
     <rule>
         <from>/**</from>
-        <to>/app/$1</to>
+        <to>/desi/$1</to>
     </rule>
     <outbound-rule>
-        <from>/app/**</from>
+        <from>/desi/**</from>
         <to>/$1</to>
     </outbound-rule>
     <!-- Remove JSESSIONID from URLs when cookies disabled -->

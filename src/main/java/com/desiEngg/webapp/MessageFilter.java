@@ -20,7 +20,7 @@ public class MessageFilter implements Filter {
         // this is so they're not lost in a redirect
         Object message = request.getSession().getAttribute("message");
         dlogger.info("Inside Message Filter-->"+request.getRequestURI());
-        if (!request.getRequestURI().startsWith("/app") && message != null) {
+        if (!request.getRequestURI().startsWith("/desi") && message != null) {
             request.setAttribute("message", message);
             request.getSession().removeAttribute("message");
         }

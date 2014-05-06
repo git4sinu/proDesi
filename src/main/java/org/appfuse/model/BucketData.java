@@ -26,6 +26,28 @@ public class BucketData extends BaseObject implements Serializable {
     private Double weight;
     private Double stress;
     private Double angle;
+    private Double beltSpeed;
+    private Double diameter;
+    private Double driveSpeed;
+    private Double chuteDepth;
+    private Double chuteVertical;
+    private Double beltWidth;
+    private Double pulleyWidth;
+    private Double grossWeight;
+    private Double tensionTight;
+    private Double tensionSlack;
+    private Double power;
+    private Double bucketCount;
+    private Double torque;
+    private Double shaftDiameter;
+    private Double gearLoad;
+    private Double shaftLoad;
+    private Double pulleyThickness;
+    private Double pulleyArmsCount;
+    private Double twoPoleGearRatio;
+    private Double fourPoleGearRatio;
+    private Double sixPoleGearRatio;
+
 
     public BucketData() {
     }
@@ -81,6 +103,111 @@ public class BucketData extends BaseObject implements Serializable {
         return angle;
     }
 
+    @Column(name = "belt_speed")
+    public Double getBeltSpeed() {
+        return beltSpeed;
+    }
+
+    @Column(name = "diameter")
+    public Double getDiameter() {
+        return diameter;
+    }
+
+    @Column(name = "drive_speed")
+    public Double getDriveSpeed() {
+        return driveSpeed;
+    }
+
+    @Column(name = "chute_depth")
+    public Double getChuteDepth() {
+        return chuteDepth;
+    }
+
+    @Column(name = "chute_vertical")
+    public Double getChuteVertical() {
+        return chuteVertical;
+    }
+
+    @Column(name = "belt_width")
+    public Double getBeltWidth() {
+        return beltWidth;
+    }
+
+    @Column(name = "pulley_width")
+    public Double getPulleyWidth() {
+        return pulleyWidth;
+    }
+
+    @Column(name = "gross_weight")
+    public Double getGrossWeight() {
+        return grossWeight;
+    }
+
+    @Column(name = "tension_tight")
+    public Double getTensionTight() {
+        return tensionTight;
+    }
+
+    @Column(name = "tension_slack")
+    public Double getTensionSlack() {
+        return tensionSlack;
+    }
+
+    @Column(name = "power")
+    public Double getPower() {
+        return power;
+    }
+
+    @Column(name = "bucket_count")
+    public Double getBucketCount() {
+        return bucketCount;
+    }
+
+    @Column(name = "torque")
+    public Double getTorque() {
+        return torque;
+    }
+
+    @Column(name = "shaft_diameter")
+    public Double getShaftDiameter() {
+        return shaftDiameter;
+    }
+
+    @Column(name = "gear_load")
+    public Double getGearLoad() {
+        return gearLoad;
+    }
+
+    @Column(name = "shaft_load")
+    public Double getShaftLoad() {
+        return shaftLoad;
+    }
+
+    @Column(name = "pulley_thickness")
+    public Double getPulleyThickness() {
+        return pulleyThickness;
+    }
+
+    @Column(name = "pulleyarms_count")
+    public Double getPulleyArmsCount() {
+        return pulleyArmsCount;
+    }
+
+    @Column(name = "twoPole_ratio")
+    public Double getTwoPoleGearRatio() {
+        return twoPoleGearRatio;
+    }
+
+    @Column(name = "fourPole_ratio")
+    public Double getFourPoleGearRatio() {
+        return fourPoleGearRatio;
+    }
+
+    @Column(name = "sixPole_ratio")
+    public Double getSixPoleGearRatio() {
+        return sixPoleGearRatio;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
@@ -119,6 +246,90 @@ public class BucketData extends BaseObject implements Serializable {
 
     public void setAngle(Double angle) {
         this.angle = angle;
+    }
+
+    public void setBeltSpeed(Double beltSpeed) {
+        this.beltSpeed = beltSpeed;
+    }
+
+    public void setDiameter(Double diameter) {
+        this.diameter = diameter;
+    }
+
+    public void setDriveSpeed(Double driveSpeed) {
+        this.driveSpeed = driveSpeed;
+    }
+
+    public void setChuteDepth(Double chuteDepth) {
+        this.chuteDepth = chuteDepth;
+    }
+
+    public void setChuteVertical(Double chuteVertical) {
+        this.chuteVertical = chuteVertical;
+    }
+
+    public void setBeltWidth(Double beltWidth) {
+        this.beltWidth = beltWidth;
+    }
+
+    public void setPulleyWidth(Double pulleyWidth) {
+        this.pulleyWidth = pulleyWidth;
+    }
+
+    public void setGrossWeight(Double grossWeight) {
+        this.grossWeight = grossWeight;
+    }
+
+    public void setTensionTight(Double tensionTight) {
+        this.tensionTight = tensionTight;
+    }
+
+    public void setTensionSlack(Double tensionSlack) {
+        this.tensionSlack = tensionSlack;
+    }
+
+    public void setPower(Double power) {
+        this.power = power;
+    }
+
+    public void setBucketCount(Double bucketCount) {
+        this.bucketCount = bucketCount;
+    }
+
+    public void setTorque(Double torque) {
+        this.torque = torque;
+    }
+
+    public void setShaftDiameter(Double shaftDiameter) {
+        this.shaftDiameter = shaftDiameter;
+    }
+
+    public void setGearLoad(Double gearLoad) {
+        this.gearLoad = gearLoad;
+    }
+
+    public void setShaftLoad(Double shaftLoad) {
+        this.shaftLoad = shaftLoad;
+    }
+
+    public void setPulleyThickness(Double pulleyThickness) {
+        this.pulleyThickness = pulleyThickness;
+    }
+
+    public void setPulleyArmsCount(Double pulleyArmsCount) {
+        this.pulleyArmsCount = pulleyArmsCount;
+    }
+
+    public void setTwoPoleGearRatio(Double twoPoleGearRatio) {
+        this.twoPoleGearRatio = twoPoleGearRatio;
+    }
+
+    public void setFourPoleGearRatio(Double fourPoleGearRatio) {
+        this.fourPoleGearRatio = fourPoleGearRatio;
+    }
+
+    public void setSixPoleGearRatio(Double sixPoleGearRatio) {
+        this.sixPoleGearRatio = sixPoleGearRatio;
     }
 
     @Override

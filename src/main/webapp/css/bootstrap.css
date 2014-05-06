@@ -6413,7 +6413,7 @@ width: 100%;
 }*/
 
 }
-.capacity, .density, .volume {display: none; }
+.jcapacity, .jdensity, .jvolume {display: none; }
 
 .hi{top: -27.5px; left: 278px;display: block;}
 .popover-content{font-size: 12px;}

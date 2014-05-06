@@ -25,43 +25,36 @@
 
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 <div id="myTabContent" class="tab-content">
+<%--step 1 starts--%>
 <div class="tab-pane fade active in" id="step1">
     <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 some-9">
         <div class="form-step-1">
-
             <h1>Bucket Elevator calcultaion</h1>
-            <form class="form-horizontal" role="form">
+                <div class="form-horizontal">
                 <div class="form-group">
-                    <label for="capacity" class="col-sm-4 control-label">Capacity</label>
-                    <!--  <div class="col-sm-8">
-                       <input type="email" class="form-control" id="inputEmail3"  data-toggle="tooltip" placeholder="KG/HOUR">
-                     </div> -->
+                    <label for="jcapacity" class="col-sm-4 control-label">Capacity</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" name="capacity" id="capacity" placeholder="KG/HOUR">
-                        <div class="capacity">
+                        <input type="text" class="form-control"  id="jcapacity" placeholder="KG/HOUR" onblur="store('jcapacity','capacity');">
+                        <div class="jcapacity">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Capacity</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="density" class="col-sm-4 control-label">Product Density</label>
-                    <!-- <div class="col-sm-8">
-                      <input type="password" class="form-control" id="inputPassword3" placeholder="KG/CU.M">
-                    </div> -->
-
+                    <label for="jdensity" class="col-sm-4 control-label">Product Density</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" name="density" id="density" placeholder="KG/CU.M">
-                        <div class="density">
+                        <input type="text" class="form-control" id="jdensity" placeholder="KG/CU.M"  onblur="store('jdensity','density');">
+                        <div class="jdensity">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Product Density</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="volume" class="col-sm-4 control-label">Product Volume in a Bucket</label>
+                    <label for="jvolume" class="col-sm-4 control-label">Product Volume in a Bucket</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" name="volume" id="volume" placeholder="KG/CU.M">
-                        <div class="volume">
+                        <input type="text" class="form-control" id="jvolume" placeholder="KG/CU.M" onblur="store('jvolume','volume');">
+                        <div class="jvolume">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Product Volume in a Bucket</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
                     </div>
@@ -70,53 +63,54 @@
                 <div class="form-group">
                     <label for="pitch" class="col-sm-4 control-label">Assume Bucket Spacing (Pitch)</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="pitch" placeholder="M" name="pitch">
+                        <input type="text" class="form-control" id="jpitch" placeholder="M" name="pitch" onblur="store('jpitch','pitch');">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="width" class="col-sm-4 control-label">Enter Selected Bucket Width</label>
+                    <label for="jwidth" class="col-sm-4 control-label">Enter Selected Bucket Width</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="width" name="width" placeholder="M">
+                        <input type="text" class="form-control" id="jwidth" placeholder="M" onblur="store('jwidth','width');">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="height" class="col-sm-4 control-label">Enter Elevator Height</label>
+                    <label for="jheight" class="col-sm-4 control-label">Enter Elevator Height</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="height" placeholder="M" name="height">
+                        <input type="text" class="form-control" id="jheight" placeholder="M" onblur="store('jheight','height');">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="weight" class="col-sm-4 control-label">Enter Empty Bucket Weight</label>
+                    <label for="jweight" class="col-sm-4 control-label">Enter Empty Bucket Weight</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="weight" placeholder="KG" name="weight">
+                        <input type="text" class="form-control" id="jweight" placeholder="KG"  onblur="store('jweight','weight');">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="stress" class="col-sm-4 control-label">Allowable Stress In Belt</label>
+                    <label for="jstress" class="col-sm-4 control-label">Allowable Stress In Belt</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="stress" placeholder="N / SQ.M" name="stress">
+                        <input type="text" class="form-control" id="jstress" placeholder="N / SQ.M" onblur="store('jstress','stress');">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="angle" class="col-sm-4 control-label">The Angle Contact BtwnBelt and Pulley</label>
+                    <label for="jangle" class="col-sm-4 control-label">The Angle Contact BtwnBelt and Pulley</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="angle" placeholder="RAD" name="angle">
+                        <input type="text" class="form-control" id="jangle" placeholder="RAD" onblur="store('jangle','angle');">
                     </div>
                 </div>
 
                 <div class="form-group continue">
                     <div class="col-sm-offset-4 col-sm-8 cont">
-                        <button type="submit" class="btn btn-default">Continue</button>
+                        <button type="button" class="btn btn-default">Continue</button>
                     </div>
                 </div>
-            </form>
+            </div>
         </div>
     </div>
+    <%--step 1 ends--%>
 
     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 clearfix some-3">
         <div class="accurate1 clearfix">
@@ -150,11 +144,22 @@
         </div>
     </div>
 </div>
+<%--step 2 starts--%>
 <div class="tab-pane fade" id="profile">
     <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 some-9">
         <div class="form-step-2">
             <h1>Register to see the results</h1>
-            <form  class="form-ver"  role="form">
+            <div class="form-ver">
+            <form action="/home/saveBucket" method="post">
+                <input type="hidden" name="capacity" id="capacity">
+                <input type="hidden" name="density" id="density">
+                <input type="hidden" name="volume" id="volume">
+                <input type="hidden" name="pitch" id="pitch">
+                <input type="hidden" name="width" id="width">
+                <input type="hidden" name="height" id="height">
+                <input type="hidden" name="weight" id="weight">
+                <input type="hidden" name="stress" id="stress">
+                <input type="hidden" name="angle" id="angle">
                 <div class="form-group">
                     <label for="firstName">Your basic Information</label>
                     <input type="text" class="form-control" id="firstName" placeholder="First Name *" name="firstName">
@@ -184,6 +189,7 @@
                     </div>
                 </div>
             </form>
+            </div>
         </div>
     </div>
 
@@ -219,6 +225,8 @@
         </div>
     </div>
 </div>
+<%--step 2 ends--%>
+
 
 <div class="tab-pane fade" id="pay">
     <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 some-9">
@@ -512,3 +520,9 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    function store(s1,s2){
+        var sValue=$('#'+s1).val();
+        $('#'+s2).val(sValue);
+    }
+</script>

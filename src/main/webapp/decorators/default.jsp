@@ -146,46 +146,46 @@
 <script type="text/javascript">
 
     $(document).ready(function() {
-        $('div.capacity').hide();
-        $('#capacity').focus(function() {
-            $('div.capacity').show();
-            $(document).bind('focusin.capacity click.capacity',function(e) {
-                if ($(e.target).closest('.capacity, #capacity').length) return;
-                $(document).unbind('.capacity');
-                $('div.capacity').fadeOut('medium');
+        $('div.jcapacity').hide();
+        $('#jcapacity').focus(function() {
+            $('div.jcapacity').show();
+            $(document).bind('focusin.jcapacity click.jcapacity',function(e) {
+                if ($(e.target).closest('.jcapacity, #jcapacity').length) return;
+                $(document).unbind('.jcapacity');
+                $('div.jcapacity').fadeOut('medium');
             });
         });
 
-        $('div.capacity').hide();
+        $('div.jcapacity').hide();
     });
 
     $(document).ready(function() {
-        $('div.density').hide();
-        $('#density').focus(function() {
-            $('div.density').show();
-            $(document).bind('focusin.density click.density',function(e) {
-                if ($(e.target).closest('.density, #density').length) return;
-                $(document).unbind('.density');
-                $('div.density').fadeOut('medium');
+        $('div.jdensity').hide();
+        $('#jdensity').focus(function() {
+            $('div.jdensity').show();
+            $(document).bind('focusin.jdensity click.jdensity',function(e) {
+                if ($(e.target).closest('.jdensity, #jdensity').length) return;
+                $(document).unbind('.jdensity');
+                $('div.jdensity').fadeOut('medium');
             });
         });
 
-        $('div.density').hide();
+        $('div.jdensity').hide();
     });
 
 
     $(document).ready(function() {
-        $('div.volume').hide();
-        $('#volume').focus(function() {
-            $('div.volume').show();
-            $(document).bind('focusin.volume click.volume',function(e) {
-                if ($(e.target).closest('.volume, #volume').length) return;
-                $(document).unbind('.volume');
-                $('div.volume').fadeOut('medium');
+        $('div.jvolume').hide();
+        $('#jvolume').focus(function() {
+            $('div.jvolume').show();
+            $(document).bind('focusin.jvolume click.jvolume',function(e) {
+                if ($(e.target).closest('.jvolume, #jvolume').length) return;
+                $(document).unbind('.jvolume');
+                $('div.jvolume').fadeOut('medium');
             });
         });
 
-        $('div.volume').hide();
+        $('div.jvolume').hide();
     });
 
 </script>

@@ -114,7 +114,7 @@
     </filter-mapping>
     <filter-mapping>
         <filter-name>exportFilter</filter-name>
-        <url-pattern>/app/*</url-pattern>
+        <url-pattern>/desi/*</url-pattern>
     </filter-mapping>
     <filter-mapping>
         <filter-name>springSecurityFilterChain</filter-name>
@@ -146,7 +146,7 @@
 
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
-        <url-pattern>/app/*</url-pattern>
+        <url-pattern>/desi/*</url-pattern>
     </servlet-mapping>
 
     <servlet-mapping>
