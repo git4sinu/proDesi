@@ -146,46 +146,46 @@
 <script type="text/javascript">
 
     $(document).ready(function() {
-        $('div.inputEmail3').hide();
-        $('#inputEmail3').focus(function() {
-            $('div.inputEmail3').show();
-            $(document).bind('focusin.inputEmail3 click.inputEmail3',function(e) {
-                if ($(e.target).closest('.inputEmail3, #inputEmail3').length) return;
-                $(document).unbind('.inputEmail3');
-                $('div.inputEmail3').fadeOut('medium');
+        $('div.capacity').hide();
+        $('#capacity').focus(function() {
+            $('div.capacity').show();
+            $(document).bind('focusin.capacity click.capacity',function(e) {
+                if ($(e.target).closest('.capacity, #capacity').length) return;
+                $(document).unbind('.capacity');
+                $('div.capacity').fadeOut('medium');
             });
         });
 
-        $('div.inputEmail3').hide();
+        $('div.capacity').hide();
     });
 
     $(document).ready(function() {
-        $('div.inputPassword3').hide();
-        $('#inputPassword3').focus(function() {
-            $('div.inputPassword3').show();
-            $(document).bind('focusin.inputPassword3 click.inputPassword3',function(e) {
-                if ($(e.target).closest('.inputPassword3, #inputPassword3').length) return;
-                $(document).unbind('.inputPassword3');
-                $('div.inputPassword3').fadeOut('medium');
+        $('div.density').hide();
+        $('#density').focus(function() {
+            $('div.density').show();
+            $(document).bind('focusin.density click.density',function(e) {
+                if ($(e.target).closest('.density, #density').length) return;
+                $(document).unbind('.density');
+                $('div.density').fadeOut('medium');
             });
         });
 
-        $('div.inputPassword3').hide();
+        $('div.density').hide();
     });
 
 
     $(document).ready(function() {
-        $('div.inputPassword4').hide();
-        $('#inputPassword4').focus(function() {
-            $('div.inputPassword4').show();
-            $(document).bind('focusin.inputPassword4 click.inputPassword4',function(e) {
-                if ($(e.target).closest('.inputPassword4, #inputPassword4').length) return;
-                $(document).unbind('.inputPassword4');
-                $('div.inputPassword4').fadeOut('medium');
+        $('div.volume').hide();
+        $('#volume').focus(function() {
+            $('div.volume').show();
+            $(document).bind('focusin.volume click.volume',function(e) {
+                if ($(e.target).closest('.volume, #volume').length) return;
+                $(document).unbind('.volume');
+                $('div.volume').fadeOut('medium');
             });
         });
 
-        $('div.inputPassword4').hide();
+        $('div.volume').hide();
     });
 
 </script>

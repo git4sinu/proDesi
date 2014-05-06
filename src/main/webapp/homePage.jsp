@@ -32,80 +32,80 @@
             <h1>Bucket Elevator calcultaion</h1>
             <form class="form-horizontal" role="form">
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-4 control-label">Capacity</label>
+                    <label for="capacity" class="col-sm-4 control-label">Capacity</label>
                     <!--  <div class="col-sm-8">
                        <input type="email" class="form-control" id="inputEmail3"  data-toggle="tooltip" placeholder="KG/HOUR">
                      </div> -->
                     <div class="col-sm-8">
-                        <input type="email" class="form-control" name="inputEmail3" id="inputEmail3" placeholder="KG/HOUR"></input>
-                        <div class="inputEmail3">
+                        <input type="text" class="form-control" name="capacity" id="capacity" placeholder="KG/HOUR">
+                        <div class="capacity">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Capacity</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-4 control-label">Product Density</label>
+                    <label for="density" class="col-sm-4 control-label">Product Density</label>
                     <!-- <div class="col-sm-8">
                       <input type="password" class="form-control" id="inputPassword3" placeholder="KG/CU.M">
                     </div> -->
 
                     <div class="col-sm-8">
-                        <input type="email" class="form-control" name="inputPassword3" id="inputPassword3" placeholder="KG/CU.M"></input>
-                        <div class="inputPassword3">
+                        <input type="text" class="form-control" name="density" id="density" placeholder="KG/CU.M">
+                        <div class="density">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Product Density</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="inputPassword4" class="col-sm-4 control-label">Product Volume in a Bucket</label>
+                    <label for="volume" class="col-sm-4 control-label">Product Volume in a Bucket</label>
                     <div class="col-sm-8">
-                        <input type="email" class="form-control" name="inputPassword4" id="inputPassword4" placeholder="KG/CU.M"></input>
-                        <div class="inputPassword4">
+                        <input type="text" class="form-control" name="volume" id="volume" placeholder="KG/CU.M">
+                        <div class="volume">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Product Volume in a Bucket</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-4 control-label">Assume Bucket Spacing (Pitch)</label>
+                    <label for="pitch" class="col-sm-4 control-label">Assume Bucket Spacing (Pitch)</label>
                     <div class="col-sm-8">
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="M">
+                        <input type="text" class="form-control" id="pitch" placeholder="M" name="pitch">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-4 control-label">Enter Selected Bucket Width</label>
+                    <label for="width" class="col-sm-4 control-label">Enter Selected Bucket Width</label>
                     <div class="col-sm-8">
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="M">
+                        <input type="text" class="form-control" id="width" name="width" placeholder="M">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-4 control-label">Enter Elevator Height</label>
+                    <label for="height" class="col-sm-4 control-label">Enter Elevator Height</label>
                     <div class="col-sm-8">
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="M">
+                        <input type="text" class="form-control" id="height" placeholder="M" name="height">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-4 control-label">Enter Empty Bucket Weight</label>
+                    <label for="weight" class="col-sm-4 control-label">Enter Empty Bucket Weight</label>
                     <div class="col-sm-8">
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="KG">
+                        <input type="text" class="form-control" id="weight" placeholder="KG" name="weight">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-4 control-label">Allowable Stress In Belt</label>
+                    <label for="stress" class="col-sm-4 control-label">Allowable Stress In Belt</label>
                     <div class="col-sm-8">
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="N / SQ.M">
+                        <input type="text" class="form-control" id="stress" placeholder="N / SQ.M" name="stress">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-4 control-label">The Angle Contact BtwnBelt and Pulley</label>
+                    <label for="angle" class="col-sm-4 control-label">The Angle Contact BtwnBelt and Pulley</label>
                     <div class="col-sm-8">
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="RAD">
+                        <input type="text" class="form-control" id="angle" placeholder="RAD" name="angle">
                     </div>
                 </div>
 
@@ -156,26 +156,26 @@
             <h1>Register to see the results</h1>
             <form  class="form-ver"  role="form">
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Your basic Information</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="First Name *">
+                    <label for="firstName">Your basic Information</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name *" name="firstName">
                 </div>
                 <div class="form-group acc-form">
-                    <label for="exampleInputPassword1">Your account credentials</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email Address *">
+                    <label for="email">Your account credentials</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email Address *" name="email">
 
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password *">
+                    <input type="password" class="form-control" id="password" placeholder="Password *" name="password">
 
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password*">
+                    <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password*" name="confirmPassword">
                 </div>
 
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Your mobile numer</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mobile number *">
+                    <label for="phoneNumber">Your mobile numer</label>
+                    <input type="number" class="form-control" id="phoneNumber" placeholder="Mobile number *" name="phoneNumber">
                 </div>
 
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Your Address</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Address *">
+                    <label for="address">Your Address</label>
+                    <input type="text" class="form-control" id="address" placeholder="Address *" name="address">
                 </div>
 
                 <div class="form-group continue clearfix">

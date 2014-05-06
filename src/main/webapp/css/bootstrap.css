@@ -6413,7 +6413,7 @@ width: 100%;
 }*/
 
 }
-.inputEmail3, .inputPassword3, .inputPassword4 {display: none; }
+.capacity, .density, .volume {display: none; }
 
 .hi{top: -27.5px; left: 278px;display: block;}
 .popover-content{font-size: 12px;}
