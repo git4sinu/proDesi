@@ -98,4 +98,11 @@ public final class ConvertUtil {
 
         return obj;
     }
+
+    /*
+    * returns a double rounded number depending on size
+    * */
+    public static Double roundDouble(double number, int size) {
+        return (double) Math.round(number * Math.pow(10, size)) / Math.pow(10, size);
+    }
 }

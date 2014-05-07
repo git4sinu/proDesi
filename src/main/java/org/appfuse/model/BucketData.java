@@ -1,5 +1,7 @@
 package org.appfuse.model;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
@@ -16,7 +18,7 @@ import java.io.Serializable;
 @XmlRootElement
 public class BucketData extends BaseObject implements Serializable {
 
-    private Long id;
+    private String id;
     private Double capacity;
     private Double density;
     private Double volume;
@@ -47,14 +49,17 @@ public class BucketData extends BaseObject implements Serializable {
     private Double twoPoleGearRatio;
     private Double fourPoleGearRatio;
     private Double sixPoleGearRatio;
+    private Boolean paymentStatus=false;
 
 
     public BucketData() {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    public Long getId() {
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "bIdGenerator")
+    @GenericGenerator(name = "bIdGenerator",
+            strategy = "com.desiEngg.generator.BucketSequenceGenerator")
+    public String getId() {
         return id;
     }
 
@@ -208,7 +213,12 @@ public class BucketData extends BaseObject implements Serializable {
         return sixPoleGearRatio;
     }
 
-    public void setId(Long id) {
+    @Column(name = "payment_status")
+    public Boolean getPaymentStatus() {
+        return paymentStatus;
+    }
+
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -330,6 +340,10 @@ public class BucketData extends BaseObject implements Serializable {
 
     public void setSixPoleGearRatio(Double sixPoleGearRatio) {
         this.sixPoleGearRatio = sixPoleGearRatio;
+    }
+
+    public void setPaymentStatus(Boolean paymentStatus) {
+        this.paymentStatus = paymentStatus;
     }
 
     @Override

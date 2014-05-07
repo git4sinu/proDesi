@@ -73,4 +73,6 @@ public interface UserManager extends GenericManager<User, Long> {
      * @return a list of matches, or all if no searchTerm.
      */
     List<User> search(String searchTerm);
+
+    User getUserbyEmailid(String email);
 }

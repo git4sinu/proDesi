@@ -97,7 +97,7 @@ public class User extends BaseObject implements Serializable, UserDetails {
         return firstName;
     }
 
-    @Column(name = "last_name", nullable = false, length = 50)
+    @Column(name = "last_name", length = 50)
     @Field
     public String getLastName() {
         return lastName;
@@ -195,7 +195,7 @@ public class User extends BaseObject implements Serializable, UserDetails {
         return enabled;
     }
 
-    @Column(name = "account_expired", nullable = false)
+    @Column(name = "account_expired")
     public boolean isAccountExpired() {
         return accountExpired;
     }
@@ -209,7 +209,7 @@ public class User extends BaseObject implements Serializable, UserDetails {
         return !isAccountExpired();
     }
 
-    @Column(name = "account_locked", nullable = false)
+    @Column(name = "account_locked")
     public boolean isAccountLocked() {
         return accountLocked;
     }
@@ -223,7 +223,7 @@ public class User extends BaseObject implements Serializable, UserDetails {
         return !isAccountLocked();
     }
 
-    @Column(name = "credentials_expired", nullable = false)
+    @Column(name = "credentials_expired")
     public boolean isCredentialsExpired() {
         return credentialsExpired;
     }

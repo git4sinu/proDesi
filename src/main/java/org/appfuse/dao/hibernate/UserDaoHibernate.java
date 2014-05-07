@@ -2,9 +2,11 @@ package org.appfuse.dao.hibernate;
 
 import org.appfuse.dao.UserDao;
 import org.appfuse.model.User;
+import org.hibernate.Criteria;
+import org.hibernate.Query;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.simple.SimpleJdbcTemplate;
 import org.springframework.orm.hibernate4.SessionFactoryUtils;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -13,10 +15,6 @@ import org.springframework.stereotype.Repository;
 
 import javax.persistence.Table;
 import java.util.List;
-import org.hibernate.Query;
-import org.hibernate.SQLQuery;
-import org.hibernate.Session;
-import org.hibernate.criterion.Restrictions;
 
 /**
  * This class interacts with Hibernate session to save/delete and
@@ -95,5 +93,15 @@ public class UserDaoHibernate extends GenericDaoHibernate<User, Long> implements
         Table table = AnnotationUtils.findAnnotation(User.class, Table.class);
         return jdbcTemplate.queryForObject(
                 "select password from " + table.name() + " where id=?", String.class, userId);
+    }
+
+    @Override
+    public User getUserbyEmailid(String email) {
+        Criteria criteria = getSession().createCriteria(User.class);
+        criteria.add(Restrictions.eq("email", email));
+        if (criteria.list() != null && criteria.list().size() > 0) {
+            return (User) criteria.list().get(0);
+        }
+        return null;
     }
 }

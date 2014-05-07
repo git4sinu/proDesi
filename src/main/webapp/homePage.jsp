@@ -5,6 +5,7 @@
   Time: 2:07 PM
   To change this template use File | Settings | File Templates.
 --%>
+<%@include file="/taglibs.jsp"%>
 <div class="caluculator">
 <div class="container">
 <div class="row">
@@ -13,10 +14,10 @@
 <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 same-9">
     <div class="step-tabs">
         <ul id="myTab" class="nav nav-tabs step breadcrum">
-            <li class="active"><a href="#step1" data-toggle="tab">Step 1<p>Key in the values</p></a></li>
+            <li <c:if test="${empty baseModel.bucketData.id}">class="active"</c:if>><a href="#step1" data-toggle="tab">Step 1<p>Key in the values</p></a></li>
             <li><a href="#profile" data-toggle="tab">Step 2<p>Register</p></a></li>
-            <li><a href="#pay" data-toggle="tab">Step 3<p>Pay online</p></a></li>
-            <li><a href="#result" data-toggle="tab">Step 4<p>see or download Results</p></a></li>
+            <li <c:if test="${!empty baseModel.bucketData.id && !baseModel.bucketData.paymentStatus}">class="active"</c:if>><a href="#pay"  data-toggle="tab">Step 3<p>Pay online</p></a></li>
+            <li <c:if test="${!empty baseModel.bucketData.id && baseModel.bucketData.paymentStatus}">class="active"</c:if>><a href="#result" data-toggle="tab">Step 4<p>see or download Results</p></a></li>
         </ul>
 
     </div>
@@ -26,7 +27,7 @@
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 <div id="myTabContent" class="tab-content">
 <%--step 1 starts--%>
-<div class="tab-pane fade active in" id="step1">
+<div <c:choose><c:when test="${empty baseModel.bucketData.id}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose> id="step1">
     <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 some-9">
         <div class="form-step-1">
             <h1>Bucket Elevator calcultaion</h1>
@@ -228,13 +229,13 @@
 <%--step 2 ends--%>
 
 
-<div class="tab-pane fade" id="pay">
+<div <c:choose><c:when test="${!empty baseModel.bucketData.id && !baseModel.bucketData.paymentStatus}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose>  id="pay">
     <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 some-9">
-
+        <a href="/home/showBucket">Payment Done</a>
     </div>
 </div>
 
-<div class="tab-pane fade clearfix" id="result">
+<div <c:choose><c:when test="${!empty baseModel.bucketData.id && baseModel.bucketData.paymentStatus}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade clearfix"</c:otherwise></c:choose>id="result">
 <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 some-r">
 <div class="form-step-4 clearfix">
 <div class="res-heading clearfix">
@@ -246,18 +247,18 @@
 </div>
 
 <div class="belt-1">
-    <p>1.39 M/SEC</p>
+    <p>${baseModel.bucketData.beltSpeed} M/SEC</p>
 </div>
 
 <div class="diameter clearfix">
     <div class="dia">
         <p>Diameter (D) of pulley</p>
-        <p>0.394 M</p>
+        <p>${baseModel.bucketData.diameter} M</p>
     </div>
 
     <div class="diam">
         <p>The drive Speed</p>
-        <p>67.41 RPM</p>
+        <p>${baseModel.bucketData.driveSpeed} RPM</p>
     </div>
 
 </div>
@@ -272,7 +273,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.chuteDepth}</p>
     </div>
 </div>
 
@@ -282,7 +283,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.chuteVertical}</p>
     </div>
 </div>
 
@@ -292,7 +293,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.beltWidth}</p>
     </div>
 </div>
 
@@ -302,7 +303,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.pulleyWidth}</p>
     </div>
 </div>
 
@@ -312,7 +313,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.87 KG</p>
+        <p>${baseModel.bucketData.grossWeight} KG</p>
     </div>
 </div>
 
@@ -322,7 +323,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.tensionTight}</p>
     </div>
 </div>
 
@@ -332,7 +333,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.tensionSlack}</p>
     </div>
 </div>
 
@@ -342,7 +343,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.power}</p>
     </div>
 </div>
 
@@ -352,7 +353,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.bucketCount}</p>
     </div>
 </div>
 
@@ -362,7 +363,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.torque}</p>
     </div>
 </div>
 
@@ -372,7 +373,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.shaftDiameter}</p>
     </div>
 </div>
 
@@ -382,7 +383,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.gearLoad}</p>
     </div>
 </div>
 
@@ -392,7 +393,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.shaftLoad}</p>
     </div>
 </div>
 
@@ -402,7 +403,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.pulleyThickness}</p>
     </div>
 </div>
 
@@ -412,7 +413,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.pulleyArmsCount}</p>
     </div>
 </div>
 
@@ -422,7 +423,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.twoPoleGearRatio}</p>
     </div>
 </div>
 
@@ -432,7 +433,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>0.694</p>
+        <p>${baseModel.bucketData.fourPoleGearRatio}</p>
     </div>
 </div>
 
@@ -442,7 +443,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>14.83</p>
+        <p>${baseModel.bucketData.sixPoleGearRatio}</p>
     </div>
 </div>
 </div>
