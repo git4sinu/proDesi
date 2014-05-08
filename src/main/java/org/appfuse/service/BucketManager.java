@@ -2,6 +2,8 @@ package org.appfuse.service;
 
 import org.appfuse.model.BucketData;
 
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Sridhar
@@ -12,4 +14,5 @@ import org.appfuse.model.BucketData;
 public interface BucketManager extends GenericManager<BucketData, Long> {
     BucketData saveBucket(BucketData bucketData);
 
+    List<BucketData> getBucketsList(String userId);
 }

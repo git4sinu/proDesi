@@ -6,6 +6,8 @@ import org.appfuse.service.BucketManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Sridhar
@@ -21,5 +23,10 @@ public class BucketManagerImpl  extends GenericManagerImpl<BucketData, Long> imp
 
     public BucketData saveBucket(BucketData bucketData) {
         return bucketDao.saveBucket(bucketData);
+    }
+
+    @Override
+    public List<BucketData> getBucketsList(String userId) {
+        return bucketDao.getBucketsList(userId);
     }
 }

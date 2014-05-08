@@ -14,10 +14,10 @@
 <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 same-9">
     <div class="step-tabs">
         <ul id="myTab" class="nav nav-tabs step breadcrum">
-            <li <c:if test="${empty baseModel.bucketData.id}">class="active"</c:if>><a href="#step1" data-toggle="tab">Step 1<p>Key in the values</p></a></li>
+            <li <c:if test="${empty model.bucketData.id}">class="active"</c:if>><a href="#step1" data-toggle="tab">Step 1<p>Key in the values</p></a></li>
             <li><a href="#profile" data-toggle="tab">Step 2<p>Register</p></a></li>
-            <li <c:if test="${!empty baseModel.bucketData.id && !baseModel.bucketData.paymentStatus}">class="active"</c:if>><a href="#pay"  data-toggle="tab">Step 3<p>Pay online</p></a></li>
-            <li <c:if test="${!empty baseModel.bucketData.id && baseModel.bucketData.paymentStatus}">class="active"</c:if>><a href="#result" data-toggle="tab">Step 4<p>see or download Results</p></a></li>
+            <li <c:if test="${!empty model.bucketData.id && !model.bucketData.paymentStatus}">class="active"</c:if>><a href="#pay"  data-toggle="tab">Step 3<p>Pay online</p></a></li>
+            <li <c:if test="${!empty model.bucketData.id && model.bucketData.paymentStatus}">class="active"</c:if>><a href="#result" data-toggle="tab">Step 4<p>see or download Results</p></a></li>
         </ul>
 
     </div>
@@ -27,7 +27,7 @@
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 <div id="myTabContent" class="tab-content">
 <%--step 1 starts--%>
-<div <c:choose><c:when test="${empty baseModel.bucketData.id}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose> id="step1">
+<div <c:choose><c:when test="${empty model.bucketData.id}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose> id="step1">
     <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 some-9">
         <div class="form-step-1">
             <h1>Bucket Elevator calcultaion</h1>
@@ -229,13 +229,13 @@
 <%--step 2 ends--%>
 
 
-<div <c:choose><c:when test="${!empty baseModel.bucketData.id && !baseModel.bucketData.paymentStatus}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose>  id="pay">
+<div <c:choose><c:when test="${!empty model.bucketData.id && !model.bucketData.paymentStatus}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose>  id="pay">
     <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 some-9">
         <a href="/home/showBucket">Payment Done</a>
     </div>
 </div>
 
-<div <c:choose><c:when test="${!empty baseModel.bucketData.id && baseModel.bucketData.paymentStatus}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade clearfix"</c:otherwise></c:choose>id="result">
+<div <c:choose><c:when test="${!empty model.bucketData.id && model.bucketData.paymentStatus}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade clearfix"</c:otherwise></c:choose>id="result">
 <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 some-r">
 <div class="form-step-4 clearfix">
 <div class="res-heading clearfix">
@@ -247,18 +247,18 @@
 </div>
 
 <div class="belt-1">
-    <p>${baseModel.bucketData.beltSpeed} M/SEC</p>
+    <p>${model.bucketData.beltSpeed} M/SEC</p>
 </div>
 
 <div class="diameter clearfix">
     <div class="dia">
         <p>Diameter (D) of pulley</p>
-        <p>${baseModel.bucketData.diameter} M</p>
+        <p>${model.bucketData.diameter} M</p>
     </div>
 
     <div class="diam">
         <p>The drive Speed</p>
-        <p>${baseModel.bucketData.driveSpeed} RPM</p>
+        <p>${model.bucketData.driveSpeed} RPM</p>
     </div>
 
 </div>
@@ -273,7 +273,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.chuteDepth}</p>
+        <p>${model.bucketData.chuteDepth}</p>
     </div>
 </div>
 
@@ -283,7 +283,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.chuteVertical}</p>
+        <p>${model.bucketData.chuteVertical}</p>
     </div>
 </div>
 
@@ -293,7 +293,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.beltWidth}</p>
+        <p>${model.bucketData.beltWidth}</p>
     </div>
 </div>
 
@@ -303,7 +303,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.pulleyWidth}</p>
+        <p>${model.bucketData.pulleyWidth}</p>
     </div>
 </div>
 
@@ -313,7 +313,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.grossWeight} KG</p>
+        <p>${model.bucketData.grossWeight} KG</p>
     </div>
 </div>
 
@@ -323,7 +323,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.tensionTight}</p>
+        <p>${model.bucketData.tensionTight}</p>
     </div>
 </div>
 
@@ -333,7 +333,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.tensionSlack}</p>
+        <p>${model.bucketData.tensionSlack}</p>
     </div>
 </div>
 
@@ -343,7 +343,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.power}</p>
+        <p>${model.bucketData.power}</p>
     </div>
 </div>
 
@@ -353,7 +353,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.bucketCount}</p>
+        <p>${model.bucketData.bucketCount}</p>
     </div>
 </div>
 
@@ -363,7 +363,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.torque}</p>
+        <p>${model.bucketData.torque}</p>
     </div>
 </div>
 
@@ -373,7 +373,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.shaftDiameter}</p>
+        <p>${model.bucketData.shaftDiameter}</p>
     </div>
 </div>
 
@@ -383,7 +383,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.gearLoad}</p>
+        <p>${model.bucketData.gearLoad}</p>
     </div>
 </div>
 
@@ -393,7 +393,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.shaftLoad}</p>
+        <p>${model.bucketData.shaftLoad}</p>
     </div>
 </div>
 
@@ -403,7 +403,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.pulleyThickness}</p>
+        <p>${model.bucketData.pulleyThickness}</p>
     </div>
 </div>
 
@@ -413,7 +413,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.pulleyArmsCount}</p>
+        <p>${model.bucketData.pulleyArmsCount}</p>
     </div>
 </div>
 
@@ -423,7 +423,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.twoPoleGearRatio}</p>
+        <p>${model.bucketData.twoPoleGearRatio}</p>
     </div>
 </div>
 
@@ -433,7 +433,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.fourPoleGearRatio}</p>
+        <p>${model.bucketData.fourPoleGearRatio}</p>
     </div>
 </div>
 
@@ -443,7 +443,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${baseModel.bucketData.sixPoleGearRatio}</p>
+        <p>${model.bucketData.sixPoleGearRatio}</p>
     </div>
 </div>
 </div>

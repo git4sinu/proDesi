@@ -1,5 +1,6 @@
 package org.appfuse.service.impl;
 
+import org.apache.commons.lang.StringUtils;
 import org.appfuse.Constants;
 import org.appfuse.dao.RoleDao;
 import org.appfuse.dao.UserDao;
@@ -103,9 +104,9 @@ public class UserManagerImpl extends GenericManagerImpl<User, Long> implements U
         }
 
         try {
-            if (user.getId() != null && user.getId()==-2) {
+            if (StringUtils.isNotEmpty(user.getId()) && user.getId().equals("core-00245-123456")) {
                 user.addRole(roleDao.getRoleByName(Constants.ADMIN_ROLE));
-            } else if(user.getRoles()==null && user.getRoles().size()==0){
+            } if(user.getRoles().isEmpty()){
                 user.addRole(roleDao.getRoleByName(Constants.USER_ROLE));
             }
             return userDao.saveUser(user);

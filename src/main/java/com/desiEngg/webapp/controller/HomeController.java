@@ -1,6 +1,7 @@
 package com.desiEngg.webapp.controller;
 
 import com.desiEngg.model.BaseModel;
+import com.desiEngg.model.BucketModel;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -25,12 +26,18 @@ public class HomeController {
     @Autowired
     BaseModel baseModel;
 
+    @Autowired
+    BucketModel bucketModel;
+
     @RequestMapping(value = {"/", "/home"})
     public String welcomePage(HttpServletRequest request, HttpServletResponse response) {
         mLogger.info("Inside Home");
-        String fromBucket=request.getParameter("b");
-        if(StringUtils.isNotEmpty(fromBucket) && fromBucket.equals("1"))
-        request.setAttribute("baseModel",baseModel);
+        String fromBucket = request.getParameter("b");
+        if (StringUtils.isNotEmpty(fromBucket) && fromBucket.equals("1")) {
+            request.setAttribute("model", bucketModel);
+        } else {
+            request.setAttribute("model", baseModel);
+        }
         return "homePage";
     }
 }

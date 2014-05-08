@@ -49,7 +49,7 @@ public class UserFormControllerTest {
         c.setMessages((MessageSource) ctx.getBean("messageSource"));
 
         // setup user values
-        user.setId(1L);
+        user.setId("1");
         user.setFirstName("Matt");
         user.setLastName("Raible");
     }

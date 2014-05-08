@@ -5,8 +5,7 @@ import org.hibernate.engine.spi.SessionImplementor;
 import org.hibernate.id.SequenceGenerator;
 
 import java.io.Serializable;
-import java.math.BigInteger;
-import java.security.SecureRandom;
+import java.util.Random;
 
 /**
  * Created with IntelliJ IDEA.
@@ -18,10 +17,11 @@ import java.security.SecureRandom;
 public class BucketSequenceGenerator  extends SequenceGenerator{
     @Override
     public Serializable generate(SessionImplementor session, Object obj) {
-        SecureRandom random = new SecureRandom();
+        Random r = new Random(System.currentTimeMillis());
+        int rNumber=(1 + r.nextInt(2)) * 10000 + r.nextInt(10000);
         if(obj instanceof BucketData){
-        return "bucket-" + new BigInteger(130, random).toString(32)  + '-' + System.currentTimeMillis();
+        return "bucket-" + rNumber  + '-' + System.currentTimeMillis();
         }
-        return "core-" + new BigInteger(130, random).toString(32)  + '-' + System.currentTimeMillis();
+        return "core-" + rNumber + '-' + System.currentTimeMillis();
     }
 }

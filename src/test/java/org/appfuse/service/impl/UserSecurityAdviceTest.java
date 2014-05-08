@@ -40,7 +40,7 @@ public class UserSecurityAdviceTest {
 
         SecurityContext context = new SecurityContextImpl();
         User user = new User("user");
-        user.setId(1L);
+        user.setId("1");
         user.setPassword("password");
         user.addRole(new Role(Constants.USER_ROLE));
 
@@ -62,7 +62,7 @@ public class UserSecurityAdviceTest {
         assertTrue(auth.isAuthenticated());
         UserManager userManager = makeInterceptedTarget();
         User user = new User("admin");
-        user.setId(2L);
+        user.setId("2");
 
         try {
             userManager.saveUser(user);
@@ -77,7 +77,7 @@ public class UserSecurityAdviceTest {
     public void testAddUserAsAdmin() throws Exception {
         SecurityContext securityContext = new SecurityContextImpl();
         User user = new User("admin");
-        user.setId(2L);
+        user.setId("2");
         user.setPassword("password");
         user.addRole(new Role(Constants.ADMIN_ROLE));
         UsernamePasswordAuthenticationToken token =
@@ -88,7 +88,7 @@ public class UserSecurityAdviceTest {
 
         UserManager userManager = makeInterceptedTarget();
         final User adminUser = new User("admin");
-        adminUser.setId(2L);
+        adminUser.setId("2");
 
         context.checking(new Expectations() {{
             one(userDao).saveUser(with(same(adminUser)));
@@ -101,7 +101,7 @@ public class UserSecurityAdviceTest {
     public void testUpdateUserProfile() throws Exception {
         UserManager userManager = makeInterceptedTarget();
         final User user = new User("user");
-        user.setId(1L);
+        user.setId("1");
         user.getRoles().add(new Role(Constants.USER_ROLE));
 
         context.checking(new Expectations() {{
@@ -116,7 +116,7 @@ public class UserSecurityAdviceTest {
     public void testChangeToAdminRoleFromUserRole() throws Exception {
         UserManager userManager = makeInterceptedTarget();
         User user = new User("user");
-        user.setId(1L);
+        user.setId("1");
         user.getRoles().add(new Role(Constants.ADMIN_ROLE));
 
         try {
@@ -133,7 +133,7 @@ public class UserSecurityAdviceTest {
     public void testAddAdminRoleWhenAlreadyHasUserRole() throws Exception {
         UserManager userManager = makeInterceptedTarget();
         User user = new User("user");
-        user.setId(1L);
+        user.setId("1");
         user.getRoles().add(new Role(Constants.ADMIN_ROLE));
         user.getRoles().add(new Role(Constants.USER_ROLE));
 
@@ -151,7 +151,7 @@ public class UserSecurityAdviceTest {
     public void testAddUserRoleWhenHasAdminRole() throws Exception {
         SecurityContext securityContext = new SecurityContextImpl();
         User user1 = new User("user");
-        user1.setId(1L);
+        user1.setId("1");
         user1.setPassword("password");
         user1.addRole(new Role(Constants.ADMIN_ROLE));
         UsernamePasswordAuthenticationToken token =
@@ -162,7 +162,7 @@ public class UserSecurityAdviceTest {
 
         UserManager userManager = makeInterceptedTarget();
         final User user = new User("user");
-        user.setId(1L);
+        user.setId("1");
         user.getRoles().add(new Role(Constants.ADMIN_ROLE));
         user.getRoles().add(new Role(Constants.USER_ROLE));
 
@@ -178,7 +178,7 @@ public class UserSecurityAdviceTest {
     public void testUpdateUserWithUserRole() throws Exception {
         UserManager userManager = makeInterceptedTarget();
         final User user = new User("user");
-        user.setId(1L);
+        user.setId("1");
         user.getRoles().add(new Role(Constants.USER_ROLE));
 
         context.checking(new Expectations() {{

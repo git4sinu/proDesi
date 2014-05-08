@@ -1,7 +1,6 @@
 <%@ include file="/taglibs.jsp" %>
 
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -77,7 +76,12 @@
                             <ul class="navbar-right">
                                 <li><a href="#">Get statrted</a></li>
                                 <li class="zero"><a href=""></a></li>
-                                <li><a href="#">Login</a></li>
+                                <li>
+                                <c:choose>
+                                    <c:when test="${empty model.user}"><a href="#">Login</a></c:when>
+                                    <c:otherwise><a href="/logout">Logout</a></c:otherwise>
+                                </c:choose>
+                                </li>
                             </ul>
                         </div>
                         <!-- </div> -->

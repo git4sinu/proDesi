@@ -1,6 +1,7 @@
 package com.desiEngg.webapp.controller;
 
 import com.desiEngg.model.BaseModel;
+import com.desiEngg.model.BucketModel;
 import com.desiEngg.webapp.form.BucketForm;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.logging.Log;
@@ -56,7 +57,7 @@ public class RegisterBucketController {
     UserManager userManager;
 
     @Autowired
-    BaseModel baseModel;
+    BucketModel bucketModel;
 
     BucketData bucketData=new BucketData();
     User user=null;
@@ -66,27 +67,32 @@ public class RegisterBucketController {
     @RequestMapping(value = "/home/saveBucket", method = RequestMethod.POST)
     public String save(@ModelAttribute("bucketForm") BucketForm bucketForm,HttpServletRequest request) {
         try {
-            bucketData=CalculateBucket(bucketForm);
             user=SaveUser(bucketForm);
+            bucketData=CalculateBucket(bucketForm);
         } catch (Exception e) {
             dlogger.error(e);
         }
         //login here
-        baseModel.setBucketData(bucketData);
-        baseModel.setUser(user);
-        baseModel.login();
+        bucketModel.setBucketData(bucketData);
+        bucketModel.setUser(user);
+        bucketModel.login();
         return "redirect:/?b=1";
     }
 
     @RequestMapping(value = "/home/showBucket")
     public String showDetails() {
-        bucketData = baseModel.getBucketData();
+        bucketData = bucketModel.getBucketData();
         bucketData.setPaymentStatus(true);
         bucketData=bucketManager.saveBucket(bucketData);
-        baseModel.setBucketData(bucketData);
+        bucketModel.setBucketData(bucketData);
         return "redirect:/?b=1";
     }
 
+    @RequestMapping(value = "/user/view")
+    public String viewList(HttpServletRequest request) {
+        request.setAttribute("model", bucketModel);
+        return "bucketList";
+    }
     public User SaveUser(BucketForm bucketForm) throws UserExistsException {
         if (StringUtils.isNotEmpty(bucketForm.getEmail())) {
             user = userManager.getUserbyEmailid(bucketForm.getEmail());
@@ -231,6 +237,7 @@ public class RegisterBucketController {
         bucketData.setFourPoleGearRatio(ConvertUtil.roundDouble(fourPoleGearRatio,3));
         bucketData.setSixPoleGearRatio(ConvertUtil.roundDouble(sixPoleGearRatio,3));
         bucketData.setPaymentStatus(false);
+        if(StringUtils.isNotEmpty(user.getId()))bucketData.setUserId(user.getId());
         return  bucketManager.saveBucket(bucketData);
     }
 

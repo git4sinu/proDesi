@@ -5,6 +5,7 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * Created with IntelliJ IDEA.
@@ -19,6 +20,7 @@ import java.io.Serializable;
 public class BucketData extends BaseObject implements Serializable {
 
     private String id;
+    private String userId;
     private Double capacity;
     private Double density;
     private Double volume;
@@ -50,6 +52,7 @@ public class BucketData extends BaseObject implements Serializable {
     private Double fourPoleGearRatio;
     private Double sixPoleGearRatio;
     private Boolean paymentStatus=false;
+    private Date dateCreated=new Date();
 
 
     public BucketData() {
@@ -61,6 +64,11 @@ public class BucketData extends BaseObject implements Serializable {
             strategy = "com.desiEngg.generator.BucketSequenceGenerator")
     public String getId() {
         return id;
+    }
+
+    @Column(name = "userid_ref")
+    public String getUserId() {
+        return userId;
     }
 
     @Column(name = "capacity")
@@ -218,8 +226,17 @@ public class BucketData extends BaseObject implements Serializable {
         return paymentStatus;
     }
 
+    @Column(name = "date_created")
+    public Date getDateCreated() {
+        return dateCreated;
+    }
+
     public void setId(String id) {
         this.id = id;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
     public void setCapacity(Double capacity) {
@@ -344,6 +361,10 @@ public class BucketData extends BaseObject implements Serializable {
 
     public void setPaymentStatus(Boolean paymentStatus) {
         this.paymentStatus = paymentStatus;
+    }
+
+    public void setDateCreated(Date dateCreated) {
+        this.dateCreated = dateCreated;
     }
 
     @Override

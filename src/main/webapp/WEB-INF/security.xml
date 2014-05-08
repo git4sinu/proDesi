@@ -15,6 +15,7 @@
 
     <http auto-config="true" use-expressions="true">
         <intercept-url pattern="/desi/home/**" access="permitAll"/>
+        <intercept-url pattern="/desi/user/**" access="hasAnyRole('ROLE_USER')"/>
         <intercept-url pattern="/desi/**" access="hasAnyRole('ROLE_ADMIN')"/>
         <form-login login-page="/login" authentication-failure-url="/login?error=true"
                     login-processing-url="/j_security_check"/>

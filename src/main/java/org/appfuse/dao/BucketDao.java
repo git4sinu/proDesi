@@ -2,6 +2,8 @@ package org.appfuse.dao;
 
 import org.appfuse.model.BucketData;
 
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Sridhar
@@ -13,4 +15,6 @@ public interface BucketDao extends GenericDao<BucketData, Long> {
 
 
     BucketData saveBucket(BucketData bucketData);
+
+    List<BucketData> getBucketsList(String userId);
 }

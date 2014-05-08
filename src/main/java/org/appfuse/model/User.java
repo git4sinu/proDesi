@@ -2,6 +2,7 @@ package org.appfuse.model;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
+import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.search.annotations.*;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -28,7 +29,7 @@ import java.util.*;
 public class User extends BaseObject implements Serializable, UserDetails {
     private static final long serialVersionUID = 3832626162173359411L;
 
-    private Long id;
+    private String id;
     private String username;                    // required
     private String password;                    // required
     private String confirmPassword;
@@ -62,9 +63,10 @@ public class User extends BaseObject implements Serializable, UserDetails {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @DocumentId
-    public Long getId() {
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "bIdGenerator")
+    @GenericGenerator(name = "bIdGenerator",
+            strategy = "com.desiEngg.generator.BucketSequenceGenerator")
+    public String getId() {
         return id;
     }
 
@@ -237,7 +239,7 @@ public class User extends BaseObject implements Serializable, UserDetails {
         return !credentialsExpired;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 

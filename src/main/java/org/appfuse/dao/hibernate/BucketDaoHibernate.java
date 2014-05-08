@@ -2,7 +2,12 @@ package org.appfuse.dao.hibernate;
 
 import org.appfuse.dao.BucketDao;
 import org.appfuse.model.BucketData;
+import org.hibernate.Criteria;
+import org.hibernate.criterion.Order;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,7 +20,7 @@ import org.springframework.stereotype.Repository;
 public class BucketDaoHibernate extends GenericDaoHibernate<BucketData, Long> implements BucketDao {
 
     /**
-     * Constructor that sets the entity to User.class.
+     * Constructor that sets the entity to BucketData.class.
      */
     public BucketDaoHibernate() {
         super(BucketData.class);
@@ -26,5 +31,15 @@ public class BucketDaoHibernate extends GenericDaoHibernate<BucketData, Long> im
     public BucketData saveBucket(BucketData bucketData) {
         getSession().saveOrUpdate(bucketData);
         return bucketData;
+    }
+
+    @Override
+    public List<BucketData> getBucketsList(String userId) {
+        List blist = null;
+        Criteria criteria = getSession().createCriteria(BucketData.class);
+        criteria.add(Restrictions.eq("userId", userId));
+        criteria.addOrder(Order.desc("dateCreated"));
+        blist = criteria.list();
+        return blist;
     }
 }
