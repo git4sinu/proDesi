@@ -20,17 +20,6 @@ public class BucketModel extends BaseModel {
     @Autowired
     BucketManager bucketManager;
 
-    public BucketData bucketData;
-
-    public List<BucketData> bucketsList;
-
-    public BucketData getBucketData() {
-        return bucketData;
-    }
-
-    public void setBucketData(BucketData bucketData) {
-        this.bucketData = bucketData;
-    }
 
     public List<BucketData> getBucketsList() {
         if(bucketsList==null && getUser()!=null)

@@ -2,6 +2,7 @@ package com.desiEngg.model;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.appfuse.model.BucketData;
 import org.appfuse.model.Role;
 import org.appfuse.model.User;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -36,6 +37,18 @@ public class BaseModel {
 
     public void setUser(User user) {
         this.user = user;
+    }
+
+    public BucketData bucketData;
+
+    public List<BucketData> bucketsList;
+
+    public BucketData getBucketData() {
+        return bucketData;
+    }
+
+    public void setBucketData(BucketData bucketData) {
+        this.bucketData = bucketData;
     }
 
     public void login() {
