@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c07491d0-d31f-4a21-b8f3-d133c3b3e465" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/model/BaseModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/model/BaseModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/appfuse/dao/BucketDao.java" afterPath="$PROJECT_DIR$/src/main/java/org/appfuse/dao/BucketDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/appfuse/dao/hibernate/BucketDaoHibernate.java" afterPath="$PROJECT_DIR$/src/main/java/org/appfuse/dao/hibernate/BucketDaoHibernate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/form/BucketForm.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/form/BucketForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/appfuse/service/BucketManager.java" afterPath="$PROJECT_DIR$/src/main/java/org/appfuse/service/BucketManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/appfuse/service/impl/BucketManagerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/appfuse/service/impl/BucketManagerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/security/LoginAuthenticatorService.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/security/LoginAuthenticatorService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/appfuse/dao/hibernate/UserDaoHibernate.java" afterPath="$PROJECT_DIR$/src/main/java/org/appfuse/dao/hibernate/UserDaoHibernate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/bucketList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/bucketList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/decorators/default.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/decorators/default.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/homePage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/homePage.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="desiengg.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399630917703" ignored="false" />
+    <file path="/Dummy.txt" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399635625828" ignored="false" />
     <file path="/dataAccessFailure.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1398759373264" ignored="false" />
-    <file path="F:/ideaworkplace/minglebox.iws" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399635600718" ignored="false" />
+    <file path="F:/ideaworkplace/minglebox.iws" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399637076156" ignored="false" />
     <file path="/security.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399547932718" ignored="false" />
     <file path="/urlrewrite.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399441358656" ignored="false" />
     <file path="/MessageFilter.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1398760372999" ignored="false" />
@@ -46,8 +33,8 @@
     <file path="/RegisterBucketController.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399633943453" ignored="false" />
     <file path="/BucketForm.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399633647765" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/institute/studyAbroadCourses.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399378516463" ignored="false" />
-    <file path="/ForumModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399626528000" ignored="false" />
-    <file path="F:/ideaworkplace/site/src/com/minglebox/presentation/forums/model/ForumModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399626534375" ignored="false" />
+    <file path="/ForumModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399637010562" ignored="false" />
+    <file path="F:/ideaworkplace/site/src/com/minglebox/presentation/forums/model/ForumModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399637027296" ignored="false" />
     <file path="/QnaCommentAction.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399381514197" ignored="false" />
     <file path="F:/ideaworkplace/site/src/com/minglebox/presentation/forums/actions/QnaCommentAction.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399381515213" ignored="false" />
     <file path="/BucketDao.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399634033968" ignored="false" />
@@ -82,8 +69,8 @@
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/mbaMenuHtml.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399551851500" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/after12thMenuHtml.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399555309796" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/home/mbAds.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399555838984" ignored="false" />
-    <file path="F:/ideaworkplace/site/src/com/minglebox/presentation/forums/model/ForumComponentModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399630601468" ignored="false" />
-    <file path="/ForumComponentModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399630525359" ignored="false" />
+    <file path="F:/ideaworkplace/site/src/com/minglebox/presentation/forums/model/ForumComponentModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399637065468" ignored="false" />
+    <file path="/ForumComponentModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399636530281" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/templates/logoAndLinkz.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399630831031" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -270,7 +257,7 @@
       <file leaf-file-name="default.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="120" selection-start="2023" selection-end="2023" vertical-scroll-proportion="0.32687652">
+            <state line="5" column="82" selection-start="102" selection-end="102" vertical-scroll-proportion="0.10290557">
               <folding>
                 <marker date="1399635513578" expanded="true" signature="1033:1102" placeholder="..." />
                 <marker date="1399635513578" expanded="true" signature="1053:1090" placeholder="{...}" />
@@ -1402,7 +1389,11 @@
       <created>1399556534984</created>
       <updated>1399556534984</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Home Page Done..">
+      <created>1399635635781</created>
+      <updated>1399635635781</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1421,6 +1412,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5873894" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.2868217" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1434,7 +1426,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779622" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1480,7 +1471,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Stage Done.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Page Done.." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1499,6 +1490,7 @@
     <MESSAGE value="HOME Page Changes.." />
     <MESSAGE value="First Stage Home Changes.." />
     <MESSAGE value="First Stage Done.." />
+    <MESSAGE value="Home Page Done.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2123,7 +2115,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="120" selection-start="2023" selection-end="2023" vertical-scroll-proportion="0.32687652">
+        <state line="5" column="82" selection-start="102" selection-end="102" vertical-scroll-proportion="0.10290557">
           <folding>
             <marker date="1399635513578" expanded="true" signature="1033:1102" placeholder="..." />
             <marker date="1399635513578" expanded="true" signature="1053:1090" placeholder="{...}" />
