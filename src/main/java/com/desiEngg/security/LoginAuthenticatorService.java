@@ -53,7 +53,7 @@ public class LoginAuthenticatorService implements UserDetailsService {
             logger.info("Error in retrieving user");
         }
         try {
-            /*if (user == null) user = userManager.getUserByEmailid(username);*/
+            if (user == null) user = userManager.getUserbyEmailid(username);
         } catch (Exception e) {
             logger.info("Error in retrieving user");
             throw new UsernameNotFoundException("Error in retrieving user");

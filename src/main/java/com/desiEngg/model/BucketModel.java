@@ -24,7 +24,7 @@ public class BucketModel extends BaseModel {
     public List<BucketData> getBucketsList() {
         if(bucketsList==null && getUser()!=null)
         {
-            return bucketManager.getBucketsList(user.getId());
+            return bucketManager.getBucketsList(getUser().getId());
         }
         return bucketsList;
     }

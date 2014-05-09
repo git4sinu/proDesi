@@ -59,7 +59,8 @@ public class RegisterBucketController {
     @Autowired
     BucketModel bucketModel;
 
-    BucketData bucketData=new BucketData();
+    BucketData bucketData;
+
     User user=null;
 
 
@@ -206,6 +207,11 @@ public class RegisterBucketController {
         Double fourPoleGearRatio=1500/rpm;
         Double sixPoleGearRatio=1000/rpm;
 
+        if(StringUtils.isNotEmpty(bucketForm.getId())){
+            bucketData=bucketManager.getBucketData(bucketForm.getId());
+        }else {
+            bucketData=new BucketData();
+        }
         bucketData.setCapacity(ConvertUtil.roundDouble(bucketForm.getCapacity(),0));
         bucketData.setDensity(ConvertUtil.roundDouble(bucketForm.getDensity(),0));
         bucketData.setVolume(ConvertUtil.roundDouble(bucketForm.getVolume(),3));

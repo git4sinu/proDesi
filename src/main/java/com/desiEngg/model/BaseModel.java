@@ -5,6 +5,8 @@ import org.apache.commons.logging.LogFactory;
 import org.appfuse.model.BucketData;
 import org.appfuse.model.Role;
 import org.appfuse.model.User;
+import org.appfuse.service.UserManager;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
@@ -31,7 +33,18 @@ public class BaseModel {
 
     public User user;
 
+    @Autowired
+    UserManager userManager;
+
+
     public User getUser() {
+        if (user == null) {
+            Object name = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+            if (name instanceof User) {
+                return (User) name;
+            }
+            return userManager.getUserByUsername(name.toString());
+        }
         return user;
     }
 

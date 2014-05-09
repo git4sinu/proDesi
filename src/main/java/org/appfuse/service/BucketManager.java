@@ -15,4 +15,6 @@ public interface BucketManager extends GenericManager<BucketData, Long> {
     BucketData saveBucket(BucketData bucketData);
 
     List<BucketData> getBucketsList(String userId);
+
+    BucketData getBucketData(String id);
 }

@@ -82,6 +82,8 @@
                                     <c:otherwise><a href="/logout">Logout</a></c:otherwise>
                                 </c:choose>
                                 </li>
+                                <li class="zero"><a href=""></a></li>
+                                <li><a href="/user/view">My Bucket</a></li>
                             </ul>
                         </div>
                         <!-- </div> -->
@@ -106,15 +108,15 @@
                 <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                         <div class="footlogo">
-                            <a href="index.html"><img src="images/logofoot.png"></a>
+                            <a href="index.html"><img src="/images/logofoot.png"></a>
                         </div>
                     </div>
 
                     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                         <div class="menu">
                             <ul class="clearfix">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#Bucket elevator design">Bucket elevator design</a></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/">Bucket elevator design</a></li>
                                 <li><a href="#Pricing">Pricing</a></li>
                                 <li><a href="#Pricing">Contact</a></li>
                                 <p>© 2014, Design Engineering. All Rights Reserved.</p>

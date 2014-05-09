@@ -17,6 +17,7 @@ public class BucketForm {
     @Autowired
     BucketDao bucketDao;
 
+    private String id;
     private Double capacity;
     private Double density;
     private Double volume;
@@ -58,6 +59,14 @@ public class BucketForm {
 
     private Double capacityTwoThird=.72;
     private Double gravity=9.8;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public Double getCapacity() {
         return capacity;

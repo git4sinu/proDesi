@@ -42,4 +42,11 @@ public class BucketDaoHibernate extends GenericDaoHibernate<BucketData, Long> im
         blist = criteria.list();
         return blist;
     }
+
+    @Override
+    public BucketData getBucketData(String id) {
+        Criteria criteria=getSession().createCriteria(BucketData.class);
+        criteria.add(Restrictions.eq("id",id));
+        return (BucketData) criteria.uniqueResult();
+    }
 }

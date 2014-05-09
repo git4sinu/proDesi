@@ -17,4 +17,6 @@ public interface BucketDao extends GenericDao<BucketData, Long> {
     BucketData saveBucket(BucketData bucketData);
 
     List<BucketData> getBucketsList(String userId);
+
+    BucketData getBucketData(String id);
 }

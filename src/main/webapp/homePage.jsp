@@ -35,7 +35,7 @@
                 <div class="form-group">
                     <label for="jcapacity" class="col-sm-4 control-label">Capacity</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control"  id="jcapacity" placeholder="KG/HOUR" onblur="store('jcapacity','capacity');">
+                        <input type="text" class="form-control"  id="jcapacity" placeholder="KG/HOUR" onblur="store('jcapacity','capacity');" value="${model.bucketData.capacity}">
                         <div class="jcapacity">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Capacity</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
@@ -44,7 +44,7 @@
                 <div class="form-group">
                     <label for="jdensity" class="col-sm-4 control-label">Product Density</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jdensity" placeholder="KG/CU.M"  onblur="store('jdensity','density');">
+                        <input type="text" class="form-control" id="jdensity" placeholder="KG/CU.M"  onblur="store('jdensity','density');" value="${model.bucketData.density}">
                         <div class="jdensity">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Product Density</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
@@ -54,7 +54,7 @@
                 <div class="form-group">
                     <label for="jvolume" class="col-sm-4 control-label">Product Volume in a Bucket</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jvolume" placeholder="KG/CU.M" onblur="store('jvolume','volume');">
+                        <input type="text" class="form-control" id="jvolume" placeholder="KG/CU.M" onblur="store('jvolume','volume');" value="${model.bucketData.volume}">
                         <div class="jvolume">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Product Volume in a Bucket</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
@@ -64,42 +64,42 @@
                 <div class="form-group">
                     <label for="pitch" class="col-sm-4 control-label">Assume Bucket Spacing (Pitch)</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jpitch" placeholder="M" name="pitch" onblur="store('jpitch','pitch');">
+                        <input type="text" class="form-control" id="jpitch" placeholder="M" name="pitch" onblur="store('jpitch','pitch');" value="${model.bucketData.pitch}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jwidth" class="col-sm-4 control-label">Enter Selected Bucket Width</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jwidth" placeholder="M" onblur="store('jwidth','width');">
+                        <input type="text" class="form-control" id="jwidth" placeholder="M" onblur="store('jwidth','width');" value="${model.bucketData.width}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jheight" class="col-sm-4 control-label">Enter Elevator Height</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jheight" placeholder="M" onblur="store('jheight','height');">
+                        <input type="text" class="form-control" id="jheight" placeholder="M" onblur="store('jheight','height');" value="${model.bucketData.height}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jweight" class="col-sm-4 control-label">Enter Empty Bucket Weight</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jweight" placeholder="KG"  onblur="store('jweight','weight');">
+                        <input type="text" class="form-control" id="jweight" placeholder="KG"  onblur="store('jweight','weight');" value="${model.bucketData.weight}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jstress" class="col-sm-4 control-label">Allowable Stress In Belt</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jstress" placeholder="N / SQ.M" onblur="store('jstress','stress');">
+                        <input type="text" class="form-control" id="jstress" placeholder="N / SQ.M" onblur="store('jstress','stress');" value="${model.bucketData.stress}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jangle" class="col-sm-4 control-label">The Angle Contact BtwnBelt and Pulley</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jangle" placeholder="RAD" onblur="store('jangle','angle');">
+                        <input type="text" class="form-control" id="jangle" placeholder="RAD" onblur="store('jangle','angle');" value="${model.bucketData.angle}">
                     </div>
                 </div>
 
@@ -152,36 +152,37 @@
             <h1>Register to see the results</h1>
             <div class="form-ver">
             <form action="/home/saveBucket" method="post">
-                <input type="hidden" name="capacity" id="capacity">
-                <input type="hidden" name="density" id="density">
-                <input type="hidden" name="volume" id="volume">
-                <input type="hidden" name="pitch" id="pitch">
-                <input type="hidden" name="width" id="width">
-                <input type="hidden" name="height" id="height">
-                <input type="hidden" name="weight" id="weight">
-                <input type="hidden" name="stress" id="stress">
-                <input type="hidden" name="angle" id="angle">
+                <input type="hidden" name="id" value="${model.bucketData.id}">
+                <input type="hidden" name="capacity" id="capacity" value="${model.bucketData.capacity}">
+                <input type="hidden" name="density" id="density" value="${model.bucketData.density}">
+                <input type="hidden" name="volume" id="volume" value="${model.bucketData.volume}">
+                <input type="hidden" name="pitch" id="pitch" value="${model.bucketData.pitch}">
+                <input type="hidden" name="width" id="width" value="${model.bucketData.width}">
+                <input type="hidden" name="height" id="height" value="${model.bucketData.height}">
+                <input type="hidden" name="weight" id="weight" value="${model.bucketData.weight}">
+                <input type="hidden" name="stress" id="stress" value="${model.bucketData.stress}">
+                <input type="hidden" name="angle" id="angle" value="${model.bucketData.angle}">
                 <div class="form-group">
                     <label for="firstName">Your basic Information</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="First Name *" name="firstName">
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name *" name="firstName" value="${model.user.firstName}">
                 </div>
                 <div class="form-group acc-form">
                     <label for="email">Your account credentials</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email Address *" name="email">
+                    <input type="email" class="form-control" id="email" placeholder="Email Address *" name="email" value="${model.user.email}">
 
-                    <input type="password" class="form-control" id="password" placeholder="Password *" name="password">
+                    <input type="password" class="form-control" id="password" placeholder="Password *" name="password" value="${model.user.password}">
 
-                    <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password*" name="confirmPassword">
+                    <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password*" name="confirmPassword" value="${model.user.password}">
                 </div>
 
                 <div class="form-group">
                     <label for="phoneNumber">Your mobile numer</label>
-                    <input type="number" class="form-control" id="phoneNumber" placeholder="Mobile number *" name="phoneNumber">
+                    <input type="number" class="form-control" id="phoneNumber" placeholder="Mobile number *" name="phoneNumber" value="${model.user.phoneNumber}">
                 </div>
 
                 <div class="form-group">
                     <label for="address">Your Address</label>
-                    <input type="text" class="form-control" id="address" placeholder="Address *" name="address">
+                    <input type="text" class="form-control" id="address" placeholder="Address *" name="address" value="${model.user.address.address}">
                 </div>
 
                 <div class="form-group continue clearfix">

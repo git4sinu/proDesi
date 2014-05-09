@@ -29,4 +29,9 @@ public class BucketManagerImpl  extends GenericManagerImpl<BucketData, Long> imp
     public List<BucketData> getBucketsList(String userId) {
         return bucketDao.getBucketsList(userId);
     }
+
+    @Override
+    public BucketData getBucketData(String id) {
+        return bucketDao.getBucketData(id);
+    }
 }
