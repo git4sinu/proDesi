@@ -9,7 +9,7 @@
 <c:if test="${!empty model.bucketsList}">
     <center>
     <display:table name="${model.bucketsList}" class="table table-condensed table-striped table-hover" requestURI="view" id="bucketList" export="true" pagesize="10" excludedParams="ajax">
-        <display:setProperty name="export.pdf.filename" value="users.pdf"/>
+        <display:setProperty name="export.pdf.filename" value="mybukets.pdf"/>
         <display:column property="beltSpeed" sortable="true" title="Belt Speed" escapeXml="true"/>
         <display:column property="diameter" sortable="true" title="Diameter" escapeXml="true"/>
         <display:column property="driveSpeed" sortable="true" title="Speed" escapeXml="true"/>

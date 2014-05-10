@@ -119,6 +119,9 @@ public class RegisterBucketController {
         //To change body of created methods use File | Settings | File Templates.
         //find no of buckets /sec using 2/3 capacity in bucket
 
+        Double productCapacity=bucketForm.getDensity()*bucketForm.getVolume();
+        Double capacitytwothird=2*productCapacity/3;
+        bucketForm.setCapacityTwoThird(capacitytwothird);
         Double noOfBuckets=bucketForm.getCapacity()/(bucketForm.getCapacityTwoThird()*3600);
 
         //determine belt speed using noOfBuckets and capacityTwoThird
@@ -227,8 +230,8 @@ public class RegisterBucketController {
         bucketData.setDriveSpeed(ConvertUtil.roundDouble(driveSpeed,2));
         bucketData.setChuteDepth(ConvertUtil.roundDouble(chuteDepth,3));
         bucketData.setChuteVertical(ConvertUtil.roundDouble(chuteVertical,3));
-        bucketData.setBeltWidth(ConvertUtil.roundDouble(beltWidth,3));
-        bucketData.setPulleyWidth(ConvertUtil.roundDouble(pulleyWidth,3));
+        bucketData.setBeltWidth(ConvertUtil.roundDouble(beltWidth,2));
+        bucketData.setPulleyWidth(ConvertUtil.roundDouble(pulleyWidth,2));
         bucketData.setGrossWeight(ConvertUtil.roundDouble(grossWeight,2));
         bucketData.setTensionTight(ConvertUtil.roundDouble(tensionTight,3));
         bucketData.setTensionSlack(ConvertUtil.roundDouble(tensionSlack,2));
