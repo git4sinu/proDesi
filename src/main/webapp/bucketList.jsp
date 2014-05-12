@@ -33,6 +33,9 @@
         <%--<display:column property="dateCreated" sortable="true" title="dateCreated" escapeXml="true"/>--%>
     </display:table>
     </center>
+    <c:forEach items="${model.bucketsList}" var="bdata">
+        <a href="/user/pdf?id=${bdata.id}">PDF</a>
+    </c:forEach>
 </c:if>
 <style>
     .export.csv{display: none}

@@ -3,9 +3,15 @@ package com.desiEngg.webapp.controller;
 import com.desiEngg.model.BaseModel;
 import com.desiEngg.model.BucketModel;
 import com.desiEngg.webapp.form.BucketForm;
+import com.itextpdf.text.Document;
+import com.itextpdf.text.Paragraph;
+import com.itextpdf.text.pdf.PdfWriter;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.apache.velocity.Template;
+import org.apache.velocity.VelocityContext;
+import org.apache.velocity.app.VelocityEngine;
 import org.appfuse.dao.BucketDao;
 import org.appfuse.model.BucketData;
 import org.appfuse.model.Role;
@@ -28,6 +34,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -59,6 +67,9 @@ public class RegisterBucketController {
     @Autowired
     BucketModel bucketModel;
 
+    @Autowired
+    VelocityEngine velocityEngine;
+
     BucketData bucketData;
 
     User user=null;
@@ -89,6 +100,36 @@ public class RegisterBucketController {
         return "redirect:/?b=1";
     }
 
+
+    @RequestMapping(value = "/user/pdf")
+    public String generatePDF(@ModelAttribute("bucketForm") BucketForm bucketForm,
+                                       HttpServletResponse response) throws Exception {
+        if (StringUtils.isNotEmpty(bucketForm.getId())) {
+            Document document = new Document();
+            bucketData = bucketManager.getBucketData(bucketForm.getId());
+            if (bucketData != null) {
+                try {
+                    bucketModel.setBucketData(bucketData);
+                    response.setContentType("application/pdf");
+                    PdfWriter.getInstance(document, response.getOutputStream());
+                    document.open();
+                    String templateName = "bucketPDF.vm";
+                     /*  create a context and add data */
+                    StringWriter writer = new StringWriter();
+                    VelocityContext context = new VelocityContext();
+                    context.put("model", bucketModel);
+                    Template t = velocityEngine.getTemplate(templateName);
+                    t.merge(context, writer);
+                    document.add(new Paragraph(writer.toString()));
+                } catch (Exception e) {
+                    dlogger.error(e);
+                } finally {
+                    document.close();
+                }
+            }
+        }
+        return null;
+    }
     @RequestMapping(value = "/user/view")
     public String viewList(HttpServletRequest request) {
         request.setAttribute("model", bucketModel);
@@ -167,7 +208,7 @@ public class RegisterBucketController {
 
         //determine power using power1 and power2
         //determine power1 using load and velocity
-        Double noofBucketsperSide=bucketForm.getHeight()/bucketForm.getPitch();
+        Double noofBucketsperSide=(bucketForm.getHeight()/bucketForm.getPitch())+(diameter*3.14/bucketForm.getPitch());
         Double loadwithBuckets=(noofBucketsperSide*(grossWeight+bucketForm.getWeight()))*9.81;
         Double velocity=noofBucketsSpacing;
         Double power1=(loadwithBuckets*velocity)/1000;

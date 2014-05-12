@@ -63,9 +63,8 @@ public class User extends BaseObject implements Serializable, UserDetails {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "bIdGenerator")
-    @GenericGenerator(name = "bIdGenerator",
-            strategy = "com.desiEngg.generator.BucketSequenceGenerator")
+    @GeneratedValue(generator = "UUIDHexGenerator")
+    @GenericGenerator(name = "UUIDHexGenerator",strategy = "org.hibernate.id.UUIDHexGenerator")
     public String getId() {
         return id;
     }
