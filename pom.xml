@@ -391,11 +391,6 @@
             <artifactId>subethasmtp-wiser</artifactId>
             <version>1.2</version>
         </dependency>
-        <dependency>
-            <groupId>org.subethamail</groupId>
-            <artifactId>subethasmtp-wiser</artifactId>
-            <version>1.2</version>
-        </dependency>
         <!-- Pdf library -->
         <dependency>
             <groupId>com.itextpdf</groupId>
