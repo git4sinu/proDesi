@@ -1,6 +1,5 @@
 package com.desiEngg.webapp.controller;
 
-import com.desiEngg.model.BaseModel;
 import com.desiEngg.model.BucketModel;
 import com.desiEngg.webapp.form.BucketForm;
 import com.itextpdf.text.Document;
@@ -14,32 +13,22 @@ import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.VelocityEngine;
 import org.appfuse.dao.BucketDao;
 import org.appfuse.model.BucketData;
-import org.appfuse.model.Role;
 import org.appfuse.model.User;
 import org.appfuse.service.BucketManager;
 import org.appfuse.service.UserExistsException;
 import org.appfuse.service.UserManager;
 import org.appfuse.util.ConvertUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.GrantedAuthorityImpl;
-import org.springframework.security.core.context.SecurityContext;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.StringWriter;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
-import java.util.Set;
 
 /**
  * Created with IntelliJ IDEA.
@@ -101,12 +90,12 @@ public class RegisterBucketController {
     }
 
 
-    @RequestMapping(value = "/user/pdf")
-    public String generatePDF(@ModelAttribute("bucketForm") BucketForm bucketForm,
+    @RequestMapping(value = "/user/pdf/{bId}")
+    public String generatePDF(@PathVariable String bId ,@ModelAttribute("bucketForm") BucketForm bucketForm,
                                        HttpServletResponse response) throws Exception {
-        if (StringUtils.isNotEmpty(bucketForm.getId())) {
+        if (StringUtils.isNotEmpty(bId)) {
             Document document = new Document();
-            bucketData = bucketManager.getBucketData(bucketForm.getId());
+            bucketData = bucketManager.getBucketData(bId);
             if (bucketData != null) {
                 try {
                     bucketModel.setBucketData(bucketData);

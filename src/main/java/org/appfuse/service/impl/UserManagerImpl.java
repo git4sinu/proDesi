@@ -104,7 +104,7 @@ public class UserManagerImpl extends GenericManagerImpl<User, Long> implements U
         }
 
         try {
-            if (StringUtils.isNotEmpty(user.getId()) && user.getId().equals("core-00245-123456")) {
+            if (StringUtils.isNotEmpty(user.getId()) && user.getId().equals("6acd024e45f0a8420145f0a7780d0001")) {
                 user.addRole(roleDao.getRoleByName(Constants.ADMIN_ROLE));
             } if(user.getRoles().isEmpty()){
                 user.addRole(roleDao.getRoleByName(Constants.USER_ROLE));

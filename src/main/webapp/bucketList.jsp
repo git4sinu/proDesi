@@ -34,7 +34,7 @@
     </display:table>
     </center>
     <c:forEach items="${model.bucketsList}" var="bdata">
-        <a href="/user/pdf?id=${bdata.id}">PDF</a>
+        <a href="/user/pdf/${bdata.id}">PDF</a>
     </c:forEach>
 </c:if>
 <style>
