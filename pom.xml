@@ -520,8 +520,8 @@
         <jdbc.version>5.1.22</jdbc.version>
         <jdbc.driverClassName>com.mysql.jdbc.Driver</jdbc.driverClassName>
         <jdbc.url>jdbc:mysql://localhost/desiEngg</jdbc.url>
-        <jdbc.username>root</jdbc.username>
-        <jdbc.password></jdbc.password>
+        <jdbc.username>desiengg</jdbc.username>
+        <jdbc.password>des1asdjFVa</jdbc.password>
         <!-- Cargo settings -->
         <cargo.container>tomcat7x</cargo.container>
         <cargo.container.home>${env.CATALINA_HOME}</cargo.container.home>
