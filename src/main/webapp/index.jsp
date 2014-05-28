@@ -1,5 +1,3 @@
-<%@ include file="/taglibs.jsp"%>
-
 <div id="intro">
     <h2>Welcome to AppFuse Light!</h2>
     <p>

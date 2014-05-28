@@ -7,10 +7,26 @@
     <!-- Add rules here for anything that shouldn't be served up by Spring MVC. -->
     <rule>
         <from>/</from>
-        <to>/desi/home</to>
+        <to>/desiengg/home</to>
     </rule>
     <rule>
-        <from>/desi/**</from>
+        <from>^desiengg.com/desiengg/</from>
+        <to>/desiengg/home</to>
+    </rule>
+    <rule>
+        <from>^desiengg.com/desiengg/**</from>
+        <to>/desiengg/$1</to>
+    </rule>
+    <rule>
+        <from>http://desiengg.com/desiengg/</from>
+        <to>/desiengg/home</to>
+    </rule>
+    <rule>
+        <from>http://desiengg.com/desiengg/**</from>
+        <to>/desiengg/$1</to>
+    </rule>
+    <rule>
+        <from>/desiengg/**</from>
         <to last="true" type="redirect">%{context-path}/$1</to>
     </rule>
     <rule>
@@ -58,6 +74,10 @@
         <to>/login.jsp</to>
     </rule>
     <rule>
+        <from>/homepage*</from>
+        <to>/home</to>
+    </rule>
+    <rule>
         <from>/webjars/**</from>
         <to>/webjars/$1</to>
     </rule>
@@ -77,10 +97,10 @@
     <!-- Spring MVC -->
     <rule>
         <from>/**</from>
-        <to>/desi/$1</to>
+        <to>/desiengg/$1</to>
     </rule>
     <outbound-rule>
-        <from>/desi/**</from>
+        <from>/desiengg/**</from>
         <to>/$1</to>
     </outbound-rule>
     <!-- Remove JSESSIONID from URLs when cookies disabled -->
