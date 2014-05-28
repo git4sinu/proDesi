@@ -74,8 +74,8 @@
         <to>/login.jsp</to>
     </rule>
     <rule>
-        <from>/homepage*</from>
-        <to>/home</to>
+        <from>/homepage/*</from>
+        <to type="redirect">/home</to>
     </rule>
     <rule>
         <from>/webjars/**</from>
