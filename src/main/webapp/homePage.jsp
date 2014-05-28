@@ -151,7 +151,7 @@
         <div class="form-step-2">
             <h1>Register to see the results</h1>
             <div class="form-ver">
-            <form action="/home/saveBucket" method="post">
+            <form action="/desiengg/home/saveBucket" method="post">
                 <input type="hidden" name="id" value="${model.bucketData.id}">
                 <input type="hidden" name="capacity" id="capacity" value="${model.bucketData.capacity}">
                 <input type="hidden" name="density" id="density" value="${model.bucketData.density}">

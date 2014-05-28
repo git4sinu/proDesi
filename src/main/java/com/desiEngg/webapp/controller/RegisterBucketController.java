@@ -77,7 +77,7 @@ public class RegisterBucketController {
         bucketModel.setBucketData(bucketData);
         bucketModel.setUser(user);
         bucketModel.login();
-        return "redirect:/?b=1";
+        return "redirect:/desiengg/home/?b=1";
     }
 
     @RequestMapping(value = "/home/showBucket")
@@ -86,7 +86,7 @@ public class RegisterBucketController {
         bucketData.setPaymentStatus(true);
         bucketData=bucketManager.saveBucket(bucketData);
         bucketModel.setBucketData(bucketData);
-        return "redirect:/?b=1";
+        return "redirect:/desiengg/home/?b=1";
     }
 
 
