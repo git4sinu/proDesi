@@ -281,6 +281,16 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+        </dependency>
+        <dependency>
             <groupId>displaytag</groupId>
             <artifactId>displaytag</artifactId>
             <version>1.2</version>
@@ -380,11 +390,6 @@
                     <artifactId>ant</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>org.subethamail</groupId>
-            <artifactId>subethasmtp-wiser</artifactId>
-            <version>1.2</version>
         </dependency>
         <dependency>
             <groupId>org.subethamail</groupId>
@@ -519,7 +524,7 @@
         <jdbc.artifactId>mysql-connector-java</jdbc.artifactId>
         <jdbc.version>5.1.22</jdbc.version>
         <jdbc.driverClassName>com.mysql.jdbc.Driver</jdbc.driverClassName>
-        <jdbc.url>jdbc:mysql://localhost/desiEngg</jdbc.url>
+        <jdbc.url>jdbc:mysql://localhost:3306/desiengg</jdbc.url>
         <jdbc.username>desiengg</jdbc.username>
         <jdbc.password>des1asdjFVa</jdbc.password>
         <!-- Cargo settings -->

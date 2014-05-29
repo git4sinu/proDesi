@@ -65,32 +65,32 @@ public class RegisterBucketController {
 
 
 
-    @RequestMapping(value = "/home/saveBucket", method = RequestMethod.POST)
+    @RequestMapping(value = {"/home/saveBucket","/desiengg/home/saveBucket"}, method = RequestMethod.POST)
     public String save(@ModelAttribute("bucketForm") BucketForm bucketForm,HttpServletRequest request) {
         try {
             user=SaveUser(bucketForm);
-            bucketData=CalculateBucket(bucketForm);
         } catch (Exception e) {
-            dlogger.error(e);
+            e.printStackTrace();
         }
+        bucketData=CalculateBucket(bucketForm);
         //login here
         bucketModel.setBucketData(bucketData);
         bucketModel.setUser(user);
         bucketModel.login();
-        return "redirect:/desiengg/home/?b=1";
+        return "redirect:/desiengg/home?b=1";
     }
 
-    @RequestMapping(value = "/home/showBucket")
+    @RequestMapping(value = {"/home/showBucket","/desiengg/home/showBucket"})
     public String showDetails() {
         bucketData = bucketModel.getBucketData();
         bucketData.setPaymentStatus(true);
         bucketData=bucketManager.saveBucket(bucketData);
         bucketModel.setBucketData(bucketData);
-        return "redirect:/desiengg/home/?b=1";
+        return "redirect:/desiengg/home?b=1";
     }
 
 
-    @RequestMapping(value = "/user/pdf/{bId}")
+    @RequestMapping(value = {"/user/pdf/{bId}","/desiengg/user/pdf/{bId}"})
     public String generatePDF(@PathVariable String bId ,@ModelAttribute("bucketForm") BucketForm bucketForm,
                                        HttpServletResponse response) throws Exception {
         if (StringUtils.isNotEmpty(bId)) {
@@ -119,7 +119,7 @@ public class RegisterBucketController {
         }
         return null;
     }
-    @RequestMapping(value = "/user/view")
+    @RequestMapping(value = {"/user/view","/desiengg/user/view"})
     public String viewList(HttpServletRequest request) {
         request.setAttribute("model", bucketModel);
         return "bucketList";

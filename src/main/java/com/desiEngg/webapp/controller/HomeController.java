@@ -29,7 +29,7 @@ public class HomeController {
     @Autowired
     BucketModel bucketModel;
 
-    @RequestMapping(value = {"/", "/home"})
+    @RequestMapping(value = {"/", "/home","/desiengg/home"})
     public String welcomePage(HttpServletRequest request, HttpServletResponse response) {
         mLogger.info("Inside Home");
         String fromBucket = request.getParameter("b");

@@ -8,13 +8,11 @@ import org.appfuse.service.UserManager;
 import org.appfuse.service.UserSecurityAdvice;
 import org.jmock.Expectations;
 import org.jmock.Mockery;
-import org.jmock.integration.junit4.JMock;
 import org.jmock.integration.junit4.JUnit4Mockery;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.security.access.AccessDeniedException;
@@ -26,7 +24,7 @@ import org.springframework.security.core.context.SecurityContextImpl;
 
 import static org.junit.Assert.*;
 
-@RunWith(JMock.class)
+
 public class UserSecurityAdviceTest {
     Mockery context = new JUnit4Mockery();
     UserDao userDao = null;
