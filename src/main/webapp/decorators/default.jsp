@@ -56,7 +56,7 @@
                         </button>
 
                         <div class="logo">
-                            <a class="navbar-brand" href="${ctx}/home"><img src="${ctx}/images/logo.png"></a>
+                            <a class="navbar-brand" href="${ctx}"><img src="${ctx}/images/logo.png"></a>
                         </div>
                     </div>
                     <!-- </div> --> <!-- col first -->
@@ -64,7 +64,7 @@
                     <div class="navbar-collapse collapse">
                         <!-- <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9"> -->
                         <ul class="nav navbar-nav clearfix">
-                            <li class="active"><a href="${ctx}/home">Home</a></li>
+                            <li class="active"><a href="${ctx}">Home</a></li>
                             <li><a href="#Bucket elevator design">Bucket elevator design</a></li>
                             <li><a href="#Pricing">Pricing</a></li>
                             <li><a href="http://dzineden.com">Contact</a></li>
@@ -115,9 +115,9 @@
                     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                         <div class="menu">
                             <ul class="clearfix">
-                                <li><a href="/index.html">Home</a></li>
+                                <li><a href="/${ctx}">Home</a></li>
                                 <li><a href="/">Bucket elevator design</a></li>
-                                <li><a href="/desiengg/home/#Pricing">Pricing</a></li>
+                                <li><a href="/desiengg/#Pricing">Pricing</a></li>
                                 <li><a href="http://dzineden.com/">Contact</a></li>
                                 <p>© 2014, Design Engineering. All Rights Reserved.</p>
                             </ul>
