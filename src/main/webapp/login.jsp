@@ -9,7 +9,7 @@
     and their encrypted passwords are stored in <em>WEB-INF/security.xml</em>.
 </p>
 
-<form method="post" id="loginForm" action="<c:url value='/j_security_check'/>" class="form-signin" autocomplete="off">
+<form method="post" id="loginForm" action="<c:url value='/desiengg/j_security_check'/>" class="form-signin" autocomplete="off">
     <h2 class="form-signin-heading">Sign In</h2>
 <c:if test="${param.error != null}">
     <div class="alert alert-error fade in">

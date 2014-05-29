@@ -232,7 +232,7 @@
 
 <div <c:choose><c:when test="${!empty model.bucketData.id && !model.bucketData.paymentStatus}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose>  id="pay">
     <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 some-9">
-        <a href="/home/showBucket">Payment Done</a>
+        <a href="/desiengg/home/showBucket">Payment Done</a>
     </div>
 </div>
 

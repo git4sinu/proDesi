@@ -69,24 +69,26 @@ public class RegisterBucketController {
     public String save(@ModelAttribute("bucketForm") BucketForm bucketForm,HttpServletRequest request) {
         try {
             user=SaveUser(bucketForm);
+            bucketData=CalculateBucket(bucketForm);
         } catch (Exception e) {
-            e.printStackTrace();
+            dlogger.error(e);
         }
-        bucketData=CalculateBucket(bucketForm);
         //login here
         bucketModel.setBucketData(bucketData);
         bucketModel.setUser(user);
         bucketModel.login();
-        return "redirect:/desiengg/home?b=1";
+        request.setAttribute("model", bucketModel);
+        return "homePage";
     }
 
     @RequestMapping(value = {"/home/showBucket","/desiengg/home/showBucket"})
-    public String showDetails() {
+    public String showDetails(HttpServletRequest request) {
         bucketData = bucketModel.getBucketData();
         bucketData.setPaymentStatus(true);
         bucketData=bucketManager.saveBucket(bucketData);
         bucketModel.setBucketData(bucketData);
-        return "redirect:/desiengg/home?b=1";
+        request.setAttribute("model", bucketModel);
+        return "homePage";
     }
 
 
