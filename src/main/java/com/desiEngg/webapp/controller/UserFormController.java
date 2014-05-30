@@ -99,7 +99,7 @@ public class UserFormController {
     protected User getUser(HttpServletRequest request) {
         String userId = request.getParameter("id");
         if ((userId != null) && !userId.equals("")) {
-            return userManager.getUser(userId);
+            return userManager.getUserByID(userId);
         } else {
             return new User();
         }

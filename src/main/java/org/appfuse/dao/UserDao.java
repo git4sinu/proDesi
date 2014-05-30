@@ -48,4 +48,6 @@ public interface UserDao extends GenericDao<User, Long> {
     String getUserPassword(String userId);
 
     User getUserbyEmailid(String email);
+
+    User getUserByID(String userId);
 }

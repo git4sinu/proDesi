@@ -75,4 +75,6 @@ public interface UserManager extends GenericManager<User, Long> {
     List<User> search(String searchTerm);
 
     User getUserbyEmailid(String email);
+
+    User getUserByID(String userId);
 }

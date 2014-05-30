@@ -102,7 +102,7 @@ public class RegisterBucketController {
             bucketData.setPaymentStatus(true);
             bucketData = bucketManager.saveBucket(bucketData);
             bucketModel.setBucketData(bucketData);
-            user = userManager.getUser(bucketData.getUserId());
+            user = userManager.getUserByID(bucketData.getUserId());
             bucketModel.setUser(user);
         }
         request.setAttribute("model", bucketModel);

@@ -155,4 +155,9 @@ public class UserManagerImpl extends GenericManagerImpl<User, Long> implements U
     public User getUserbyEmailid(String email) {
         return userDao.getUserbyEmailid(email);
     }
+
+    @Override
+    public User getUserByID(String userId) {
+        return userDao.getUserByID(userId);
+    }
 }

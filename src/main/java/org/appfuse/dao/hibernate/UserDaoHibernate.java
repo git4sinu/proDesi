@@ -105,4 +105,11 @@ public class UserDaoHibernate extends GenericDaoHibernate<User, Long> implements
         }
         return null;
     }
+
+    @Override
+    public User getUserByID(String userId) {
+        Criteria criteria = getSession().createCriteria(User.class);
+        criteria.add(Restrictions.eq("id", userId));
+        return (User) criteria.uniqueResult();
+    }
 }
