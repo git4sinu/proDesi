@@ -60,6 +60,9 @@ public class BucketForm {
     private Double capacityTwoThird=.72;
     private Double gravity=9.8;
 
+    private Integer paidAmount;
+    private String productInfo;
+
     public String getId() {
         return id;
     }
@@ -370,5 +373,21 @@ public class BucketForm {
 
     public void setGravity(Double gravity) {
         this.gravity = gravity;
+    }
+
+    public Integer getPaidAmount() {
+        return paidAmount;
+    }
+
+    public void setPaidAmount(Integer paidAmount) {
+        this.paidAmount = paidAmount;
+    }
+
+    public String getProductInfo() {
+        return productInfo;
+    }
+
+    public void setProductInfo(String productInfo) {
+        this.productInfo = productInfo;
     }
 }

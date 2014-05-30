@@ -15,9 +15,9 @@
     <div class="step-tabs">
         <ul id="myTab" class="nav nav-tabs step breadcrum">
             <li <c:if test="${empty model.bucketData.id}">class="active"</c:if>><a href="#step1" data-toggle="tab">Step 1<p>Key in the values</p></a></li>
-            <li><a href="#profile" data-toggle="tab">Step 2<p>Register</p></a></li>
-            <li <c:if test="${!empty model.bucketData.id && !model.bucketData.paymentStatus}">class="active"</c:if>><a href="#pay"  data-toggle="tab">Step 3<p>Pay online</p></a></li>
-            <li <c:if test="${!empty model.bucketData.id && model.bucketData.paymentStatus}">class="active"</c:if>><a href="#result" data-toggle="tab">Step 4<p>see or download Results</p></a></li>
+            <li><a href="#profile" data-toggle="tab">Step 2<p>Register and Pay Online</p></a></li>
+            <%--<li <c:if test="${!empty model.bucketData.id && !model.bucketData.paymentStatus}">class="active"</c:if>><a href="#pay"  data-toggle="tab">Step 3<p>Pay online</p></a></li>--%>
+            <li <c:if test="${!empty model.bucketData.id && model.bucketData.paymentStatus}">class="active"</c:if>><a href="#result" data-toggle="tab">Step 3<p>see or download Results</p></a></li>
         </ul>
 
     </div>
@@ -104,9 +104,9 @@
                 </div>
 
                 <div class="form-group continue">
-                    <div class="col-sm-offset-4 col-sm-8 cont">
+                <%--    <div class="col-sm-offset-4 col-sm-8 cont">
                         <button type="button" class="btn btn-default">Continue</button>
-                    </div>
+                    </div>--%>
                 </div>
             </div>
         </div>
@@ -151,7 +151,11 @@
         <div class="form-step-2">
             <h1>Register to see the results</h1>
             <div class="form-ver">
-            <form action="/desiengg/home/saveBucket" method="post">
+            <c:set var="postUrl" value="/home/saveBucket"/>
+            <c:if test="${!empty ctx}">
+                <c:set var="postUrl" value="/${ctx}/home/saveBucket"/>
+            </c:if>
+            <form action="${postUrl}" method="post">
                 <input type="hidden" name="id" value="${model.bucketData.id}">
                 <input type="hidden" name="capacity" id="capacity" value="${model.bucketData.capacity}">
                 <input type="hidden" name="density" id="density" value="${model.bucketData.density}">
@@ -185,9 +189,16 @@
                     <input type="text" class="form-control" id="address" placeholder="Address *" name="address" value="${model.user.address.address}">
                 </div>
 
+                <div class="form-group">
+                    <label for="subType">Subscription Type</label>
+                    <input type="radio" name="paidAmount" id="subType" value="1"><label style="margin-left: 10px">Monthly(499Rs)</label>
+                    <input type="radio" name="paidAmount" value="2"><label style="margin-left: 10px">Yearly(1500Rs)</label>
+                    <input type="hidden" name="productInfo" value="monthly">
+                </div>
+
                 <div class="form-group continue clearfix">
                     <div class="col-sm-offset-4 col-sm-8 reg">
-                        <button type="submit" class="btn btn-default">Register</button>
+                        <button type="submit" class="btn btn-default">Register and PayOnline</button>
                     </div>
                 </div>
             </form>
@@ -230,11 +241,11 @@
 <%--step 2 ends--%>
 
 
-<div <c:choose><c:when test="${!empty model.bucketData.id && !model.bucketData.paymentStatus}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose>  id="pay">
+<%--<div <c:choose><c:when test="${!empty model.bucketData.id && !model.bucketData.paymentStatus}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose>  id="pay">
     <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 some-9">
         <a href="/desiengg/home/showBucket">Payment Done</a>
     </div>
-</div>
+</div>--%>
 
 <div <c:choose><c:when test="${!empty model.bucketData.id && model.bucketData.paymentStatus}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade clearfix"</c:otherwise></c:choose>id="result">
 <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 some-r">

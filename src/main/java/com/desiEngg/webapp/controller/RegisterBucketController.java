@@ -77,8 +77,9 @@ public class RegisterBucketController {
         bucketModel.setBucketData(bucketData);
         bucketModel.setUser(user);
         bucketModel.login();
+        bucketModel.calculatePayu(bucketForm);
         request.setAttribute("model", bucketModel);
-        return "homePage";
+        return "payUPage";
     }
 
     @RequestMapping(value = {"/home/showBucket","/desiengg/home/showBucket"})
