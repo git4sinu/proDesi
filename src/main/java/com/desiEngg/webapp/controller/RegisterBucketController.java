@@ -5,6 +5,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.appfuse.dao.BucketDao;
 import org.appfuse.model.BucketData;
+import org.appfuse.service.BucketManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -28,6 +29,9 @@ public class RegisterBucketController {
 
     @Autowired
     BucketDao bucketDao;
+
+    @Autowired
+    BucketManager bucketManager;
 
 
     BucketData bucketData=new BucketData();
@@ -159,7 +163,7 @@ public class RegisterBucketController {
         bucketData.setTwoPoleGearRatio(twoPoleGearRatio);
         bucketData.setFourPoleGearRatio(fourPoleGearRatio);
         bucketData.setSixPoleGearRatio(sixPoleGearRatio);
-        bucketDao.saveBucket(bucketData);
+        bucketManager.saveBucket(bucketData);
     }
 
 }
