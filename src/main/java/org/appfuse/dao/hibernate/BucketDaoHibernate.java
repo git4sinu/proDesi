@@ -49,4 +49,11 @@ public class BucketDaoHibernate extends GenericDaoHibernate<BucketData, Long> im
         criteria.add(Restrictions.eq("id",id));
         return (BucketData) criteria.uniqueResult();
     }
+
+    @Override
+    public BucketData getBucketDatabyTransactionId(String transID) {
+        Criteria criteria=getSession().createCriteria(BucketData.class);
+        criteria.add(Restrictions.eq("transactionID",transID));
+        return (BucketData) criteria.uniqueResult();
+    }
 }

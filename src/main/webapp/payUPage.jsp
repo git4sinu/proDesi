@@ -18,7 +18,7 @@
     <input type="hidden" name="productinfo" value="${model.productInfo}" />
     <input type="hidden" name="surl" value="http://desiengg.com/desiengg/home/showBucket" />
     <input type="hidden" name="furl" value="http://desiengg.com" />
-    <input type="hidden" name="curl" value="http://desiengg.comm" />
+    <input type="hidden" name="curl" value="http://desiengg.com" />
 </form>
 <script>
     window.onload = function () {

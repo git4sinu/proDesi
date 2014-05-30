@@ -38,7 +38,7 @@ public class BucketModel extends BaseModel {
         return bucketsList;
     }
 
-    public void calculatePayu(BucketForm bucketForm) {
+    public String calculatePayu(BucketForm bucketForm) {
         Random rand = new Random();
         String rndm = Integer.toString(rand.nextInt()) + (System.currentTimeMillis() / 1000L);
         transactionId = hashCal("SHA-256", rndm).substring(0, 20);
@@ -51,6 +51,7 @@ public class BucketModel extends BaseModel {
                 .concat("||").concat(transactionId).concat("|")
                 .concat("||||||||").concat(salt);
         hash = hashCal("SHA-512", hashString);
+        return transactionId;
     }
 
     public String hashCal(String type, String str) {

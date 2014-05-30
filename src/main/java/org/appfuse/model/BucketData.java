@@ -53,6 +53,7 @@ public class BucketData extends BaseObject implements Serializable {
     private Double sixPoleGearRatio;
     private Boolean paymentStatus=false;
     private Date dateCreated=new Date();
+    private String transactionID;
 
 
     public BucketData() {
@@ -229,6 +230,10 @@ public class BucketData extends BaseObject implements Serializable {
     public Date getDateCreated() {
         return dateCreated;
     }
+    @Column(name = "transactionID")
+    public String getTransactionID() {
+        return transactionID;
+    }
 
     public void setId(String id) {
         this.id = id;
@@ -364,6 +369,10 @@ public class BucketData extends BaseObject implements Serializable {
 
     public void setDateCreated(Date dateCreated) {
         this.dateCreated = dateCreated;
+    }
+
+    public void setTransactionID(String transactionID) {
+        this.transactionID = transactionID;
     }
 
     @Override

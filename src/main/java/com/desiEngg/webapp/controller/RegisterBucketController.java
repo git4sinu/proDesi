@@ -28,6 +28,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.StringWriter;
+import java.util.Map;
 import java.util.Random;
 
 /**
@@ -70,6 +71,9 @@ public class RegisterBucketController {
         try {
             user=SaveUser(bucketForm);
             bucketData=CalculateBucket(bucketForm);
+            String tranID=bucketModel.calculatePayu(bucketForm);
+            bucketData.setTransactionID(tranID);
+            bucketManager.saveBucket(bucketData);
         } catch (Exception e) {
             dlogger.error(e);
         }
@@ -77,7 +81,6 @@ public class RegisterBucketController {
         bucketModel.setBucketData(bucketData);
         bucketModel.setUser(user);
         bucketModel.login();
-        bucketModel.calculatePayu(bucketForm);
         request.setAttribute("model", bucketModel);
         return "payUPage";
     }
@@ -85,9 +88,23 @@ public class RegisterBucketController {
     @RequestMapping(value = {"/home/showBucket","/desiengg/home/showBucket"})
     public String showDetails(HttpServletRequest request) {
         bucketData = bucketModel.getBucketData();
-        bucketData.setPaymentStatus(true);
-        bucketData=bucketManager.saveBucket(bucketData);
-        bucketModel.setBucketData(bucketData);
+        if (bucketData == null) {
+            //get transaction ID
+            Map requestParameterMap = request.getParameterMap();
+            if (requestParameterMap != null) {
+                String transID = request.getParameter("txnid");
+                if (StringUtils.isNotEmpty(transID)) {
+                    bucketData = bucketManager.getBucketDatabyTransactionId(transID);
+                }
+            }
+        }
+        if (bucketData != null) {
+            bucketData.setPaymentStatus(true);
+            bucketData = bucketManager.saveBucket(bucketData);
+            bucketModel.setBucketData(bucketData);
+            user = userManager.getUser(bucketData.getUserId());
+            bucketModel.setUser(user);
+        }
         request.setAttribute("model", bucketModel);
         return "homePage";
     }
@@ -280,7 +297,7 @@ public class RegisterBucketController {
         bucketData.setSixPoleGearRatio(ConvertUtil.roundDouble(sixPoleGearRatio,3));
         bucketData.setPaymentStatus(false);
         if(StringUtils.isNotEmpty(user.getId()))bucketData.setUserId(user.getId());
-        return  bucketManager.saveBucket(bucketData);
+        return  bucketData;
     }
 
 

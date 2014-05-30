@@ -153,7 +153,7 @@
             <div class="form-ver">
             <c:set var="postUrl" value="/home/saveBucket"/>
             <c:if test="${!empty ctx}">
-                <c:set var="postUrl" value="/${ctx}/home/saveBucket"/>
+                <c:set var="postUrl" value="/desiengg/home/saveBucket"/>
             </c:if>
             <form action="${postUrl}" method="post">
                 <input type="hidden" name="id" value="${model.bucketData.id}">
