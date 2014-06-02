@@ -5,8 +5,7 @@
 <p>
     Please enter your username and password to login.
     User user/user has a <strong>ROLE_USER</strong> role,
-    while admin/admin has an <strong>ROLE_ADMIN</strong> role. These users
-    and their encrypted passwords are stored in <em>WEB-INF/security.xml</em>.
+    while admin/admin has an <strong>ROLE_ADMIN</strong> role..
 </p>
 
 <form method="post" id="loginForm" action="<c:url value='/desiengg/j_security_check'/>" class="form-signin" autocomplete="off">
