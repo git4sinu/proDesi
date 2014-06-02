@@ -6,7 +6,23 @@
 
     <!-- Add rules here for anything that shouldn't be served up by Spring MVC. -->
     <rule>
-        <from>/**</from>
+        <from>/</from>
+        <to>/desiengg/home</to>
+    </rule>
+    <rule>
+        <from>^desiengg.com/desiengg</from>
+        <to>/desiengg/home</to>
+    </rule>
+    <rule>
+        <from>^desiengg.com/desiengg/**</from>
+        <to>/desiengg/$1</to>
+    </rule>
+    <rule>
+        <from>http://desiengg.com/desiengg/**</from>
+        <to>/desiengg/home</to>
+    </rule>
+    <rule>
+        <from>http://desiengg.com/desiengg/**</from>
         <to>/desiengg/$1</to>
     </rule>
     <rule>

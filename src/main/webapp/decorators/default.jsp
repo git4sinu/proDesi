@@ -77,10 +77,12 @@
                                 <li><a href="#">Get started</a></li>
                                 <li class="zero"><a href=""></a></li>
                                 <li>
-                                <c:choose>
-                                    <c:when test="${empty model.user}"><a href="/desiengg/login">Login</a></c:when>
-                                    <c:otherwise><a href="/desiengg/logout">Logout</a></c:otherwise>
-                                </c:choose>
+                                    <security:authorize ifAnyGranted="ROLE_ANONYMOUS">
+                                        <a href="/desiengg/login">Login</a>
+                                    </security:authorize>
+                                    <security:authorize ifNotGranted="ROLE_ANONYMOUS">
+                                        <a href="/desiengg/logout">Logout</a>
+                                    </security:authorize>
                                 </li>
                                 <li class="zero"><a href=""></a></li>
                                 <li><a href="/desiengg/user/view">My Bucket</a></li>

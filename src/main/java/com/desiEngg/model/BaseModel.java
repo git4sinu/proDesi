@@ -79,4 +79,15 @@ public class BaseModel {
         }
     }
 
+    public User getLogedinUser() {
+        if (user == null) {
+            Object name = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+            if (name instanceof User) {
+                return (User) name;
+            }
+            return userManager.getUserByUsername(name.toString());
+        }
+        return user;
+    }
+
 }

@@ -166,25 +166,25 @@
                     <input type="hidden" name="productInfo"  value="test">
                     <div class="form-group">
                         <label for="firstName">Your basic Information</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="First Name *" name="firstName" value="${model.user.firstName}">
+                        <input type="text" class="form-control" id="firstName" placeholder="First Name *" name="firstName" value="">
                     </div>
                     <div class="form-group acc-form">
                         <label for="email">Your account credentials</label>
-                        <input type="email" class="form-control" id="email" placeholder="Email Address *" name="email" value="${model.user.email}">
+                        <input type="email" class="form-control" id="email" placeholder="Email Address *" name="email" value="">
 
-                        <input type="password" class="form-control" id="password" placeholder="Password *" name="password" value="${model.user.password}">
+                        <input type="password" class="form-control" id="password" placeholder="Password *" name="password" value="">
 
-                        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password*" name="confirmPassword" value="${model.user.password}">
+                        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password*" name="confirmPassword" value="">
                     </div>
 
                     <div class="form-group">
                         <label for="phoneNumber">Your mobile numer</label>
-                        <input type="number" class="form-control" id="phoneNumber" placeholder="Mobile number *" name="phoneNumber" value="${model.user.phoneNumber}">
+                        <input type="number" class="form-control" id="phoneNumber" placeholder="Mobile number *" name="phoneNumber" value="">
                     </div>
 
                     <div class="form-group">
                         <label for="address">Your Address</label>
-                        <input type="text" class="form-control" id="address" placeholder="Address *" name="address" value="${model.user.address.address}">
+                        <input type="text" class="form-control" id="address" placeholder="Address *" name="address" value="">
                     </div>
 
                     <div class="form-group continue clearfix">
