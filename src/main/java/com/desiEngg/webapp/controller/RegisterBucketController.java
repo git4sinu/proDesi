@@ -71,6 +71,13 @@ public class RegisterBucketController {
         return "bucketPage";
     }
 
+    @RequestMapping(value = {"/home/test","/desiengg/home/test"})
+    public String test(HttpServletRequest request) {
+        bucketModel.setBucketData(null);
+        request.setAttribute("model", bucketModel);
+        return "test";
+    }
+
     @RequestMapping(value = {"/home/saveBucket","/desiengg/home/saveBucket"}, method = RequestMethod.POST)
     public String save(@ModelAttribute("bucketForm") BucketForm bucketForm,HttpServletRequest request) {
         try {

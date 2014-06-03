@@ -10,6 +10,20 @@
         </layout>
     </appender>
 
+    <appender name="fileAppender"
+              class="org.apache.log4j.RollingFileAppender">
+        <param name="Threshold" value="INFO" />
+        <param name="File" value="sample.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d
+                %-5p  [%c{1}] %m %n" />
+        </layout>
+    </appender>
+
+    <logger name="com.desiEngg" additivity="false" >
+        <appender-ref ref="fileAppender"/>
+    </logger>
+
     <logger name="net.sf.ehcache">
         <level value="ERROR"/>
     </logger>
