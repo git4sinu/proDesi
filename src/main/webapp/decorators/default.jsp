@@ -78,14 +78,14 @@
                                 <li class="zero"><a href=""></a></li>
                                 <li>
                                     <security:authorize ifAnyGranted="ROLE_ANONYMOUS">
-                                        <a href="/desiengg/login">Login</a>
+                                        <a href="${propath}/login">Login</a>
                                     </security:authorize>
                                     <security:authorize ifNotGranted="ROLE_ANONYMOUS">
-                                        <a href="/desiengg/logout">Logout</a>
+                                        <a href="${propath}/logout">Logout</a>
                                     </security:authorize>
                                 </li>
                                 <li class="zero"><a href=""></a></li>
-                                <li><a href="/desiengg/user/view">My Bucket</a></li>
+                                <li><a href="${propath}/user/view">My Bucket</a></li>
                             </ul>
                         </div>
                         <!-- </div> -->
@@ -119,7 +119,7 @@
                             <ul class="clearfix">
                                 <li><a href="/${ctx}">Home</a></li>
                                 <li><a href="/">Bucket elevator design</a></li>
-                                <li><a href="/desiengg/#Pricing">Pricing</a></li>
+                                <li><a href="${propath}/#Pricing">Pricing</a></li>
                                 <li><a href="http://dzineden.com/">Contact</a></li>
                                 <p>© 2014, Design Engineering. All Rights Reserved.</p>
                             </ul>

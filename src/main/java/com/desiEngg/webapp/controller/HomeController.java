@@ -38,14 +38,6 @@ public class HomeController {
     @RequestMapping(value = {"/", "/home","/desiengg/home"})
     public String welcomePage(HttpServletRequest request, HttpServletResponse response) {
         mLogger.info("Inside Home");
-        try {
-            if (request.getSession().getAttribute("user") == null) {
-                request.getSession().setAttribute("user", baseModel.getLogedinUser());
-            }
-
-        } catch (Exception e) {
-            mLogger.error(e);
-        }
         String fromBucket = request.getParameter("b");
         if (StringUtils.isNotEmpty(fromBucket) && fromBucket.equals("1")) {
             request.setAttribute("model", bucketModel);

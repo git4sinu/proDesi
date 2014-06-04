@@ -38,14 +38,11 @@ public class BaseModel {
 
 
     public User getUser() {
-        if (user == null) {
-            Object name = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-            if (name instanceof User) {
-                return (User) name;
-            }
-            return userManager.getUserByUsername(name.toString());
+        Object name = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        if (name instanceof User) {
+            return (User) name;
         }
-        return user;
+        return userManager.getUserByUsername(name.toString());
     }
 
     public void setUser(User user) {
@@ -79,15 +76,6 @@ public class BaseModel {
         }
     }
 
-    public User getLogedinUser() {
-        if (user == null) {
-            Object name = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-            if (name instanceof User) {
-                return (User) name;
-            }
-            return userManager.getUserByUsername(name.toString());
-        }
-        return user;
-    }
+
 
 }
