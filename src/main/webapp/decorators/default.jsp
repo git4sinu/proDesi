@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="${ctx}/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="${ctx}/css/fv.css" type="text/css" />
     <link rel="shortcut icon" href="${ctx}/images/favicon.ico">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -19,8 +20,10 @@
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
+<!--
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+-->
     <![endif]-->
 
     <!--[if gte IE 9]>
@@ -65,9 +68,9 @@
                         <!-- <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9"> -->
                         <ul class="nav navbar-nav clearfix">
                             <li class="active"><a href="${ctx}">Home</a></li>
-                            <li><a href="#Bucket elevator design">Bucket elevator design</a></li>
-                            <li><a href="#Pricing">Pricing</a></li>
-                            <li><a href="http://dzineden.com">Contact</a></li>
+                            <li><a href="${ctx}/home/viewBucket">Bucket elevator design</a></li>
+                            <li><a href="${propath}/home/pricing">Pricing</a></li>
+                            <li><a href="${propath}/home/contact">Contact</a></li>
 
                         </ul>
                         <!--  </div> --><!-- col two -->
@@ -118,9 +121,9 @@
                         <div class="menu">
                             <ul class="clearfix">
                                 <li><a href="/${ctx}">Home</a></li>
-                                <li><a href="/">Bucket elevator design</a></li>
-                                <li><a href="${propath}/#Pricing">Pricing</a></li>
-                                <li><a href="http://dzineden.com/">Contact</a></li>
+                                <li><a href="${ctx}">Bucket elevator design</a></li>
+                                <li><a href="${propath}/home/pricing">Pricing</a></li>
+                                <li><a href="${propath}/home/contact">Contact</a></li>
                                 <p>© 2014, Design Engineering. All Rights Reserved.</p>
                             </ul>
 
@@ -147,6 +150,9 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="${ctx}/js/multifield.js"></script>
+<script src="${ctx}/js/validator.js"></script>
 <script src="${ctx}/js/bootstrap.min.js"></script>
 <script src="${ctx}/js/jquery.js"></script>
 <script src="${ctx}/js/holder.js"></script>
@@ -195,6 +201,51 @@
 
         $('div.jvolume').hide();
     });
+
+</script>
+<script type="text/javascript">
+
+
+    // initialize the validator function
+    validator.message['date'] = 'not a real date';
+
+    // validate a field on "blur" event, a 'select' on 'change' event & a '.reuired' classed multifield on 'keyup':
+    $('form')
+            .on('blur', 'input[required], input.optional, select.required', validator.checkField)
+            .on('change', 'select.required', validator.checkField)
+            .on('keypress', 'input[required][pattern]', validator.keypress);
+
+    $('.multi.required')
+            .on('keyup blur', 'input', function(){
+                validator.checkField.apply( $(this).siblings().last()[0] );
+            });
+
+    // bind the validation to the form submit event
+    //$('#send').click('submit');//.prop('disabled', true);
+
+    $('form').submit(function(e){
+        e.preventDefault();
+        var submit = true;
+        // evaluate the form using generic validaing
+        if( !validator.checkAll( $(this) ) ){
+            submit = false;
+        }
+
+        if( submit )
+            this.submit();
+        return false;
+    });
+
+    /* FOR DEMO ONLY */
+    $('#vfields').change(function(){
+        $('form').toggleClass('mode2');
+    }).prop('checked',false);
+
+    $('#alerts').change(function(){
+        validator.defaults.alerts = (this.checked) ? false : true;
+        if( this.checked )
+            $('form .alert').remove();
+    }).prop('checked',false);
 
 </script>
 </body>

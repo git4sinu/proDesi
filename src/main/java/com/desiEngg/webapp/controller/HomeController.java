@@ -2,15 +2,18 @@ package com.desiEngg.webapp.controller;
 
 import com.desiEngg.model.BaseModel;
 import com.desiEngg.model.BucketModel;
+import com.desiEngg.webapp.form.BucketForm;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.appfuse.model.User;
+import org.appfuse.service.UserExistsException;
 import org.appfuse.service.UserManager;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -35,6 +38,8 @@ public class HomeController {
     @Autowired
     UserManager userManager;
 
+    User user=null;
+
     @RequestMapping(value = {"/", "/home","/desiengg/home"})
     public String welcomePage(HttpServletRequest request, HttpServletResponse response) {
         mLogger.info("Inside Home");
@@ -46,4 +51,24 @@ public class HomeController {
         }
         return "homePage";
     }
+    @RequestMapping(value = {"/home/contact", "/desiengg/home/contact"})
+    public String contact(@ModelAttribute("bucketForm") BucketForm bucketForm,HttpServletRequest request) {
+        try {
+            if(StringUtils.isNotEmpty(bucketForm.getEmail())){
+                user=bucketModel.SaveUser(bucketForm);
+                bucketModel.setUser(user);
+                bucketModel.login();
+                return "homePage";
+            }
+        } catch (UserExistsException e) {
+            mLogger.error(e);
+        }
+        return "contactUs";
+    }
+    @RequestMapping(value = {"/home/pricing", "/desiengg/home/pricing"})
+    public String pricing(HttpServletRequest request, HttpServletResponse response) {
+
+        return "pricing";
+    }
+
 }

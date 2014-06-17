@@ -1,10 +1,13 @@
 package com.desiEngg.model;
 
+import com.desiEngg.webapp.form.BucketForm;
+import org.apache.commons.lang.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.appfuse.model.BucketData;
 import org.appfuse.model.Role;
 import org.appfuse.model.User;
+import org.appfuse.service.UserExistsException;
 import org.appfuse.service.UserManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -17,6 +20,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import java.util.Set;
 
 /**
@@ -77,5 +81,24 @@ public class BaseModel {
     }
 
 
-
+    public User SaveUser(BucketForm bucketForm) throws UserExistsException {
+        if (StringUtils.isNotEmpty(bucketForm.getEmail())) {
+            user = userManager.getUserbyEmailid(bucketForm.getEmail());
+            Random r = new Random(System.currentTimeMillis());
+            int rNumber=(1 + r.nextInt(2)) * 10000 + r.nextInt(10000);
+            if (user == null) {
+                user = new User();
+                user.setUsername(bucketForm.getFirstName()+rNumber);
+            }
+            user.setFirstName(bucketForm.getFirstName());
+            user.setPassword(bucketForm.getPassword());
+            user.setConfirmPassword(bucketForm.getConfirmPassword());
+            user.setEmail(bucketForm.getEmail());
+            user.setEnabled(true);
+            user.setPhoneNumber(bucketForm.getPhoneNumber());
+            user.getAddress().setAddress(bucketForm.getAddress());
+            user=userManager.saveUser(user);
+        }
+        return user;
+    }
 }

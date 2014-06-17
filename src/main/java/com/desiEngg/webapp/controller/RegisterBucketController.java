@@ -15,7 +15,6 @@ import org.appfuse.dao.BucketDao;
 import org.appfuse.model.BucketData;
 import org.appfuse.model.User;
 import org.appfuse.service.BucketManager;
-import org.appfuse.service.UserExistsException;
 import org.appfuse.service.UserManager;
 import org.appfuse.util.ConvertUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +28,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.StringWriter;
 import java.util.Map;
-import java.util.Random;
 
 /**
  * Created with IntelliJ IDEA.
@@ -81,7 +79,7 @@ public class RegisterBucketController {
     @RequestMapping(value = {"/home/saveBucket","/desiengg/home/saveBucket"}, method = RequestMethod.POST)
     public String save(@ModelAttribute("bucketForm") BucketForm bucketForm,HttpServletRequest request) {
         try {
-            user=SaveUser(bucketForm);
+            user=bucketModel.SaveUser(bucketForm);
             bucketData=CalculateBucket(bucketForm);
             String tranID=bucketModel.calculatePayu(bucketForm);
             bucketData.setTransactionID(tranID);
@@ -159,26 +157,7 @@ public class RegisterBucketController {
         request.setAttribute("model", bucketModel);
         return "bucketList";
     }
-    public User SaveUser(BucketForm bucketForm) throws UserExistsException {
-        if (StringUtils.isNotEmpty(bucketForm.getEmail())) {
-            user = userManager.getUserbyEmailid(bucketForm.getEmail());
-            Random r = new Random(System.currentTimeMillis());
-            int rNumber=(1 + r.nextInt(2)) * 10000 + r.nextInt(10000);
-            if (user == null) {
-                user = new User();
-                user.setUsername(bucketForm.getFirstName()+rNumber);
-            }
-            user.setFirstName(bucketForm.getFirstName());
-            user.setPassword(bucketForm.getPassword());
-            user.setConfirmPassword(bucketForm.getConfirmPassword());
-            user.setEmail(bucketForm.getEmail());
-            user.setEnabled(true);
-            user.setPhoneNumber(bucketForm.getPhoneNumber());
-            user.getAddress().setAddress(bucketForm.getAddress());
-            user=userManager.saveUser(user);
-        }
-        return user;
-    }
+
 
     public BucketData CalculateBucket(BucketForm bucketForm) {
         //To change body of created methods use File | Settings | File Templates.
