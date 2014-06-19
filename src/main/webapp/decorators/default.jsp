@@ -121,9 +121,9 @@
                         <div class="menu">
                             <ul class="clearfix">
                                 <li><a href="/${ctx}">Home</a></li>
-                                <li><a href="${ctx}">Bucket elevator design</a></li>
                                 <li><a href="${propath}/home/pricing">Pricing</a></li>
                                 <li><a href="${propath}/home/contact">Contact</a></li>
+                                <li><a href="${propath}/home/terms">Terms and Condition</a></li>
                                 <p>© 2014, Design Engineering. All Rights Reserved.</p>
                             </ul>
 
@@ -132,7 +132,7 @@
 
 
                 </div>
-                <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                     <div class="power">
                         <p>Powered by :<a href="http://dzineden.com">dzineDen - the web agency</a></p>
                     </div>

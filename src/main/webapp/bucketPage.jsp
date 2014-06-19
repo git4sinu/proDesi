@@ -35,7 +35,7 @@
                 <div class="form-group item">
                     <label for="jcapacity" class="col-sm-4 control-label">Capacity</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="capacity" id="jcapacity" data-validate-minmax="1,100" required='required' placeholder="KG/HOUR" onblur="store('jcapacity','capacity');" value="${model.bucketData.capacity}">
+                        <input type="number" class="form-control number" name="capacity" id="jcapacity"  required='required' placeholder="KG/HOUR" onblur="store('jcapacity','capacity');" value="${model.bucketData.capacity}">
                         <div class="jcapacity">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Capacity</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
@@ -44,7 +44,7 @@
                 <div class="form-group">
                     <label for="jdensity" class="col-sm-4 control-label">Product Density</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="density" id="jdensity" data-validate-minmax="1,100" required='required' placeholder="KG/CU.M" onblur="store('jdensity','density');" value="${model.bucketData.density}">
+                        <input type="number" class="form-control number" name="density" id="jdensity"  required='required' placeholder="KG/CU.M" onblur="store('jdensity','density');" value="${model.bucketData.density}">
                         <div class="jdensity">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Product Density</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
@@ -54,7 +54,7 @@
                 <div class="form-group">
                     <label for="jvolume" class="col-sm-4 control-label">Product Volume in a Bucket</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="volume" id="jvolume" data-validate-minmax="1,100" required='required' placeholder="KG/CU.M" onblur="store('jvolume','volume');" value="${model.bucketData.volume}">
+                        <input type="number" class="form-control number" name="volume" id="jvolume" required='required' placeholder="KG/CU.M" onblur="store('jvolume','volume');" value="${model.bucketData.volume}">
                         <div class="jvolume">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Product Volume in a Bucket</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
@@ -64,42 +64,42 @@
                 <div class="form-group">
                     <label for="pitch" class="col-sm-4 control-label">Assume Bucket Spacing (Pitch)</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="pitch" id="jpitch" data-validate-minmax="1,100" required='required' id="inputPassword3" placeholder="M"  name="pitch" onblur="store('jpitch','pitch');" value="${model.bucketData.pitch}">
+                        <input type="number" class="form-control number" name="pitch" id="jpitch"  required='required' id="inputPassword3" placeholder="M"  name="pitch" onblur="store('jpitch','pitch');" value="${model.bucketData.pitch}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jwidth" class="col-sm-4 control-label">Enter Selected Bucket Width</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number"name="width" id="jwidth" data-validate-minmax="1,100" required='required' placeholder="M"  onblur="store('jwidth','width');" value="${model.bucketData.width}">
+                        <input type="number" class="form-control number"name="width" id="jwidth" required='required' placeholder="M"  onblur="store('jwidth','width');" value="${model.bucketData.width}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jheight" class="col-sm-4 control-label">Enter Elevator Height</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="height" id="jheight" data-validate-minmax="1,100" required='required' placeholder="M" onblur="store('jheight','height');" value="${model.bucketData.height}">
+                        <input type="number" class="form-control number" name="height" id="jheight"  required='required' placeholder="M" onblur="store('jheight','height');" value="${model.bucketData.height}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jweight" class="col-sm-4 control-label">Enter Empty Bucket Weight</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="weight" id="jweight" data-validate-minmax="1,100" required='required' placeholder="KG"  onblur="store('jweight','weight');" value="${model.bucketData.weight}">
+                        <input type="number" class="form-control number" name="weight" id="jweight" required='required' placeholder="KG"  onblur="store('jweight','weight');" value="${model.bucketData.weight}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jstress" class="col-sm-4 control-label">Allowable Stress In Belt</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="stress" id="jstress" data-validate-minmax="1,100" required='required'  placeholder="N / SQ.M" onblur="store('jstress','stress');" value="${model.bucketData.stress}">
+                        <input type="number" class="form-control number" name="stress" id="jstress"  required='required'  placeholder="N / SQ.M" onblur="store('jstress','stress');" value="${model.bucketData.stress}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jangle" class="col-sm-4 control-label">The Angle Contact Btwn Belt and Pulley</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="angle" id="jangle" data-validate-minmax="1,100" required='required' placeholder="DEG" onblur="store('jangle','angle');" value="${model.bucketData.angle}">
+                        <input type="number" class="form-control number" name="angle" id="jangle"  required='required' placeholder="DEG" onblur="store('jangle','angle');" value="${model.bucketData.angle}">
                     </div>
                 </div>
 

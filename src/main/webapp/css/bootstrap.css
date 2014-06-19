@@ -5874,7 +5874,7 @@ html, body{
     position:relative;
 }
 
-header{border-bottom:solid 8px #6e6e6e;}
+header{border-bottom:solid 8px #6e6e6e;background: #ffffff;}
 .fl{float: left;}
 .fr{float: right;}
 
@@ -6653,3 +6653,14 @@ border-radius: 5px 5px 0 0;*/
         display: none !important;
     }
 }
+/*terms and condition page css*/
+
+.terms{background-color: #fff;padding: 50px;margin:0px 20px;}
+#terms{background-color: #C0C030;padding: 20px 0px;}
+.terms h1{font-size: 18px;padding: 5px 0px;}
+.terms p{font-size: 14px;padding: 10px 0px;}
+.terms ul{padding-left: 20px;}
+.terms ul li{padding: 5px;font-size: 13px;}
+.terms p strong{font-weight: bold;}
+
+/*terms and condition page-css-ends*/

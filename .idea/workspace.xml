@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c07491d0-d31f-4a21-b8f3-d133c3b3e465" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/model/BaseModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/model/BaseModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/terms.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/bucketList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/bucketList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/bucketPDF.vm" afterPath="$PROJECT_DIR$/src/main/resources/bucketPDF.vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/bucketPage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/bucketPage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pricing.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pricing.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/sb-admin.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/sb-admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/decorators/default.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/decorators/default.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="8765a9fa-da89-4fca-97b6-57abf7b2ee5c" name="libraries" comment="libraries" />
     <ignored path="desiengg.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403174556781" ignored="false" />
+    <file path="/Dummy.txt" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403180923468" ignored="false" />
     <file path="/dataAccessFailure.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1398759373264" ignored="false" />
-    <file path="F:/ideaworkplace/minglebox.iws" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403171668078" ignored="false" />
+    <file path="F:/ideaworkplace/minglebox.iws" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403180922843" ignored="false" />
     <file path="/security.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401952588781" ignored="false" />
     <file path="/urlrewrite.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1402480177343" ignored="false" />
     <file path="/MessageFilter.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1402481892171" ignored="false" />
@@ -26,14 +22,14 @@
     <file path="/pom.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401714979765" ignored="false" />
     <file path="/homePage.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404246347525" ignored="false" />
     <file path="/a.dummy" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403090228406" ignored="false" />
-    <file path="/default.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403155178484" ignored="false" />
+    <file path="/default.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403179657687" ignored="false" />
     <file path="/UserManagerImpl.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401459169046" ignored="false" />
     <file path="/fragment.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403151712078" ignored="false" />
     <file path="/User.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399900224406" ignored="false" />
     <file path="/userform.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1398765322889" ignored="false" />
     <file path="/BucketData.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401454806968" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399356807119" ignored="false" />
-    <file path="/bootstrap.css" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1402997508218" ignored="false" />
+    <file path="/bootstrap.css" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403179736640" ignored="false" />
     <file path="F:/ideaworkplace/site/WEB-INF/urlrewrite.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399961071162" ignored="false" />
     <file path="F:/ideaworkplace/site/src/com/minglebox/presentation/forums/actions/QnaAction.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401448927203" ignored="false" />
     <file path="F:/ideaworkplace/core/src/com/minglebox/util/keywords/YahooKeywordsExtractor.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399367704385" ignored="false" />
@@ -69,11 +65,11 @@
     <file path="/dummy.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1402916680253" ignored="false" />
     <file path="F:/ideaworkplace/site/src/com/minglebox/presentation/actions/WebsiteVirtualFairAction.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399467532953" ignored="false" />
     <file path="/BaseModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403151870156" ignored="false" />
-    <file path="/HomeController.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403014299296" ignored="false" />
+    <file path="/HomeController.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403179440156" ignored="false" />
     <file path="/sample-data.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399961811427" ignored="false" />
     <file path="/UserDaoTest.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399545168375" ignored="false" />
     <file path="/BucketModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403152868000" ignored="false" />
-    <file path="/bucketList.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403170768781" ignored="false" />
+    <file path="/bucketList.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403179684109" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/group/reviewForum.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399551346140" ignored="false" />
     <file path="/reviewForum.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399551315843" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/mbaMenuHtml.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399551851500" ignored="false" />
@@ -190,13 +186,13 @@
     <file path="F:/ideaworkplace/bloggerbox/src/com/minglebox/facade/blogs/BlogFacade.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403014021046" ignored="false" />
     <file path="/BlogFacade.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403013963671" ignored="false" />
     <file path="/pricing.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403170986250" ignored="false" />
-    <file path="/logedBucketPage.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403100426718" ignored="false" />
+    <file path="/logedBucketPage.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403180417515" ignored="false" />
     <file path="/bucketPDF.html" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403163245140" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/vmtemplates/study_usa.vm" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403163280296" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/sales/advertiserList.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403169352375" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/admin/editpushLeadstatuspage.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403169376656" ignored="false" />
-    <file path="F:/ideaworkplace/site/resources.mangium/login/prefLocStudyAbroad.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403173169375" ignored="false" />
-    <file path="/prefLocStudyAbroad.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403173159750" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/login/prefLocStudyAbroad.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403175590875" ignored="false" />
+    <file path="/prefLocStudyAbroad.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403175590875" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -462,7 +458,7 @@
       <file leaf-file-name="HomeController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="21" selection-start="2379" selection-end="2379" vertical-scroll-proportion="0.0">
+            <state line="68" column="19" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -471,43 +467,46 @@
       <file leaf-file-name="pricing.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pricing.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="119" selection-start="2261" selection-end="2261" vertical-scroll-proportion="-8.269231">
+            <state line="41" column="119" selection-start="2261" selection-end="2261" vertical-scroll-proportion="-8.307693">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterBucketController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
+      <file leaf-file-name="terms.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/terms.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="192" column="39" selection-start="7142" selection-end="7142" vertical-scroll-proportion="0.0">
+            <state line="8" column="68" selection-start="194" selection-end="194" vertical-scroll-proportion="-5.230769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BucketModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java">
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="159" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.0">
+            <state line="6162" column="25" selection-start="139357" selection-end="139381" vertical-scroll-proportion="-8.935484">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/UserController.java">
+      <file leaf-file-name="default.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="118" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="95" column="79" selection-start="4280" selection-end="4280" vertical-scroll-proportion="-2.5769231">
+              <folding>
+                <marker date="1403180281593" expanded="true" signature="1113:1182" placeholder="..." />
+                <marker date="1403180281593" expanded="true" signature="1133:1170" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/model/BaseModel.java">
+      <file leaf-file-name="logedBucketPage.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="25" selection-start="1815" selection-end="1825" vertical-scroll-proportion="0.0">
+            <state line="12" column="131" selection-start="314" selection-end="314" vertical-scroll-proportion="0.24401914">
               <folding />
             </state>
           </provider>
@@ -516,34 +515,7 @@
       <file leaf-file-name="bucketPage.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/bucketPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="231" column="153" selection-start="14474" selection-end="14474" vertical-scroll-proportion="-20.26923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="taglibs.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/taglibs.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="12" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logedBucketPage.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="499" column="70" selection-start="20941" selection-end="20941" vertical-scroll-proportion="0.061004784">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bucketPDF.vm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bucketPDF.vm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="136" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+            <state line="101" column="98" selection-start="6583" selection-end="6583" vertical-scroll-proportion="-24.846153">
               <folding />
             </state>
           </provider>
@@ -552,16 +524,7 @@
       <file leaf-file-name="bucketList.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/bucketList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="99" selection-start="4930" selection-end="4930" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sb-admin.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/sb-admin.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="155" selection-start="1974" selection-end="1974" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="-5.230769">
               <folding />
             </state>
           </provider>
@@ -612,7 +575,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/MessageFilter.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/src/main/java/org/appfuse/service/UserManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
@@ -621,17 +583,19 @@
         <option value="$PROJECT_DIR$/src/main/webapp/logedbucketPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/model/BaseModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/sb-admin.css" />
         <option value="$PROJECT_DIR$/src/main/java/org/appfuse/model/BucketData.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/decorators/default.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/bucketPDF.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/bucketPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/bucketPDF.vm" />
-        <option value="$PROJECT_DIR$/src/main/webapp/bucketList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pricing.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/bucketPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/bucketList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/terms.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/decorators/default.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp" />
       </list>
     </option>
   </component>
@@ -734,7 +698,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -745,7 +709,200 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiEngg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiEngg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiEngg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -1199,7 +1356,11 @@
       <created>1403015329921</created>
       <updated>1403015329921</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Next Level Changes..">
+      <created>1403174596703</created>
+      <updated>1403174596703</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -1246,7 +1407,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10683761" sideWeight="0.6290144" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24786325" sideWeight="0.6710963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24786325" sideWeight="0.6710963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3709856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1453,12 +1614,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6641" column="1" selection-start="152489" selection-end="152489" vertical-scroll-proportion="0.0" />
+        <state line="6641" column="1" selection-start="152489" selection-end="152489" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="108" selection-start="7871" selection-end="7871" vertical-scroll-proportion="0.0" />
+        <state line="199" column="108" selection-start="7871" selection-end="7871" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1403180281593" expanded="true" signature="1113:1182" placeholder="..." />
+            <marker date="1403180281593" expanded="true" signature="1133:1170" placeholder="{...}" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/taglibs.jsp">
@@ -1498,7 +1666,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6641" column="1" selection-start="152489" selection-end="152489" vertical-scroll-proportion="0.0" />
+        <state line="6641" column="1" selection-start="152489" selection-end="152489" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.1.3.RELEASE/spring-web-3.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
@@ -1508,7 +1678,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="149" selection-start="8279" selection-end="8279" vertical-scroll-proportion="0.0" />
+        <state line="213" column="149" selection-start="8279" selection-end="8279" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1403180281593" expanded="true" signature="1113:1182" placeholder="..." />
+            <marker date="1403180281593" expanded="true" signature="1133:1170" placeholder="{...}" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
@@ -1534,7 +1709,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="54" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" />
+        <state line="10" column="54" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
@@ -1553,7 +1730,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/contactUs.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="166" selection-start="4244" selection-end="4244" vertical-scroll-proportion="0.0" />
+        <state line="67" column="166" selection-start="4244" selection-end="4244" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/UserController.java">
@@ -1570,7 +1749,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="144" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" />
+        <state line="33" column="144" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
@@ -1587,7 +1768,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="136" selection-start="3016" selection-end="3016" vertical-scroll-proportion="0.0" />
+        <state line="74" column="136" selection-start="3016" selection-end="3016" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1403180281593" expanded="true" signature="1113:1182" placeholder="..." />
+            <marker date="1403180281593" expanded="true" signature="1133:1170" placeholder="{...}" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.js">
@@ -1597,7 +1783,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="54" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" />
+        <state line="10" column="54" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
@@ -1616,7 +1804,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/homePage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="33" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0" />
+        <state line="30" column="33" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java">
@@ -1628,7 +1818,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/contactUs.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="96" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0" />
+        <state line="26" column="96" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
@@ -1666,7 +1858,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="144" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" />
+        <state line="33" column="144" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/service/impl/UserManagerImpl.java">
@@ -1685,7 +1879,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="136" selection-start="3016" selection-end="3016" vertical-scroll-proportion="0.0" />
+        <state line="74" column="136" selection-start="3016" selection-end="3016" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1403180281593" expanded="true" signature="1113:1182" placeholder="..." />
+            <marker date="1403180281593" expanded="true" signature="1133:1170" placeholder="{...}" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/validator.js">
@@ -1712,7 +1911,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/MessageFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="107" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0" />
+        <state line="28" column="107" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
@@ -1759,7 +1960,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/MessageFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="152" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.0" />
+        <state line="43" column="152" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
@@ -1915,7 +2118,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/MessageFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="73" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" />
+        <state line="30" column="73" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
@@ -1927,7 +2132,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="117" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" />
+        <state line="6" column="117" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
@@ -1942,7 +2149,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/MessageFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="94" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0" />
+        <state line="29" column="94" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sitemesh.xml">
@@ -1976,7 +2185,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="129" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" />
+        <state line="13" column="129" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
@@ -2024,7 +2235,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/MessageFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="124" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.0" />
+        <state line="36" column="124" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
@@ -2300,7 +2513,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="364" column="73" selection-start="14621" selection-end="14621" vertical-scroll-proportion="1.6473552" />
+        <state line="364" column="73" selection-start="14621" selection-end="14621" vertical-scroll-proportion="1.6473552">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_11/src.zip!/java/lang/System.java">
@@ -2357,7 +2572,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="96" selection-start="306" selection-end="306" vertical-scroll-proportion="0.12" />
+        <state line="6" column="96" selection-start="306" selection-end="306" vertical-scroll-proportion="0.12">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletRequest.class">
@@ -2372,7 +2589,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="79" selection-start="585" selection-end="585" vertical-scroll-proportion="-11.115385" />
+        <state line="17" column="79" selection-start="585" selection-end="585" vertical-scroll-proportion="-11.115385">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
@@ -2382,7 +2601,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/MessageFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="107" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0" />
+        <state line="29" column="107" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
@@ -2420,12 +2641,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="144" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" />
+        <state line="33" column="144" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/homePage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="33" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0" />
+        <state line="30" column="33" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/model/Address.java">
@@ -2444,17 +2669,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/contactUs.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="97" selection-start="576" selection-end="576" vertical-scroll-proportion="-9.807693" />
+        <state line="18" column="97" selection-start="576" selection-end="576" vertical-scroll-proportion="-9.807693">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="118" selection-start="2421" selection-end="2421" vertical-scroll-proportion="0.7771429" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6641" column="1" selection-start="152489" selection-end="152489" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.1.3.RELEASE/spring-security-core-3.1.3.RELEASE-sources.jar!/org/springframework/security/authentication/encoding/ShaPasswordEncoder.java">
@@ -2481,12 +2703,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/UserSecurityAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="119" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" />
+        <state line="19" column="119" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="104" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0" />
+        <state line="33" column="104" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.1.3.RELEASE/spring-security-core-3.1.3.RELEASE-sources.jar!/org/springframework/security/authentication/encoding/MessageDigestPasswordEncoder.java">
@@ -2523,12 +2749,16 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.1.3.RELEASE/spring-security-core-3.1.3.RELEASE-sources.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="0" selection-start="9142" selection-end="9142" vertical-scroll-proportion="0.0" />
+        <state line="174" column="0" selection-start="9142" selection-end="9142" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.1.3.RELEASE/spring-security-core-3.1.3.RELEASE-sources.jar!/org/springframework/security/authentication/ProviderManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="0" selection-start="9176" selection-end="9176" vertical-scroll-proportion="0.0" />
+        <state line="189" column="0" selection-start="9176" selection-end="9176" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.1.3.RELEASE/spring-security-web-3.1.3.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class">
@@ -2593,11 +2823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="70" selection-start="377" selection-end="504" vertical-scroll-proportion="-9.153846" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="192" column="39" selection-start="7142" selection-end="7142" vertical-scroll-proportion="0.0">
@@ -2626,13 +2851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/bucketList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="99" selection-start="4930" selection-end="4930" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/security/LoginAuthenticatorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="0" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0">
@@ -2654,13 +2872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="21" selection-start="2379" selection-end="2379" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/taglibs.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="12" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
@@ -2668,23 +2879,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pricing.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/bucketPage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="119" selection-start="2261" selection-end="2261" vertical-scroll-proportion="-8.269231">
+        <state line="101" column="98" selection-start="6583" selection-end="6583" vertical-scroll-proportion="-24.846153">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/bucketPage.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pricing.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="231" column="153" selection-start="14474" selection-end="14474" vertical-scroll-proportion="-20.26923">
+        <state line="41" column="119" selection-start="2261" selection-end="2261" vertical-scroll-proportion="-8.307693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="19" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/bucketList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/terms.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="68" selection-start="194" selection-end="194" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="79" selection-start="4280" selection-end="4280" vertical-scroll-proportion="-2.5769231">
+          <folding>
+            <marker date="1403180281593" expanded="true" signature="1113:1182" placeholder="..." />
+            <marker date="1403180281593" expanded="true" signature="1133:1170" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6162" column="25" selection-start="139357" selection-end="139381" vertical-scroll-proportion="-8.935484">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="499" column="70" selection-start="20941" selection-end="20941" vertical-scroll-proportion="0.061004784">
+        <state line="12" column="131" selection-start="314" selection-end="314" vertical-scroll-proportion="0.24401914">
           <folding />
         </state>
       </provider>

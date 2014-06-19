@@ -63,9 +63,15 @@ public class HomeController {
         }
         return "contactUs";
     }
+
     @RequestMapping(value = {"/home/pricing", "/desiengg/home/pricing"})
     public String pricing(HttpServletRequest request, HttpServletResponse response) {
         return "pricing";
+    }
+
+    @RequestMapping(value = {"/home/terms", "/desiengg/home/terms"})
+    public String terms(HttpServletRequest request, HttpServletResponse response) {
+        return "terms";
     }
 
 }
