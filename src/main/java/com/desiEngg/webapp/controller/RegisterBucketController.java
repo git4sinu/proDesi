@@ -18,6 +18,9 @@ import org.appfuse.service.BucketManager;
 import org.appfuse.service.UserManager;
 import org.appfuse.util.ConvertUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
+import org.springframework.security.authentication.dao.SaltSource;
+import org.springframework.security.authentication.encoding.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -27,6 +30,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.StringWriter;
+import java.math.BigInteger;
+import java.security.MessageDigest;
 import java.util.Map;
 
 /**
@@ -62,24 +67,79 @@ public class RegisterBucketController {
 
     User user=null;
 
+    @Autowired
+    private SaltSource saltSource;
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
+
     @RequestMapping(value = {"/home/viewBucket","/desiengg/home/viewBucket"})
     public String viewHome(HttpServletRequest request) {
         bucketModel.setBucketData(null);
         request.setAttribute("model", bucketModel);
+        if(bucketModel.getUser()!=null){
+            return "logedBucketPage";
+        }
         return "bucketPage";
     }
 
     @RequestMapping(value = {"/home/test","/desiengg/home/test"})
     public String test(HttpServletRequest request) {
-        bucketModel.setBucketData(null);
         request.setAttribute("model", bucketModel);
         return "test";
+    }
+
+    @RequestMapping(value = {"/home/showRegister","/desiengg/home/showRegister"})
+    public String showRegister(@ModelAttribute("bucketForm") BucketForm bucketForm,HttpServletRequest request) {
+        if (bucketModel.getUser() != null) {
+            return save(bucketForm, request);
+        }
+        request.setAttribute("register",true);
+        request.setAttribute("bucketForm", bucketForm);
+        return "bucketPage";
+    }
+
+    @RequestMapping(value = {"/home/loginBucket","/desiengg/home/loginBucket"})
+    public String loginBucket(@ModelAttribute("bucketForm") BucketForm bucketForm, HttpServletRequest request) {
+        String email = bucketForm.getEmail();
+        String lpass = bucketForm.getPassword();
+        if (bucketModel.getUser() != null) {
+            return save(bucketForm, request);
+        } else {
+            user = userManager.getUserbyEmailid(email);
+            boolean passLogin = false;
+            if (user != null) {
+                String encryptedPassword = encodePassword(lpass, user);
+                if (StringUtils.equals(user.getPassword(), encryptedPassword)) passLogin = true;
+            }
+            if (!passLogin) {
+                request.setAttribute("register", true);
+                request.setAttribute("loginFailed", true);
+            } else {
+                bucketModel.setUser(user);
+                bucketModel.login();
+                return save(bucketForm, request);
+            }
+        }
+        return "bucketPage";
+    }
+
+    private String encodePassword(String password, User user) {
+        if (saltSource == null) {
+            // backwards compatibility
+            password = passwordEncoder.encodePassword(password, null);
+        } else {
+            password = passwordEncoder.encodePassword(password,
+                    saltSource.getSalt(user));
+        }
+        return password;
     }
 
     @RequestMapping(value = {"/home/saveBucket","/desiengg/home/saveBucket"}, method = RequestMethod.POST)
     public String save(@ModelAttribute("bucketForm") BucketForm bucketForm,HttpServletRequest request) {
         try {
-            user=bucketModel.SaveUser(bucketForm);
+            if(user==null) user=bucketModel.SaveUser(bucketForm);
+            bucketModel.setUser(user);
             bucketData=CalculateBucket(bucketForm);
             String tranID=bucketModel.calculatePayu(bucketForm);
             bucketData.setTransactionID(tranID);
@@ -89,12 +149,11 @@ public class RegisterBucketController {
         }
         //login here
         bucketModel.setBucketData(bucketData);
-        bucketModel.setUser(user);
         request.getSession().setAttribute("user",user);
         bucketModel.login();
         request.setAttribute("model", bucketModel);
         //return "payUPage";
-        return "bucketPage";
+        return "logedBucketPage";
     }
 
     @RequestMapping(value = {"/home/showBucket","/desiengg/home/showBucket"})
@@ -119,7 +178,7 @@ public class RegisterBucketController {
             request.getSession().setAttribute("user",user);
         }
         request.setAttribute("model", bucketModel);
-        return "bucketPage";
+        return "logedBucketPage";
     }
 
 
@@ -290,7 +349,7 @@ public class RegisterBucketController {
         bucketData.setFourPoleGearRatio(ConvertUtil.roundDouble(fourPoleGearRatio,3));
         bucketData.setSixPoleGearRatio(ConvertUtil.roundDouble(sixPoleGearRatio,3));
         bucketData.setPaymentStatus(false);
-        if(StringUtils.isNotEmpty(user.getId()))bucketData.setUserId(user.getId());
+        if(StringUtils.isNotEmpty(user!=null?user.getId():bucketModel.getUser().getId()))bucketData.setUserId(user!=null?user.getId():bucketModel.getUser().getId());
         return  bucketData;
     }
 

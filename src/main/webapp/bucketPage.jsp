@@ -14,10 +14,10 @@
 <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 same-9">
     <div class="step-tabs">
         <ul id="myTab" class="nav nav-tabs step breadcrum">
-            <li <c:if test="${empty model.bucketData.id}">class="active"</c:if>><a href="#step1" data-toggle="tab">Step 1<p>Key in the values</p></a></li>
-            <li><a href="#profile" data-toggle="tab">Step 2<p>Register</p></a></li>
-            <li <c:if test="${!empty model.bucketData.id && !model.bucketData.paymentStatus}">class="active"</c:if>><a href="#pay"  data-toggle="tab">Step 3<p>Pay online</p></a></li>
-            <li <c:if test="${!empty model.bucketData.id && model.bucketData.paymentStatus}">class="active"</c:if>><a href="#result" data-toggle="tab">Step 4<p>see or download Results</p></a></li>
+            <li <c:if test="${empty model.bucketData.id && empty requestScope.register}">class="active"</c:if>><a>Step 1<p>Key in the values</p></a></li>
+            <li <c:if test="${!empty requestScope.register}">class="active"</c:if>><a>Step 2<p>Register</p></a></li>
+            <li <c:if test="${!empty model.bucketData.id && !model.bucketData.paymentStatus}">class="active"</c:if>><a>Step 3<p>Pay online</p></a></li>
+            <li <c:if test="${!empty model.bucketData.id && model.bucketData.paymentStatus}">class="active"</c:if>><a>Step 4<p>see or download Results</p></a></li>
         </ul>
 
     </div>
@@ -27,15 +27,15 @@
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 <div id="myTabContent" class="tab-content">
 <%--step 1 starts--%>
-<div <c:choose><c:when test="${empty model.bucketData.id}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose> id="step1">
-    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 some-9">
+<div <c:choose><c:when test="${empty model.bucketData.id && empty requestScope.register}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose> id="step1">
+    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 some-9" id="bucket1">
         <div class="form-step-1">
             <h1>Bucket Elevator calcultaion</h1>
-            <div class="form-horizontal">
-                <div class="form-group">
+            <form class="form-horizontal buck1" role="form" action="${propath}/home/showRegister" method="post">
+                <div class="form-group item">
                     <label for="jcapacity" class="col-sm-4 control-label">Capacity</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control"  id="jcapacity" placeholder="KG/HOUR" onblur="store('jcapacity','capacity');" value="${model.bucketData.capacity}">
+                        <input type="number" class="form-control number" name="capacity" id="jcapacity" data-validate-minmax="1,100" required='required' placeholder="KG/HOUR" onblur="store('jcapacity','capacity');" value="${model.bucketData.capacity}">
                         <div class="jcapacity">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Capacity</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
@@ -44,7 +44,7 @@
                 <div class="form-group">
                     <label for="jdensity" class="col-sm-4 control-label">Product Density</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jdensity" placeholder="KG/CU.M"  onblur="store('jdensity','density');" value="${model.bucketData.density}">
+                        <input type="number" class="form-control number" name="density" id="jdensity" data-validate-minmax="1,100" required='required' placeholder="KG/CU.M" onblur="store('jdensity','density');" value="${model.bucketData.density}">
                         <div class="jdensity">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Product Density</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
@@ -54,7 +54,7 @@
                 <div class="form-group">
                     <label for="jvolume" class="col-sm-4 control-label">Product Volume in a Bucket</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jvolume" placeholder="KG/CU.M" onblur="store('jvolume','volume');" value="${model.bucketData.volume}">
+                        <input type="number" class="form-control number" name="volume" id="jvolume" data-validate-minmax="1,100" required='required' placeholder="KG/CU.M" onblur="store('jvolume','volume');" value="${model.bucketData.volume}">
                         <div class="jvolume">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Product Volume in a Bucket</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
@@ -64,51 +64,51 @@
                 <div class="form-group">
                     <label for="pitch" class="col-sm-4 control-label">Assume Bucket Spacing (Pitch)</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jpitch" placeholder="M" name="pitch" onblur="store('jpitch','pitch');" value="${model.bucketData.pitch}">
+                        <input type="number" class="form-control number" name="pitch" id="jpitch" data-validate-minmax="1,100" required='required' id="inputPassword3" placeholder="M"  name="pitch" onblur="store('jpitch','pitch');" value="${model.bucketData.pitch}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jwidth" class="col-sm-4 control-label">Enter Selected Bucket Width</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jwidth" placeholder="M" onblur="store('jwidth','width');" value="${model.bucketData.width}">
+                        <input type="number" class="form-control number"name="width" id="jwidth" data-validate-minmax="1,100" required='required' placeholder="M"  onblur="store('jwidth','width');" value="${model.bucketData.width}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jheight" class="col-sm-4 control-label">Enter Elevator Height</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jheight" placeholder="M" onblur="store('jheight','height');" value="${model.bucketData.height}">
+                        <input type="number" class="form-control number" name="height" id="jheight" data-validate-minmax="1,100" required='required' placeholder="M" onblur="store('jheight','height');" value="${model.bucketData.height}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jweight" class="col-sm-4 control-label">Enter Empty Bucket Weight</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jweight" placeholder="KG"  onblur="store('jweight','weight');" value="${model.bucketData.weight}">
+                        <input type="number" class="form-control number" name="weight" id="jweight" data-validate-minmax="1,100" required='required' placeholder="KG"  onblur="store('jweight','weight');" value="${model.bucketData.weight}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jstress" class="col-sm-4 control-label">Allowable Stress In Belt</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jstress" placeholder="N / SQ.M" onblur="store('jstress','stress');" value="${model.bucketData.stress}">
+                        <input type="number" class="form-control number" name="stress" id="jstress" data-validate-minmax="1,100" required='required'  placeholder="N / SQ.M" onblur="store('jstress','stress');" value="${model.bucketData.stress}">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="jangle" class="col-sm-4 control-label">The Angle Contact BtwnBelt and Pulley</label>
+                    <label for="jangle" class="col-sm-4 control-label">The Angle Contact Btwn Belt and Pulley</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="jangle" placeholder="RAD" onblur="store('jangle','angle');" value="${model.bucketData.angle}">
+                        <input type="number" class="form-control number" name="angle" id="jangle" data-validate-minmax="1,100" required='required' placeholder="DEG" onblur="store('jangle','angle');" value="${model.bucketData.angle}">
                     </div>
                 </div>
 
                 <div class="form-group continue">
                     <div class="col-sm-offset-4 col-sm-8 cont">
-                        <button type="button" class="btn btn-default">Continue</button>
+                        <button type="submit" id='send' class="btn btn-default" data-validate-linked='profile'>Continue &raquo;</button>
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
     <%--step 1 ends--%>
@@ -146,54 +146,93 @@
     </div>
 </div>
 <%--step 2 starts--%>
-<div class="tab-pane fade" id="profile">
-    <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 some-9">
-        <div class="form-step-2">
-            <h1>Register to see the results</h1>
-            <div class="form-ver">
-                <form action="${propath}/home/saveBucket" method="post">
-                    <input type="hidden" name="id" value="${model.bucketData.id}">
-                    <input type="hidden" name="capacity" id="capacity" value="${model.bucketData.capacity}">
-                    <input type="hidden" name="density" id="density" value="${model.bucketData.density}">
-                    <input type="hidden" name="volume" id="volume" value="${model.bucketData.volume}">
-                    <input type="hidden" name="pitch" id="pitch" value="${model.bucketData.pitch}">
-                    <input type="hidden" name="width" id="width" value="${model.bucketData.width}">
-                    <input type="hidden" name="height" id="height" value="${model.bucketData.height}">
-                    <input type="hidden" name="weight" id="weight" value="${model.bucketData.weight}">
-                    <input type="hidden" name="stress" id="stress" value="${model.bucketData.stress}">
-                    <input type="hidden" name="angle" id="angle" value="${model.bucketData.angle}">
+<div <c:choose><c:when test="${!empty requestScope.register}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose> id="profile">
+    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 some-9">
+        <div class="form-step-2 clearfix">
+            <h1>Login Or Register</h1>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 clearfix" id="login">
+                <form  action="${propath}/home/loginBucket"  class="form-verr clearfix form-horizontal" role="form"  id="feedbackForm" method="post">
+                    <input type="hidden" name="capacity" id="capacity" value="${bucketForm.capacity}">
+                    <input type="hidden" name="density" id="density" value="${bucketForm.density}">
+                    <input type="hidden" name="volume" id="volume" value="${bucketForm.volume}">
+                    <input type="hidden" name="pitch" id="pitch" value="${bucketForm.pitch}">
+                    <input type="hidden" name="width" id="width" value="${bucketForm.width}">
+                    <input type="hidden" name="height" id="height" value="${bucketForm.height}">
+                    <input type="hidden" name="weight" id="weight" value="${bucketForm.weight}">
+                    <input type="hidden" name="stress" id="stress" value="${bucketForm.stress}">
+                    <input type="hidden" name="angle" id="angle" value="${bucketForm.angle}">
                     <input type="hidden" name="paidAmount" value="1">
                     <input type="hidden" name="productInfo"  value="test">
-                    <div class="form-group">
-                        <label for="firstName">Your basic Information</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="First Name *" name="firstName" value="">
-                    </div>
-                    <div class="form-group acc-form">
-                        <label for="email">Your account credentials</label>
-                        <input type="email" class="form-control" id="email" placeholder="Email Address *" name="email" value="">
+                    <div class="form-group item clearfix">
+                        <label for="email">E-mail </label>
+                        <input type="email" class="form-control email" id="email" name="email" required="required" placeholder="Email Address *">
 
-                        <input type="password" class="form-control" id="password" placeholder="Password *" name="password" value="">
-
-                        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password*" name="confirmPassword" value="">
                     </div>
 
-                    <div class="form-group">
-                        <label for="phoneNumber">Your mobile numer</label>
-                        <input type="number" class="form-control" id="phoneNumber" placeholder="Mobile number *" name="phoneNumber" value="">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="address">Your Address</label>
-                        <input type="text" class="form-control" id="address" placeholder="Address *" name="address" value="">
+                    <div class="form-group item clearfix">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password *" required='required'>
                     </div>
 
                     <div class="form-group continue clearfix">
-                        <div class="col-sm-offset-4 col-sm-8 reg">
-                            <button type="submit" class="btn btn-default">Register</button>
+                        <div class="col-sm-offset-3 col-sm-8 reg">
+                            <button type="submit" class="btn btn-default">Login Now</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7" id="regi" >
+                <form  action="${propath}/home/saveBucket" class="form-ver form-horizontal" role="form" id="feedbackForm" method="post">
+                    <input type="hidden" name="id" value="${model.bucketData.id}">
+                    <input type="hidden" name="capacity" id="capacity" value="${bucketForm.capacity}">
+                    <input type="hidden" name="density" id="density" value="${bucketForm.density}">
+                    <input type="hidden" name="volume" id="volume" value="${bucketForm.volume}">
+                    <input type="hidden" name="pitch" id="pitch" value="${bucketForm.pitch}">
+                    <input type="hidden" name="width" id="width" value="${bucketForm.width}">
+                    <input type="hidden" name="height" id="height" value="${bucketForm.height}">
+                    <input type="hidden" name="weight" id="weight" value="${bucketForm.weight}">
+                    <input type="hidden" name="stress" id="stress" value="${bucketForm.stress}">
+                    <input type="hidden" name="angle" id="angle" value="${bucketForm.angle}">
+                    <input type="hidden" name="paidAmount" value="1">
+                    <input type="hidden" name="productInfo"  value="test">
+                    <div class="form-group item clearfix">
+                        <label for="name">Name</label>
+                        <input type="text" data-validate-length-range="6" data-validate-words="1" required="required" class="form-control" id="name" name="firstName" placeholder="Name *">
+                    </div>
+                    <div class="form-group item clearfix">
+                        <label for="email">E-Mail</label>
+                        <input type="email" class="form-control email" id="email" name="email" required="required" placeholder="Email Address *">
+                    </div>
+                    <div class="form-group item clearfix">
+                        <label for="password">Password</label>
+                        <input class="form-control" id="password" name="password" placeholder="Password *"  required='required' type="password">
+                    </div>
+                    <div class="form-group item clearfix">
+                        <label for="repassword">Retype-Password</label>
+                        <input type="password" class="form-control" id="repassword" name="confirmPassword" placeholder="Password *" required='required'>
+                    </div>
+
+                    <div class="form-group item clearfix">
+                        <label for="mobile">Mobile</label>
+                        <input type="tel" class="form-control tel" id="mobile" name="phoneNumber" placeholder="Mobile No"  data-validate-length-range="8,20" required='required'>
+                    </div>
+
+                    <div class="form-group item clearfix">
+                        <label for="addr">Address</label>
+                        <input type="text" class="form-control" name="address" id="addr" placeholder="Address *">
+                    </div>
+
+                    <div class="form-group continue clearfix ">
+                        <div class="col-sm-offset-3 col-sm-8 reg">
+                            <button type="submit" id='send' class="btn btn-default">Register</button>
                         </div>
                     </div>
                 </form>
             </div>
+
+
         </div>
     </div>
 
@@ -529,4 +568,7 @@
         var sValue=$('#'+s1).val();
         $('#'+s2).val(sValue);
     }
+    <c:if test="${!empty requestScope.loginFailed}">
+    alert("Please Check your User Name / Password");
+    </c:if>
 </script>

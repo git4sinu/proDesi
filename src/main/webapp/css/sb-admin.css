@@ -11,16 +11,16 @@ For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap
 /* Global Styles */
 
 body {
-  background-color: #c0c030;
+    background-color: #c0c030;
 }
 
 #wrapper {
-  padding-left: 0;
+    padding-left: 0;
 }
 
 #page-wrapper {
-  width: 100%;
-  
+    width: 100%;
+
 }
 .header{background-color: #fff;}
 
@@ -30,145 +30,145 @@ body {
 .messages-dropdown .dropdown-menu .message-preview .name,
 .messages-dropdown .dropdown-menu .message-preview .message,
 .messages-dropdown .dropdown-menu .message-preview .time {
-  display: block;
+    display: block;
 }
 
 .messages-dropdown .dropdown-menu .message-preview .avatar {
-  float: left;
-  margin-right: 15px;
+    float: left;
+    margin-right: 15px;
 }
 
 .messages-dropdown .dropdown-menu .message-preview .name {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .messages-dropdown .dropdown-menu .message-preview .message {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 .messages-dropdown .dropdown-menu .message-preview .time {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 
 /* Nav Announcements */
 
 .announcement-heading {
-  font-size: 50px;
-  margin: 0;
+    font-size: 50px;
+    margin: 0;
 }
 
 .announcement-text {
-  margin: 0;
+    margin: 0;
 }
 
 /* Table Headers */
 
 table.tablesorter thead {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 table.tablesorter thead tr th:hover {
-  background-color: #f5f5f5;
+    background-color: #f5f5f5;
 }
 
 /* Flot Chart Containers */
 
 .flot-chart {
-  display: block;
-  height: 400px;
+    display: block;
+    height: 400px;
 }
 
 .flot-chart-content {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 /* Edit Below to Customize Widths > 768px */
 @media (min-width:768px) {
 
-  /* Wrappers */
+    /* Wrappers */
 
-  #wrapper {
-	padding-left: 225px;
-  }
+    #wrapper {
+        padding-left: 225px;
+    }
 
-  #page-wrapper {
-	padding: 15px 25px;
- /* background-color: #c0c030;*/
- margin-top: 100px;
-  }
+    #page-wrapper {
+        padding: 15px 25px;
+        /* background-color: #c0c030;*/
+        margin-top: 10px;
+    }
 
-  /* Side Nav */
+    /* Side Nav */
 
-  .side-nav {
-	margin-left: -225px;
-	left: 225px;
-	width: 225px;
-	position: fixed;
-	top: 68px;
-	height: 100%;
-	border-radius: 0;
-	border: none;
-	background-color: #8B52AA;/*#222222;*/
-	overflow-y: auto;
-  border-right: solid 8px #6e6e6e;
-  color: #fff;
-  }
+    .side-nav {
+        margin-left: -225px;
+        left: 225px;
+        width: 225px;
+        position: fixed;
+        top: 68px;
+        height: 100%;
+        border-radius: 0;
+        border: none;
+        background-color: #8B52AA;/*#222222;*/
+        overflow-y: auto;
+        border-right: solid 8px #6e6e6e;
+        color: #fff;
+    }
 
-  /* Bootstrap Default Overrides - Customized Dropdowns for the Side Nav */
+    /* Bootstrap Default Overrides - Customized Dropdowns for the Side Nav */
 
-  .side-nav>li.dropdown>ul.dropdown-menu {
-	position: relative;
-	min-width: 225px;
-	margin: 0;
-	padding: 0;
-	border: none;
-	border-radius: 0;
-	background-color: transparent;
-	box-shadow: none;
-	-webkit-box-shadow: none;
-  }
+    .side-nav>li.dropdown>ul.dropdown-menu {
+        position: relative;
+        min-width: 225px;
+        margin: 0;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        background-color: transparent;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
 
-  .side-nav>li.dropdown>ul.dropdown-menu>li>a {
-	color: #999999;
-	padding: 15px 15px 15px 25px;
-  }
+    .side-nav>li.dropdown>ul.dropdown-menu>li>a {
+        color: #999999;
+        padding: 15px 15px 15px 25px;
+    }
 
-  .side-nav>li.dropdown>ul.dropdown-menu>li>a:hover,
-  .side-nav>li.dropdown>ul.dropdown-menu>li>a.active,
-  .side-nav>li.dropdown>ul.dropdown-menu>li>a:focus {
-	color: #fff;
-	background-color:#fff; /*#080808;*/
-  }
+    .side-nav>li.dropdown>ul.dropdown-menu>li>a:hover,
+    .side-nav>li.dropdown>ul.dropdown-menu>li>a.active,
+    .side-nav>li.dropdown>ul.dropdown-menu>li>a:focus {
+        color: #fff;
+        background-color:#fff; /*#080808;*/
+    }
 
-  .side-nav>li>a {
-	width: 225px;
-  }
+    .side-nav>li>a {
+        width: 225px;
+    }
 
-  .navbar-default .side-nav>li>a:hover,
-  .navbar-default .side-nav>li>a:focus {
-	background-color: #c0c030;
-  /*border-radius: 0px;*/
-  color: #000;
-  border-bottom-right-radius: 0px;
-border-top-right-radius: 0px;
-  }
+    .navbar-default .side-nav>li>a:hover,
+    .navbar-default .side-nav>li>a:focus {
+        background-color: #c0c030;
+        /*border-radius: 0px;*/
+        color: #000;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+    }
 
-  /* Nav Messages */
+    /* Nav Messages */
 
-  .messages-dropdown .dropdown-menu {
-	min-width: 300px;
-  }
+    .messages-dropdown .dropdown-menu {
+        min-width: 300px;
+    }
 
-  .messages-dropdown .dropdown-menu li a {
-	white-space: normal;
-  }
+    .messages-dropdown .dropdown-menu li a {
+        white-space: normal;
+    }
 
-  .navbar-collapse {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-  }
+    .navbar-collapse {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
 
 }
 
@@ -177,16 +177,16 @@ border-top-right-radius: 0px;
 .navbar-default .side-nav > .active > a{background-color: #c0c030;/*border-radius: 0px;*/}
 .navbar-default .side-nav > .active > a, .navbar-default .side-nav > .active > a:hover,
 .navbar-default .side-nav > .active > a:focus {/*border-radius: 0px;*/ color: #fff;
-border: 0px;
-border-bottom: 2px solid #000;
-border-bottom-right-radius: 0px;
-border-top-right-radius: 0px;
-background-color: #c0c030;
+    border: 0px;
+    border-bottom: 2px solid #000;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #c0c030;
 }
 .side-nav li{margin: 0px}
 .navbar-default .side-nav > li > a{color: #fff;padding: 10px;border-bottom: 2px solid #000;
-border-bottom-right-radius: 0px;
-border-top-right-radius: 0px;}
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;}
 .navbar-fixed-top{border-width: 8px;}
 
 .list-group{margin-bottom: 30px;}

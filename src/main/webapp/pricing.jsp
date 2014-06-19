@@ -27,7 +27,7 @@
                             <li class="plan-feature">Limited Access</li>
                             <li class="plan-feature">No Extra Support</li>
                             <li class="plan-feature">One Time support</li>
-                            <li class="plan-feature"><a href="#" class="btn btn-success btn-plan-select">Subscribe Now</a></li>
+                            <li class="plan-feature"><a href="${propath}" class="btn btn-success btn-plan-select">Subscribe Now</a></li>
                         </ul>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                             <li class="plan-feature">Unlimited Access</li>
                             <li class="plan-feature">Limited Extra Support</li>
                             <li class="plan-feature">Unlimited Time support</li>
-                            <li class="plan-feature"><a href="#" class="btn btn-success btn-plan-select">Subscribe Now</a></li>
+                            <li class="plan-feature"><a href="${propath}" class="btn btn-success btn-plan-select">Subscribe Now</a></li>
                         </ul>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                             <li class="plan-feature">Unlimited Access</li>
                             <li class="plan-feature">UnLimited Extra Support</li>
                             <li class="plan-feature">Unlimited Time support</li>
-                            <li class="plan-feature"><a href="#" class="btn btn-success btn-plan-select">Subscribe Now</a></li>
+                            <li class="plan-feature"><a href="${propath}" class="btn btn-success btn-plan-select">Subscribe Now</a></li>
                         </ul>
                     </div>
                 </div>

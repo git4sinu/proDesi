@@ -44,8 +44,8 @@ public class BucketModel extends BaseModel {
         transactionId = hashCal("SHA-256", rndm).substring(0, 20);
         amount = bucketForm.getPaidAmount();
         productInfo = bucketForm.getProductInfo();
-        String firstName = bucketForm.getFirstName();
-        String email = bucketForm.getEmail();
+        String firstName = user!=null?user.getFirstName():getUser().getFirstName();
+        String email =user!=null?user.getEmail():getUser().getEmail();
         hashString = "";
         hashString = hashString.concat(merchantKey).concat("|").concat(transactionId).concat("|").concat(amount.toString()).concat("|").concat(productInfo).concat("|").concat(firstName).concat("|").concat(email)
                 .concat("||").concat(transactionId).concat("|")

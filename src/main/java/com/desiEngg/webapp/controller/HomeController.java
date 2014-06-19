@@ -56,8 +56,6 @@ public class HomeController {
         try {
             if(StringUtils.isNotEmpty(bucketForm.getEmail())){
                 user=bucketModel.SaveUser(bucketForm);
-                bucketModel.setUser(user);
-                bucketModel.login();
                 return "homePage";
             }
         } catch (UserExistsException e) {
@@ -67,7 +65,6 @@ public class HomeController {
     }
     @RequestMapping(value = {"/home/pricing", "/desiengg/home/pricing"})
     public String pricing(HttpServletRequest request, HttpServletResponse response) {
-
         return "pricing";
     }
 

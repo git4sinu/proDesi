@@ -1,1 +1,39 @@
-Hello $model.user.username
+Hello $model.user.firstName
+
+Your Recent Transaction is
+
+Input From your Side
+
+Capacity (KG/HOUR)):$model.bucketData.capacity
+Product Volume(KG/CU.M)):$model.bucketData.volume
+Bucket Spacing(M)) :$model.bucketData.pitch
+Bucket Width(M) :$model.bucketData.width
+Elevator Height(M):$model.bucketData.height
+Bucket Weight(KG) :$model.bucketData.weight
+Stress In Belt(N / SQ.M) : $model.bucketData.stress
+Angle Contact(DEG) :  $model.bucketData.angle
+
+
+Output From our Side
+
+Belt Speed :$model.bucketData.beltSpeed
+Diameter (D) of pulley :$model.bucketData.diameter
+The drive Speed :$model.bucketData.driveSpeed
+The Satisfactory chute depth :$model.bucketData.chuteDepth
+The chute opening starting from the vertical center of the pull :$model.bucketData.chuteVertical
+Belt width :$model.bucketData.beltWidth
+Pulley width : $model.bucketData.pulleyWidth
+Gross weight of bucket(consider 2/3 of product + empty bucket Weight) : $model.bucketData.grossWeight
+Tension load on tight slide :$model.bucketData.tensionTight
+Tension load on slack slide :$model.bucketData.tensionSlack
+The power required to drive :$model.bucketData.power
+The no of bucket required :$model.bucketData.bucketCount
+Torque obtained :$model.bucketData.torque
+Shaft diameter(D) :$model.bucketData.shaftDiameter
+Load on Gear box :$model.bucketData.gearLoad
+Load on shaft :$model.bucketData.shaftLoad
+The thickness of the rim of C.I pulley :$model.bucketData.pulleyThickness
+The No. of arms required for pulley :$model.bucketData.pulleyArmsCount
+Gear ratio pole for 2-pole motor :$model.bucketData.twoPoleGearRatio
+Gear ratio pole for 4-pole motor :$model.bucketData.fourPoleGearRatio
+Gear ratio pole for 6-pole motor :$model.bucketData.sixPoleGearRatio

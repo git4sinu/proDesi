@@ -6,39 +6,126 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@include file="/taglibs.jsp"%>
-<c:if test="${!empty model.bucketsList}">
-    <center>
-    <display:table name="${model.bucketsList}" class="table table-condensed table-striped table-hover" requestURI="view" id="bucketList" export="true" pagesize="10" excludedParams="ajax">
-        <display:setProperty name="export.pdf.filename" value="mybukets.pdf"/>
-        <display:column property="beltSpeed" sortable="true" title="Belt Speed" escapeXml="true"/>
-        <display:column property="diameter" sortable="true" title="Diameter" escapeXml="true"/>
-        <display:column property="driveSpeed" sortable="true" title="Speed" escapeXml="true"/>
-        <display:column property="chuteDepth" sortable="true" title="Chute Depth" escapeXml="true"/>
-        <display:column property="chuteVertical" sortable="true" title="Chute Vertical" escapeXml="true"/>
-        <display:column property="beltWidth" sortable="true" title="Belt Width" escapeXml="true"/>
-        <display:column property="pulleyWidth" sortable="true" title="Pulley Width" escapeXml="true"/>
-        <display:column property="grossWeight" sortable="true" title="Gross Weight" escapeXml="true"/>
-        <display:column property="tensionTight" sortable="true" title="Tension Tight" escapeXml="true"/>
-        <display:column property="tensionSlack" sortable="true" title="Tension Slack" escapeXml="true"/>
-        <display:column property="power" sortable="true" title="Power" escapeXml="true"/>
-        <display:column property="bucketCount" sortable="true" title="Bucket Count" escapeXml="true"/>
-        <display:column property="torque" sortable="true" title="Torque" escapeXml="true"/>
-        <display:column property="shaftDiameter" sortable="true" title="Shaft Diameter" escapeXml="true"/>
-        <display:column property="gearLoad" sortable="true" title="Gear Load" escapeXml="true"/>
-        <display:column property="pulleyThickness" sortable="true" title="Thickness" escapeXml="true"/>
-        <display:column property="pulleyArmsCount" sortable="true" title="Arms Count" escapeXml="true"/>
-        <display:column property="twoPoleGearRatio" sortable="true" title="Two PoleRatio" escapeXml="true"/>
-        <display:column property="fourPoleGearRatio" sortable="true" title="Four PoleRatio" escapeXml="true"/>
-        <display:column property="sixPoleGearRatio" sortable="true" title="Six PoleRatio" escapeXml="true"/>
-        <%--<display:column property="dateCreated" sortable="true" title="dateCreated" escapeXml="true"/>--%>
-    </display:table>
-    </center>
-    <c:forEach items="${model.bucketsList}" var="bdata">
-        <a href="${propath}/user/pdf/${bdata.id}">PDF</a>
-    </c:forEach>
-</c:if>
-<style>
-    .export.csv{display: none}
-</style>
+<link href="${ctx}/css/sb-admin.css" rel="stylesheet">
+<div id="page-wrapper" >
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12">
+                <ol class="breadcrumb">
+                    <li class="active"><i class="fa fa-dashboard"></i> Dashboard</li>
+                </ol>
+
+            </div>
+        </div><!-- /.row -->
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <i class="glyphicon glyphicon-envelope"></i>
+                            </div>
+                            <div class="col-xs-6 text-right">
+                                <p class="announcement-heading">456</p>
+                                <p class="announcement-text">New Mentions!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <div class="panel-footer announcement-bottom">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    View Mentions
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <i class="fa fa-arrow-circle-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <i class="glyphicon glyphicon-sort-by-order-alt"></i>
+                            </div>
+                            <div class="col-xs-6 text-right">
+                                <p class="announcement-heading">56</p>
+                                <p class="announcement-text">New Orders!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <div class="panel-footer announcement-bottom">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    Complete Orders
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <i class="fa fa-arrow-circle-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div><!-- /.row -->
+
+
+
+        <div class="row">
+
+            <div class="col-lg-12" id="dash">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="fa fa-money"></i> Recent Transactions</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover table-striped tablesorter">
+                                <thead>
+                                <tr>
+                                    <th>Capacity(Kg/Hour)<i class="fa fa-sort"></i></th>
+                                    <th>Density(KG/CU.M) <i class="fa fa-sort"></i></th>
+                                    <th>Volume(KG/CU.M)<i class="fa fa-sort"></i></th>
+                                    <th>Pitch(M)<i class="fa fa-sort"></i></th>
+                                    <th>Date<i class="fa fa-sort"></i></th>
+                                    <th><i class="glyphicon glyphicon-download-alt"></i><i class="fa fa-sort"></i></th>
+                                </tr>
+                                </thead>
+                                <c:if test="${!empty model.bucketsList}">
+                                <tbody>
+                                    <c:forEach var="bucket" items="${model.bucketsList}">
+                                    <tr>
+                                        <td>${bucket.capacity}</td>
+                                        <td>${bucket.density}</td>
+                                        <td>${bucket.volume}</td>
+                                        <td>${bucket.pitch}</td>
+                                        <td><fmt:formatDate type="date" value="${bucket.dateCreated}"/></td>
+                                        <td><a href="${propath}/user/pdf/${bucket.id}" target="_blank">PDF</a></td>
+                                    </tr>
+                                    </c:forEach>
+                                </tbody>
+                                </c:if>
+                            </table>
+                        </div>
+                        <div class="text-right">
+                            <a href="#">View All Transactions <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.row -->
+    </div>
+</div><!-- /#page-wrapper -->
+
+<!-- wrapper-ends -->
+
 
 

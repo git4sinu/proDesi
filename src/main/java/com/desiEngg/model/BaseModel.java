@@ -68,11 +68,11 @@ public class BaseModel {
     public void login() {
         try {
             List<GrantedAuthority> auths = new ArrayList<GrantedAuthority>();
-            Set<Role> roles = user.getRoles();
+            Set<Role> roles = user!=null ? user.getRoles():getUser().getRoles();
             for (Role role : roles) {
                 auths.add(new GrantedAuthorityImpl(role.getName()));
             }
-            Authentication auth = new UsernamePasswordAuthenticationToken(user.getUsername(), user.getPassword(), auths);
+            Authentication auth = new UsernamePasswordAuthenticationToken(user!=null ? user.getUsername():getUser().getUsername(),user!=null ? user.getPassword():getUser().getPassword(), auths);
             SecurityContext context = SecurityContextHolder.getContext();
             context.setAuthentication(auth);
         } catch (Exception e) {
@@ -98,6 +98,7 @@ public class BaseModel {
             user.setPhoneNumber(bucketForm.getPhoneNumber());
             user.getAddress().setAddress(bucketForm.getAddress());
             user=userManager.saveUser(user);
+            setUser(user);
         }
         return user;
     }
