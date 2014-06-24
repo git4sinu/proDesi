@@ -32,10 +32,7 @@ public class BucketModel extends BaseModel {
     String hashSequence = "mercahntkey|txnid|amount|productinfo|firstname|email|udf1|udf2|udf3|udf4|udf5|udf6|udf7|udf8|udf9|udf10";
 
     public List<BucketData> getBucketsList() {
-        if (bucketsList == null && getUser() != null) {
             return bucketManager.getBucketsList(getUser().getId());
-        }
-        return bucketsList;
     }
 
     public String calculatePayu(BucketForm bucketForm) {

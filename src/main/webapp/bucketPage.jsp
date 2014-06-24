@@ -35,7 +35,7 @@
                 <div class="form-group item">
                     <label for="jcapacity" class="col-sm-4 control-label">Capacity</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="capacity" id="jcapacity"  required='required' placeholder="KG/HOUR" onblur="store('jcapacity','capacity');" value="${model.bucketData.capacity}">
+                        <input type="text" class="form-control number" name="capacity" id="jcapacity"  required='required' placeholder="KG/HOUR" onblur="store('jcapacity','capacity');" value="${model.bucketData.capacity}">
                         <div class="jcapacity">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Capacity</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
@@ -44,7 +44,7 @@
                 <div class="form-group">
                     <label for="jdensity" class="col-sm-4 control-label">Product Density</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="density" id="jdensity"  required='required' placeholder="KG/CU.M" onblur="store('jdensity','density');" value="${model.bucketData.density}">
+                        <input type="text" class="form-control number" name="density" id="jdensity"  required='required' placeholder="KG/CU.M" onblur="store('jdensity','density');" value="${model.bucketData.density}">
                         <div class="jdensity">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Product Density</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
@@ -54,7 +54,7 @@
                 <div class="form-group">
                     <label for="jvolume" class="col-sm-4 control-label">Product Volume in a Bucket</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="volume" id="jvolume" required='required' placeholder="KG/CU.M" onblur="store('jvolume','volume');" value="${model.bucketData.volume}">
+                        <input type="text" class="form-control number" name="volume" id="jvolume" required='required' placeholder="KG/CU.M" onblur="store('jvolume','volume');" value="${model.bucketData.volume}">
                         <div class="jvolume">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Product Volume in a Bucket</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
@@ -64,42 +64,42 @@
                 <div class="form-group">
                     <label for="pitch" class="col-sm-4 control-label">Assume Bucket Spacing (Pitch)</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="pitch" id="jpitch"  required='required' id="inputPassword3" placeholder="M"  name="pitch" onblur="store('jpitch','pitch');" value="${model.bucketData.pitch}">
+                        <input type="text" class="form-control number" name="pitch" id="jpitch"  required='required' id="inputPassword3" placeholder="M"  name="pitch" onblur="store('jpitch','pitch');" value="${model.bucketData.pitch}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jwidth" class="col-sm-4 control-label">Enter Selected Bucket Width</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number"name="width" id="jwidth" required='required' placeholder="M"  onblur="store('jwidth','width');" value="${model.bucketData.width}">
+                        <input type="text" class="form-control number"name="width" id="jwidth" required='required' placeholder="M"  onblur="store('jwidth','width');" value="${model.bucketData.width}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jheight" class="col-sm-4 control-label">Enter Elevator Height</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="height" id="jheight"  required='required' placeholder="M" onblur="store('jheight','height');" value="${model.bucketData.height}">
+                        <input type="text" class="form-control number" name="height" id="jheight"  required='required' placeholder="M" onblur="store('jheight','height');" value="${model.bucketData.height}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jweight" class="col-sm-4 control-label">Enter Empty Bucket Weight</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="weight" id="jweight" required='required' placeholder="KG"  onblur="store('jweight','weight');" value="${model.bucketData.weight}">
+                        <input type="text" class="form-control number" name="weight" id="jweight" required='required' placeholder="KG"  onblur="store('jweight','weight');" value="${model.bucketData.weight}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jstress" class="col-sm-4 control-label">Allowable Stress In Belt</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="stress" id="jstress"  required='required'  placeholder="N / SQ.M" onblur="store('jstress','stress');" value="${model.bucketData.stress}">
+                        <input type="text" class="form-control number" name="stress" id="jstress"  required='required'  placeholder="N / SQ.M" onblur="store('jstress','stress');" value="${model.bucketData.stress}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jangle" class="col-sm-4 control-label">The Angle Contact Btwn Belt and Pulley</label>
                     <div class="col-sm-8">
-                        <input type="number" class="form-control number" name="angle" id="jangle"  required='required' placeholder="DEG" onblur="store('jangle','angle');" value="${model.bucketData.angle}">
+                        <input type="text" class="form-control number" name="angle" id="jangle"  required='required' placeholder="DEG" onblur="store('jangle','angle');" value="${model.bucketData.angle}">
                     </div>
                 </div>
 
@@ -315,7 +315,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${model.bucketData.chuteDepth}</p>
+        <p>${model.bucketData.chuteDepth} M</p>
     </div>
 </div>
 
@@ -325,7 +325,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${model.bucketData.chuteVertical}</p>
+        <p>${model.bucketData.chuteVertical} M</p>
     </div>
 </div>
 
@@ -335,7 +335,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${model.bucketData.beltWidth}</p>
+        <p>${model.bucketData.beltWidth} M</p>
     </div>
 </div>
 
@@ -345,7 +345,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${model.bucketData.pulleyWidth}</p>
+        <p>${model.bucketData.pulleyWidth} M</p>
     </div>
 </div>
 
@@ -365,7 +365,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${model.bucketData.tensionTight}</p>
+        <p>${model.bucketData.tensionTight} N</p>
     </div>
 </div>
 
@@ -375,7 +375,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${model.bucketData.tensionSlack}</p>
+        <p>${model.bucketData.tensionSlack} N</p>
     </div>
 </div>
 
@@ -385,7 +385,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${model.bucketData.power}</p>
+        <p>${model.bucketData.power} KW</p>
     </div>
 </div>
 
@@ -395,7 +395,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${model.bucketData.bucketCount}</p>
+        <p>${model.bucketData.bucketCount} NOS PER SIDE </p>
     </div>
 </div>
 
@@ -405,7 +405,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${model.bucketData.torque}</p>
+        <p>${model.bucketData.torque} N-M </p>
     </div>
 </div>
 
@@ -415,7 +415,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${model.bucketData.shaftDiameter}</p>
+        <p>${model.bucketData.shaftDiameter} M</p>
     </div>
 </div>
 
@@ -425,7 +425,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${model.bucketData.gearLoad}</p>
+        <p>${model.bucketData.gearLoad} KN</p>
     </div>
 </div>
 
@@ -435,7 +435,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${model.bucketData.shaftLoad}</p>
+        <p>${model.bucketData.shaftLoad} KN</p>
     </div>
 </div>
 
@@ -445,7 +445,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${model.bucketData.pulleyThickness}</p>
+        <p>${model.bucketData.pulleyThickness} M</p>
     </div>
 </div>
 
@@ -455,7 +455,7 @@
     </div>
 
     <div class="ot-resu">
-        <p>${model.bucketData.pulleyArmsCount}</p>
+        <p>${model.bucketData.pulleyArmsCount} NO's</p>
     </div>
 </div>
 
