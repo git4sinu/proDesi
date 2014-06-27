@@ -3,28 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="c07491d0-d31f-4a21-b8f3-d133c3b3e465" name="Default" comment="Next Level Changes..">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/bucketPage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/bucketPage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/backup/Test.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/backup/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/decorators/default.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/decorators/default.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/logedBucketPageBackup.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/logedBucketPageBackup.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/taglibs.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/taglibs.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="8765a9fa-da89-4fca-97b6-57abf7b2ee5c" name="libraries" comment="libraries" />
     <ignored path="desiengg.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403607446058" ignored="false" />
+    <file path="/Dummy.txt" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403871882343" ignored="false" />
     <file path="/dataAccessFailure.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1398759373264" ignored="false" />
-    <file path="F:/ideaworkplace/minglebox.iws" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403607445042" ignored="false" />
-    <file path="/security.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401952588781" ignored="false" />
+    <file path="F:/ideaworkplace/minglebox.iws" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403873120812" ignored="false" />
+    <file path="/security.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403849170031" ignored="false" />
     <file path="/urlrewrite.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1402480177343" ignored="false" />
     <file path="/MessageFilter.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1402481892171" ignored="false" />
     <file path="/jdbc.properties" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1398760426186" ignored="false" />
     <file path="/pom.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401714979765" ignored="false" />
     <file path="/homePage.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404246347525" ignored="false" />
-    <file path="/a.dummy" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403090228406" ignored="false" />
+    <file path="/a.dummy" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403872248921" ignored="false" />
     <file path="/default.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403179657687" ignored="false" />
     <file path="/UserManagerImpl.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401459169046" ignored="false" />
-    <file path="/fragment.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403253950250" ignored="false" />
+    <file path="/fragment.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403789026703" ignored="false" />
     <file path="/User.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399900224406" ignored="false" />
     <file path="/userform.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1398765322889" ignored="false" />
     <file path="/BucketData.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401454806968" ignored="false" />
@@ -36,7 +40,7 @@
     <file path="/YahooKeywordsExtractor.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399367691025" ignored="false" />
     <file path="/HttpConnection.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399367996525" ignored="false" />
     <file path="F:/ideaworkplace/core/src/com/minglebox/presentation/util/HttpConnection.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399367996525" ignored="false" />
-    <file path="/RegisterBucketController.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403164288968" ignored="false" />
+    <file path="/RegisterBucketController.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403846015796" ignored="false" />
     <file path="/BucketForm.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401429968359" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/institute/studyAbroadCourses.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399378516463" ignored="false" />
     <file path="/ForumModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399637010562" ignored="false" />
@@ -61,11 +65,11 @@
     <file path="/UserDaoHibernate.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401459223796" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/microsites/nyuMenuHtml.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399460190765" ignored="false" />
     <file path="/nyuMenuHtml.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399460189843" ignored="false" />
-    <file path="F:/ideaworkplace/site/resources.mangium/dummy.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403259053578" ignored="false" />
-    <file path="/dummy.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1402916680253" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/dummy.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403851114812" ignored="false" />
+    <file path="/dummy.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403851114812" ignored="false" />
     <file path="F:/ideaworkplace/site/src/com/minglebox/presentation/actions/WebsiteVirtualFairAction.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399467532953" ignored="false" />
     <file path="/BaseModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403151870156" ignored="false" />
-    <file path="/HomeController.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403179440156" ignored="false" />
+    <file path="/HomeController.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403848935921" ignored="false" />
     <file path="/sample-data.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399961811427" ignored="false" />
     <file path="/UserDaoTest.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399545168375" ignored="false" />
     <file path="/BucketModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403152868000" ignored="false" />
@@ -77,7 +81,7 @@
     <file path="F:/ideaworkplace/site/resources.mangium/home/mbAds.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399555838984" ignored="false" />
     <file path="F:/ideaworkplace/site/src/com/minglebox/presentation/forums/model/ForumComponentModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399637065468" ignored="false" />
     <file path="/ForumComponentModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399636530281" ignored="false" />
-    <file path="F:/ideaworkplace/site/resources.mangium/templates/logoAndLinkz.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403157450671" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/templates/logoAndLinkz.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403860672781" ignored="false" />
     <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/InviteRequestData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399638822140" ignored="false" />
     <file path="/PDFDController.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399881189656" ignored="false" />
     <file path="/PdfReportService.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399874279156" ignored="false" />
@@ -106,7 +110,7 @@
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/admission-forms.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401267364062" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/tags/instituteCourseList.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401267262468" ignored="false" />
     <file path="/instituteCourseList.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401267262468" ignored="false" />
-    <file path="/web.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401794799653" ignored="false" />
+    <file path="/web.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403846114921" ignored="false" />
     <file path="/index.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401280405484" ignored="false" />
     <file path="/login.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403005373203" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/studyAbroad/studyRussiaBannerAds.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401429048140" ignored="false" />
@@ -125,7 +129,7 @@
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/microsites/institutePremiumPlusHeader.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401458100015" ignored="false" />
     <file path="/UserFormController.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401459291515" ignored="false" />
     <file path="/bucketPage.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403606143152" ignored="false" />
-    <file path="/taglibs.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404246472306" ignored="false" />
+    <file path="/taglibs.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403844974062" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/upes.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401683000453" ignored="false" />
     <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/WebsiteAssocData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
     <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/WebsiteData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
@@ -186,7 +190,7 @@
     <file path="F:/ideaworkplace/bloggerbox/src/com/minglebox/facade/blogs/BlogFacade.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403014021046" ignored="false" />
     <file path="/BlogFacade.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403013963671" ignored="false" />
     <file path="/pricing.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403170986250" ignored="false" />
-    <file path="/logedBucketPage.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403605824417" ignored="false" />
+    <file path="/logedBucketPage.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403780533343" ignored="false" />
     <file path="/bucketPDF.html" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403163245140" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/vmtemplates/study_usa.vm" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403163280296" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/sales/advertiserList.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403169352375" ignored="false" />
@@ -195,9 +199,24 @@
     <file path="/prefLocStudyAbroad.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403175590875" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/US-StudyGuide.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403255474156" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/tags/instituteContact.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403257628515" ignored="false" />
-    <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/college-predictor.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403607195902" ignored="false" />
-    <file path="/college-predictor.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403607195902" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/college-predictor.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403872262203" ignored="false" />
+    <file path="/college-predictor.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403608256199" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/tags/after-12th-courses/searchCourses.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403605670636" ignored="false" />
+    <file path="F:/ideaworkplace/site/src/com/minglebox/business/hibernate/HibernateCollegePredictorManagerImpl.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403847432703" ignored="false" />
+    <file path="/HibernateCollegePredictorManagerImpl.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403847389156" ignored="false" />
+    <file path="F:/ideaworkplace/shoppingmall/src/com/minglebox/presentation/model/ProductModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403789155687" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/shoppingmall/iitJeeProductList.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403789241078" ignored="false" />
+    <file path="/iitJeeProductList.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403789228984" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/shoppingmall/iitJeeProductRFI.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403845493031" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/virtualfair/virtualFairView.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403847046703" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/tags/studyabroad/searchCourses.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403853984312" ignored="false" />
+    <file path="/searchCourses.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403853984312" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/trumanMenuHtml.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403854493609" ignored="false" />
+    <file path="/trumanMenuHtml.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403854307015" ignored="false" />
+    <file path="/logoAndLinkz.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403860641437" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/templates/logo_home.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403860750312" ignored="false" />
+    <file path="/logo_home.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403860750312" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/ads.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403860922781" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +333,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="66" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="68" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -344,7 +363,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="160" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="162" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -374,7 +393,7 @@
         <option name="CONDITION" value="&#13;&#13;JAVA" />
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="93" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="95" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -389,7 +408,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="103" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="105" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -404,7 +423,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="224" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="225" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -419,7 +438,22 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="349" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="350" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="189" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -445,37 +479,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BucketModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="94" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logedBucketPage.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="logedBucketPage.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="347" column="70" selection-start="17703" selection-end="17703" vertical-scroll-proportion="0.16481481">
+            <state line="300" column="74" selection-start="16757" selection-end="16757" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bucketPage.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/bucketPage.jsp">
+      <file leaf-file-name="RegisterBucketController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="281" column="0" selection-start="16044" selection-end="20418" vertical-scroll-proportion="-0.9529412">
+            <state line="214" column="53" selection-start="8150" selection-end="8150" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logedBucketPageBackup.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPageBackup.jsp">
+      <file leaf-file-name="HomeController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="138" selection-start="1216" selection-end="1216" vertical-scroll-proportion="-9.807693">
+            <state line="40" column="84" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="137" column="94" selection-start="4911" selection-end="4911" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urlrewrite.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="81" selection-start="937" selection-end="937" vertical-scroll-proportion="0.36914286">
               <folding />
             </state>
           </provider>
@@ -484,11 +536,29 @@
       <file leaf-file-name="default.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="238" column="113" selection-start="9052" selection-end="9052" vertical-scroll-proportion="-2.5263157">
+            <state line="121" column="110" selection-start="5043" selection-end="5043" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1403607432371" expanded="true" signature="1113:1182" placeholder="..." />
-                <marker date="1403607432371" expanded="true" signature="1133:1170" placeholder="{...}" />
+                <marker date="1403849600890" expanded="true" signature="1113:1182" placeholder="..." />
+                <marker date="1403849600890" expanded="true" signature="1133:1170" placeholder="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="106" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taglibs.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/taglibs.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="12" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -530,14 +600,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/backup/Log4jXmlTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/backup/Test.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/test.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/taglibs.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/MessageFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/appfuse/service/UserManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
@@ -548,18 +613,24 @@
         <option value="$PROJECT_DIR$/src/main/webapp/css/sb-admin.css" />
         <option value="$PROJECT_DIR$/src/main/java/org/appfuse/model/BucketData.java" />
         <option value="$PROJECT_DIR$/src/main/resources/bucketPDF.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/bucketPDF.vm" />
         <option value="$PROJECT_DIR$/src/main/webapp/pricing.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/bucketList.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/terms.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/bucketPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/logedBucketPageBackup.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/404.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/backup/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/taglibs.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/decorators/default.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" />
       </list>
     </option>
   </component>
@@ -662,7 +733,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -673,19 +744,290 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="decorators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiEngg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiEngg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiengg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proDesi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desiEngg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="241" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="263" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="332" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="332" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="267" />
@@ -702,8 +1044,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -711,8 +1053,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -761,24 +1103,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -801,25 +1125,30 @@
       </MavenSettings>
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -850,6 +1179,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -863,6 +1205,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -886,11 +1235,15 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -907,17 +1260,6 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="false" name="Debug" type="MavenRunConfiguration" factoryName="Maven">
@@ -1139,7 +1481,11 @@
       <created>1403181146093</created>
       <updated>1403181146093</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Next Level Changes..">
+      <created>1403607500089</created>
+      <updated>1403607500089</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -1178,20 +1524,20 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5873894" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32411504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32853982" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24786325" sideWeight="0.20353982" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32522124" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10683761" sideWeight="0.67146015" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10683761" sideWeight="0.6301218" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24786325" sideWeight="0.6710963" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37057522" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24786325" sideWeight="0.6301218" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36987817" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48451328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48394242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779622" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1274,6 +1620,121 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="300" column="74" selection-start="16757" selection-end="16757" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="53" selection-start="8150" selection-end="8150" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="84" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="94" selection-start="4911" selection-end="4911" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="83" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="110" selection-start="5043" selection-end="5043" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1403849600890" expanded="true" signature="1113:1182" placeholder="..." />
+            <marker date="1403849600890" expanded="true" signature="1133:1170" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="106" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/taglibs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="12" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="300" column="74" selection-start="16757" selection-end="16757" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="78" selection-start="1661" selection-end="1661" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="100" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="64" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/backup/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="103" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/security/LoginAuthenticatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="10" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0">
@@ -1424,9 +1885,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/form/BucketForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="670" selection-end="675" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="28" column="24" selection-start="670" selection-end="675" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css">
@@ -1517,7 +1976,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/contactUs.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="166" selection-start="4244" selection-end="4244" vertical-scroll-proportion="0.0" />
+        <state line="67" column="166" selection-start="4244" selection-end="4244" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/UserController.java">
@@ -1534,7 +1995,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="144" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" />
+        <state line="33" column="144" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
@@ -1580,7 +2043,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/homePage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="33" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0" />
+        <state line="30" column="33" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java">
@@ -1592,7 +2057,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/contactUs.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="96" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0" />
+        <state line="26" column="96" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
@@ -1630,7 +2097,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="144" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" />
+        <state line="33" column="144" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/service/impl/UserManagerImpl.java">
@@ -1696,18 +2165,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="129" column="124" selection-start="4683" selection-end="4683" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
     </entry>
@@ -1745,18 +2214,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="133" column="113" selection-start="4835" selection-end="4835" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
     </entry>
@@ -1773,18 +2242,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="121" column="96" selection-start="4417" selection-end="4417" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
     </entry>
@@ -1897,7 +2366,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="117" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" />
+        <state line="6" column="117" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
@@ -1948,7 +2419,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="129" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0" />
+        <state line="13" column="129" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
@@ -1964,18 +2437,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="161" column="70" selection-start="5627" selection-end="5627" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
     </entry>
@@ -2032,24 +2505,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="135" selection-start="4013" selection-end="4013" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="143" column="135" selection-start="4013" selection-end="4013" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="91" column="111" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
     </entry>
@@ -2152,9 +2623,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="159" selection-start="2754" selection-end="2754" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="87" column="159" selection-start="2754" selection-end="2754" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/service/impl/UserManagerImpl.java">
@@ -2165,18 +2634,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="91" column="111" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
     </entry>
@@ -2245,9 +2714,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/dao/BucketDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="81" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="81" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/appfuse/dao/UserDaoTest.java">
@@ -2299,11 +2766,6 @@
         <state line="14" column="101" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/backup/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="16" selection-start="322" selection-end="987" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="49" selection-start="2280" selection-end="2280" vertical-scroll-proportion="-14.28">
@@ -2333,7 +2795,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="96" selection-start="306" selection-end="306" vertical-scroll-proportion="0.12" />
+        <state line="6" column="96" selection-start="306" selection-end="306" vertical-scroll-proportion="0.12">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletRequest.class">
@@ -2348,35 +2812,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="79" selection-start="585" selection-end="585" vertical-scroll-proportion="-11.115385" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="104" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/MessageFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="107" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0">
+        <state line="17" column="79" selection-start="585" selection-end="585" vertical-scroll-proportion="-11.115385">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="67" selection-start="5061" selection-end="5061" vertical-scroll-proportion="0.24028268">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/app.css">
@@ -2391,19 +2829,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/service/UserManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="33" selection-start="2223" selection-end="2223" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="80" column="33" selection-start="2223" selection-end="2223" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="144" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0" />
+        <state line="33" column="144" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/homePage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="33" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0" />
+        <state line="30" column="33" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/model/Address.java">
@@ -2413,14 +2853,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="90" selection-start="3889" selection-end="3889" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="141" column="90" selection-start="3889" selection-end="3889" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/contactUs.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="97" selection-start="576" selection-end="576" vertical-scroll-proportion="-9.807693" />
+        <state line="18" column="97" selection-start="576" selection-end="576" vertical-scroll-proportion="-9.807693">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.js">
@@ -2431,13 +2871,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.1.3.RELEASE/spring-security-core-3.1.3.RELEASE-sources.jar!/org/springframework/security/authentication/encoding/ShaPasswordEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="58" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="75" selection-start="3331" selection-end="3331" vertical-scroll-proportion="-22.68">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.1.3.RELEASE/spring-aop-3.1.3.RELEASE.jar!/org/springframework/aop/MethodBeforeAdvice.class">
@@ -2494,16 +2927,12 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.1.3.RELEASE/spring-security-core-3.1.3.RELEASE-sources.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="0" selection-start="9142" selection-end="9142" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="174" column="0" selection-start="9142" selection-end="9142" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.1.3.RELEASE/spring-security-core-3.1.3.RELEASE-sources.jar!/org/springframework/security/authentication/ProviderManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="0" selection-start="9176" selection-end="9176" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="189" column="0" selection-start="9176" selection-end="9176" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.1.3.RELEASE/spring-security-web-3.1.3.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class">
@@ -2528,9 +2957,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/form/BucketForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="386" column="26" selection-start="8251" selection-end="8262" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="386" column="26" selection-start="8251" selection-end="8262" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/service/impl/UserManagerImpl.java">
@@ -2578,16 +3005,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/model/BucketData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="26" selection-start="5174" selection-end="5185" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/security/LoginAuthenticatorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="230" column="26" selection-start="5174" selection-end="5185" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/UserController.java">
@@ -2600,13 +3018,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pricing.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="119" selection-start="2261" selection-end="2261" vertical-scroll-proportion="-8.307693">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="19" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -2630,23 +3041,9 @@
         <state line="6162" column="25" selection-start="139357" selection-end="139381" vertical-scroll-proportion="-8.935484" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="10" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="94" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/bucketPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="281" column="0" selection-start="16044" selection-end="20418" vertical-scroll-proportion="-0.9529412">
           <folding />
         </state>
       </provider>
@@ -2658,26 +3055,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/displaytag.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="48" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/404.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="105" selection-end="105" vertical-scroll-proportion="0.15370706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/security/LoginAuthenticatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/backup/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="103" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/MessageFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="107" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/bucketPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="47" selection-start="182" selection-end="182" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="50" selection-start="700" selection-end="700" vertical-scroll-proportion="-7.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/taglibs.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="12" selection-start="927" selection-end="927" vertical-scroll-proportion="-8.5">
+        <state line="14" column="12" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="106" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="238" column="113" selection-start="9052" selection-end="9052" vertical-scroll-proportion="-2.5263157">
+        <state line="121" column="110" selection-start="5043" selection-end="5043" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1403607432371" expanded="true" signature="1113:1182" placeholder="..." />
-            <marker date="1403607432371" expanded="true" signature="1133:1170" placeholder="{...}" />
+            <marker date="1403849600890" expanded="true" signature="1113:1182" placeholder="..." />
+            <marker date="1403849600890" expanded="true" signature="1133:1170" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="347" column="70" selection-start="17703" selection-end="17703" vertical-scroll-proportion="0.16481481">
+        <state line="300" column="74" selection-start="16757" selection-end="16757" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="53" selection-start="8150" selection-end="8150" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="84" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="94" selection-start="4911" selection-end="4911" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="81" selection-start="937" selection-end="937" vertical-scroll-proportion="0.36914286">
           <folding />
         </state>
       </provider>

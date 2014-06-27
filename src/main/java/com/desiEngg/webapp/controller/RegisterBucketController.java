@@ -73,8 +73,9 @@ public class RegisterBucketController {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    @RequestMapping(value = {"/home/viewBucket","/desiengg/home/viewBucket"})
+    @RequestMapping(value = {"/home/viewBucket","/elevator/home/viewBucket"})
     public String viewHome(HttpServletRequest request) {
+        dlogger.info("Inside /home/viewBucket");
         bucketModel.setBucketData(null);
         request.setAttribute("model", bucketModel);
         if(bucketModel.getUser()!=null){
@@ -83,13 +84,13 @@ public class RegisterBucketController {
         return "bucketPage";
     }
 
-    @RequestMapping(value = {"/home/test","/desiengg/home/test"})
+    @RequestMapping(value = {"/home/test","/elevator/home/test"})
     public String test(HttpServletRequest request) {
         request.setAttribute("model", bucketModel);
         return "test";
     }
 
-    @RequestMapping(value = {"/home/showRegister","/desiengg/home/showRegister"})
+    @RequestMapping(value = {"/home/showRegister","/elevator/home/showRegister"})
     public String showRegister(@ModelAttribute("bucketForm") BucketForm bucketForm,HttpServletRequest request) {
         if (bucketModel.getUser() != null) {
             return save(bucketForm, request);
@@ -99,7 +100,7 @@ public class RegisterBucketController {
         return "bucketPage";
     }
 
-    @RequestMapping(value = {"/home/loginBucket","/desiengg/home/loginBucket"})
+    @RequestMapping(value = {"/home/loginBucket","/elevator/home/loginBucket"})
     public String loginBucket(@ModelAttribute("bucketForm") BucketForm bucketForm, HttpServletRequest request) {
         String email = bucketForm.getEmail();
         String lpass = bucketForm.getPassword();
@@ -135,7 +136,7 @@ public class RegisterBucketController {
         return password;
     }
 
-    @RequestMapping(value = {"/home/saveBucket","/desiengg/home/saveBucket"}, method = RequestMethod.POST)
+    @RequestMapping(value = {"/home/saveBucket","/elevator/home/saveBucket"}, method = RequestMethod.POST)
     public String save(@ModelAttribute("bucketForm") BucketForm bucketForm,HttpServletRequest request) {
         try {
             if(user==null) user=bucketModel.SaveUser(bucketForm);
@@ -156,7 +157,7 @@ public class RegisterBucketController {
         return "logedBucketPage";
     }
 
-    @RequestMapping(value = {"/home/showBucket","/desiengg/home/showBucket"})
+    @RequestMapping(value = {"/home/showBucket","/elevator/home/showBucket"})
     public String showDetails(HttpServletRequest request) {
         bucketData = bucketModel.getBucketData();
         if (bucketData == null) {
@@ -182,7 +183,7 @@ public class RegisterBucketController {
     }
 
 
-    @RequestMapping(value = {"/user/pdf/{bId}","/desiengg/user/pdf/{bId}"})
+    @RequestMapping(value = {"/user/pdf/{bId}","/elevator/user/pdf/{bId}"})
     public String generatePDF(@PathVariable String bId ,@ModelAttribute("bucketForm") BucketForm bucketForm,
                               HttpServletResponse response) throws Exception {
         if (StringUtils.isNotEmpty(bId)) {
@@ -211,7 +212,7 @@ public class RegisterBucketController {
         }
         return null;
     }
-    @RequestMapping(value = {"/user/view","/desiengg/user/view"})
+    @RequestMapping(value = {"/user/view","/elevator/user/view"})
     public String viewList(HttpServletRequest request) {
         request.setAttribute("model", bucketModel);
         return "bucketList";

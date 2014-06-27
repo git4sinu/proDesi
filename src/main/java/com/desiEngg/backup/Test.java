@@ -30,4 +30,61 @@ public class Test {
             e.printStackTrace();
         }
     }
+
+    /*@RequestMapping(value = {"/user/pdf/{bId}","/desiengg/user/pdf/{bId}"})
+    public String generatePDF(@PathVariable String bId ,@ModelAttribute("bucketForm") BucketForm bucketForm,
+                              HttpServletResponse response) throws Exception {
+        if (StringUtils.isNotEmpty(bId)) {
+            Document document = new Document();
+            bucketData = bucketManager.getBucketData(bId);
+            if (bucketData != null) {
+                try {
+                    bucketModel.setBucketData(bucketData);
+                    response.setContentType("application/pdf");
+                    PdfWriter.getInstance(document, response.getOutputStream());
+                    document.open();
+                    Image image = Image.getInstance (System.getProperty("user.dir")+"/src/main/webapp/images/elev2.png");
+                    image.scaleAbsolute(120f, 60f);//image width,height
+                    String templateName = "bucketPDF.vm";
+                     *//*  create a context and add data *//*
+                    StringWriter writer = new StringWriter();
+                    VelocityContext context = new VelocityContext();
+                    context.put("model", bucketModel);
+                    Template t = velocityEngine.getTemplate(templateName);
+                    t.merge(context, writer);
+                    //Create a table in PDF
+                    PdfPTable pdfTable = new PdfPTable(3);
+                    PdfPCell cell1 = new PdfPCell(new Phrase("Table Header 1"));
+                    cell1.setHorizontalAlignment(Element.ALIGN_CENTER);
+                    pdfTable.addCell(cell1);
+
+                    cell1 = new PdfPCell(new Phrase("Table Header 2"));
+                    cell1.setHorizontalAlignment(Element.ALIGN_CENTER);
+                    pdfTable.addCell(cell1);
+
+                    cell1 = new PdfPCell(new Phrase("Table Header 3"));
+                    cell1.setHorizontalAlignment(Element.ALIGN_CENTER);
+                    pdfTable.addCell(cell1);
+                    pdfTable.setHeaderRows(1);
+
+                    pdfTable.addCell("Row 1 Col 1");
+                    pdfTable.addCell("Row 1 Col 2");
+                    pdfTable.addCell("Row 1 Col 3");
+
+                    pdfTable.addCell("Row 2 Col 1");
+                    pdfTable.addCell("Row 2 Col 2");
+                    pdfTable.addCell("Row 2 Col 3");
+
+                    document.add(pdfTable);
+                    document.add(image);
+                    document.add(new Paragraph(writer.toString()));
+                } catch (Exception e) {
+                    dlogger.error(e);
+                } finally {
+                    document.close();
+                }
+            }
+        }
+        return null;
+    }*/
 }
