@@ -12,3 +12,7 @@
 
 <c:set var="datePattern"><fmt:message key="date.format"/></c:set>
 <c:set var="ctx" value="${pageContext.request.contextPath}"/>
+<c:set var="propath" value=""/>
+<c:if test="${!empty ctx && !ctx.equals('/')}">
+<c:set var="propath" value="${ctx}"/>
+</c:if>
