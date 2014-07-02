@@ -39,7 +39,7 @@ public class HomeController {
 
     User user=null;
 
-    @RequestMapping(value = {"/", "/home","/elevator/home"})
+    @RequestMapping(value = {"/", "/home","/desiengg/home"})
     public String welcomePage(HttpServletRequest request, HttpServletResponse response) {
         mLogger.info("Inside Home");
         String fromBucket = request.getParameter("b");
@@ -50,7 +50,7 @@ public class HomeController {
         }
         return "homePage";
     }
-    @RequestMapping(value = {"/home/contact", "/elevator/home/contact"})
+    @RequestMapping(value = {"/home/contact", "/desiengg/home/contact"})
     public String contact(@ModelAttribute("bucketForm") BucketForm bucketForm,HttpServletRequest request) {
         try {
             if(StringUtils.isNotEmpty(bucketForm.getEmail())){
@@ -63,12 +63,12 @@ public class HomeController {
         return "contactUs";
     }
 
-    @RequestMapping(value = {"/home/pricing", "/elevator/home/pricing"})
+    @RequestMapping(value = {"/home/pricing", "/desiengg/home/pricing"})
     public String pricing(HttpServletRequest request, HttpServletResponse response) {
         return "pricing";
     }
 
-    @RequestMapping(value = {"/home/terms", "/elevator/home/terms"})
+    @RequestMapping(value = {"/home/terms", "/desiengg/home/terms"})
     public String terms(HttpServletRequest request, HttpServletResponse response) {
         return "terms";
     }

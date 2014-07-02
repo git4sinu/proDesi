@@ -7,14 +7,30 @@
     <!-- Add rules here for anything that shouldn't be served up by Spring MVC. -->
     <rule>
         <from>/</from>
-        <to>/elevator/home</to>
+        <to>/desiengg/home</to>
     </rule>
     <rule>
-        <from>/elevator/elevator/**</from>
-        <to>/elevator/$1</to>
+        <from>^desiengg.com/desiengg</from>
+        <to>/desiengg/home</to>
     </rule>
     <rule>
-        <from>/elevator/**</from>
+        <from>^desiengg.com/desiengg/**</from>
+        <to>/desiengg/$1</to>
+    </rule>
+    <rule>
+        <from>http://desiengg.com/desiengg/**</from>
+        <to>/desiengg/home</to>
+    </rule>
+    <rule>
+        <from>http://desiengg.com/desiengg/**</from>
+        <to>/desiengg/$1</to>
+    </rule>
+    <rule>
+        <from>/desiengg/desiengg/**</from>
+        <to>/desiengg/$1</to>
+    </rule>
+    <rule>
+        <from>/desiengg/**</from>
         <to last="true" type="redirect">%{context-path}/$1</to>
     </rule>
     <rule>
@@ -63,7 +79,7 @@
     </rule>
     <rule>
         <from>/homepage</from>
-        <to>/elevator/home</to>
+        <to>/desiengg/home</to>
     </rule>
     <rule>
         <from>/home</from>
@@ -89,10 +105,10 @@
     <!-- Spring MVC -->
     <rule>
         <from>/**</from>
-        <to>/elevator/$1</to>
+        <to>%{context-path}/desiengg/$1</to>
     </rule>
     <outbound-rule>
-        <from>/elevator/**</from>
+        <from>/desiengg/**</from>
         <to>/$1</to>
     </outbound-rule>
     <!-- Remove JSESSIONID from URLs when cookies disabled -->

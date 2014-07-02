@@ -7,20 +7,20 @@
 --%>
 <%@include file="/taglibs.jsp"%>
 <style>
-    .step-tabs .nav-tabs li a { padding: 13px 86px !important; }
+    .step-tabs .nav-tabs li a { padding: 13px 142px !important; }
 </style>
 <div class="caluculator">
 <div class="container">
 <div class="row">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 <div class="row">
-<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 same-9">
+<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 same-9 no-print" id="sig-in">
     <div class="step-tabs">
         <ul id="myTab" class="nav nav-tabs step breadcrum">
             <li <c:if test="${empty model.bucketData.id && empty requestScope.register}">class="active"</c:if>><a>Step 1<p>Key in the values</p></a></li>
-            <li <c:if test="${!empty requestScope.register}">class="active"</c:if>><a>Step 2<p>Register</p></a></li>
-            <%--<li <c:if test="${!empty model.bucketData.id && !model.bucketData.paymentStatus}">class="active"</c:if>><a>Step 3<p>Pay online</p></a></li>--%>
-            <li <c:if test="${!empty model.bucketData.id}">class="active"</c:if>><a>Step 3<p>see or download Results</p></a></li>
+            <%--<li <c:if test="${!empty requestScope.register}">class="active"</c:if>><a href="#profile" data-toggle="tab">Step 2<p>Register</p></a></li>--%>
+            <%--<li <c:if test="${!empty model.bucketData.id && !model.bucketData.paymentStatus}">class="active"</c:if>><a>Step 2<p>Pay online</p></a></li>--%>
+            <li <c:if test="${!empty model.bucketData.id}">class="active"</c:if>><a>Step 2<p>see or download Results</p></a></li>
         </ul>
 
     </div>
@@ -29,8 +29,8 @@
 
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 <div id="myTabContent" class="tab-content">
-<%--step 1 starts--%>
-<div <c:choose><c:when test="${empty model.bucketData.id && empty requestScope.register}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose> id="step1">
+    <%--step 1 starts--%>
+    <div <c:choose><c:when test="${empty model.bucketData.id && empty requestScope.register}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose> id="step1">
     <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 some-9" id="bucket1">
         <div class="form-step-1">
             <h1>Bucket Elevator calcultaion</h1>
@@ -38,7 +38,7 @@
                 <div class="form-group item">
                     <label for="jcapacity" class="col-sm-4 control-label">Capacity</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control number" name="capacity" id="jcapacity"  required='required' placeholder="KG/HOUR" onblur="store('jcapacity','capacity');" value="${model.bucketData.capacity}">
+                        <input type="text" class="form-control number" name="capacity" id="jcapacity" required='required' placeholder="KG/HOUR" onblur="store('jcapacity','capacity');" value="${model.bucketData.capacity}">
                         <div class="jcapacity">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Capacity</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
@@ -47,7 +47,7 @@
                 <div class="form-group">
                     <label for="jdensity" class="col-sm-4 control-label">Product Density</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control number" name="density" id="jdensity"  required='required' placeholder="KG/CU.M" onblur="store('jdensity','density');" value="${model.bucketData.density}">
+                        <input type="text" class="form-control number" name="density" id="jdensity" required='required' placeholder="KG/CU.M" onblur="store('jdensity','density');" value="${model.bucketData.density}">
                         <div class="jdensity">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Product Density</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>
@@ -67,21 +67,21 @@
                 <div class="form-group">
                     <label for="pitch" class="col-sm-4 control-label">Assume Bucket Spacing (Pitch)</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control number" name="pitch" id="jpitch"  required='required' id="inputPassword3" placeholder="M"  name="pitch" onblur="store('jpitch','pitch');" value="${model.bucketData.pitch}">
+                        <input type="text" class="form-control number" name="pitch" id="jpitch" required='required' id="inputPassword3" placeholder="M"  name="pitch" onblur="store('jpitch','pitch');" value="${model.bucketData.pitch}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jwidth" class="col-sm-4 control-label">Enter Selected Bucket Width</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control number"name="width" id="jwidth" required='required' placeholder="M"  onblur="store('jwidth','width');" value="${model.bucketData.width}">
+                        <input type="text" class="form-control number"name="width" id="jwidth"  required='required' placeholder="M"  onblur="store('jwidth','width');" value="${model.bucketData.width}">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="jheight" class="col-sm-4 control-label">Enter Elevator Height</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control number" name="height" id="jheight"  required='required' placeholder="M" onblur="store('jheight','height');" value="${model.bucketData.height}">
+                        <input type="text" class="form-control number" name="height" id="jheight" required='required' placeholder="M" onblur="store('jheight','height');" value="${model.bucketData.height}">
                     </div>
                 </div>
 
@@ -100,12 +100,13 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="jangle" class="col-sm-4 control-label">The Angle Contact Btwn Belt and Pulley</label>
+                    <label for="jangle" class="col-sm-4 control-label">The Angle Contact BtwnBelt and Pulley</label>
                     <div class="col-sm-8">
                         <input type="text" class="form-control number" name="angle" id="jangle"  required='required' placeholder="DEG" onblur="store('jangle','angle');" value="${model.bucketData.angle}">
                     </div>
                 </div>
-
+                <input type="hidden" name="paidAmount" value="10">
+                <input type="hidden" name="productInfo" value="test">
                 <div class="form-group continue">
                     <div class="col-sm-offset-4 col-sm-8 cont">
                         <button type="submit" id='send' class="btn btn-default" data-validate-linked='profile'>Continue &raquo;</button>
@@ -149,14 +150,13 @@
     </div>
 </div>
 <%--step 2 starts--%>
-<div <c:choose><c:when test="${!empty requestScope.register}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose> id="profile">
+<%--<div <c:choose><c:when test="${!empty requestScope.register}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose> id="profile">
     <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 some-9">
         <div class="form-step-2 clearfix">
             <h1>Login Or Register</h1>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 clearfix" id="login">
-                <form  action="${propath}/home/loginBucket"  class="form-verr clearfix form-horizontal" role="form"  id="feedbackForm" method="post">
+                <form  action="${propath}/home/loginBucket"  class="form-verr clearfix form-horizontal" role="form"  id="feedbackForm">
                     <input type="hidden" name="capacity" id="capacity" value="${bucketForm.capacity}">
-                    <input type="hidden" name="fromRegister" value="true">
                     <input type="hidden" name="density" id="density" value="${bucketForm.density}">
                     <input type="hidden" name="volume" id="volume" value="${bucketForm.volume}">
                     <input type="hidden" name="pitch" id="pitch" value="${bucketForm.pitch}">
@@ -188,9 +188,8 @@
             </div>
 
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7" id="regi" >
-                <form  action="${propath}/home/saveBucket" class="form-ver form-horizontal" role="form" id="feedbackForm" method="post">
+                <form  action="${propath}/home/saveBucket" class="form-ver form-horizontal" role="form" id="feedbackForm">
                     <input type="hidden" name="id" value="${model.bucketData.id}">
-                    <input type="hidden" name="fromRegister" value="true">
                     <input type="hidden" name="capacity" id="capacity" value="${bucketForm.capacity}">
                     <input type="hidden" name="density" id="density" value="${bucketForm.density}">
                     <input type="hidden" name="volume" id="volume" value="${bucketForm.volume}">
@@ -212,11 +211,11 @@
                     </div>
                     <div class="form-group item clearfix">
                         <label for="password">Password</label>
-                        <input class="form-control" id="password" name="password" placeholder="Password *"  required='required' type="password">
+                        <input class="form-control" id="password" name="password" placeholder="Password *" data-validate-length="6,8" required='required'>
                     </div>
                     <div class="form-group item clearfix">
                         <label for="repassword">Retype-Password</label>
-                        <input type="password" class="form-control" id="repassword" name="confirmPassword" placeholder="Password *" required='required'>
+                        <input type="password" class="form-control" id="repassword" name="confirmPassword" placeholder="Password *" data-validate-linked='password' required='required'>
                     </div>
 
                     <div class="form-group item clearfix">
@@ -272,15 +271,17 @@
             </div>
         </div>
     </div>
-</div>
+</div>--%>
 <%--step 2 ends--%>
 
 
-<%--<div <c:choose><c:when test="${!empty model.bucketData.id && !model.bucketData.paymentStatus}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose>  id="pay">
-    <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 some-9">
-        <a href="${propath}/home/showBucket">Payment Done</a>
-    </div>
-</div>--%>
+<%--
+<div <c:choose><c:when test="${!empty model.bucketData.id && !model.bucketData.paymentStatus}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade"</c:otherwise></c:choose>  id="pay">
+<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 some-9">
+    <a href="${propath}/home/showBucket">Payment Done</a>
+</div>
+</div>
+--%>
 
 <div <c:choose><c:when test="${!empty model.bucketData.id}">class="tab-pane fade active in"</c:when><c:otherwise>class="tab-pane fade clearfix"</c:otherwise></c:choose>id="result">
 <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 some-r">
@@ -574,6 +575,6 @@
         $('#'+s2).val(sValue);
     }
     <c:if test="${!empty requestScope.loginFailed}">
-    alert("Please Check your User Name / Password");
+            alert("Please Check your User Name / Password");
     </c:if>
 </script>

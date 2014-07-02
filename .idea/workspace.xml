@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c07491d0-d31f-4a21-b8f3-d133c3b3e465" name="Default" comment="Next Level Changes..">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/loggedBucketPage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/form/BucketForm.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/form/BucketForm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/desiEngg/backup/Test.java" afterPath="$PROJECT_DIR$/src/main/java/com/desiEngg/backup/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/decorators/default.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/decorators/default.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/bucketPage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/bucketPage.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/taglibs.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/taglibs.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -16,32 +15,32 @@
     <list id="8765a9fa-da89-4fca-97b6-57abf7b2ee5c" name="libraries" comment="libraries" />
     <ignored path="desiengg.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403871882343" ignored="false" />
+    <file path="/Dummy.txt" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404306921828" ignored="false" />
     <file path="/dataAccessFailure.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1398759373264" ignored="false" />
-    <file path="F:/ideaworkplace/minglebox.iws" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403873120812" ignored="false" />
+    <file path="F:/ideaworkplace/minglebox.iws" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404306942859" ignored="false" />
     <file path="/security.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403849170031" ignored="false" />
     <file path="/urlrewrite.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1402480177343" ignored="false" />
     <file path="/MessageFilter.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1402481892171" ignored="false" />
     <file path="/jdbc.properties" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1398760426186" ignored="false" />
     <file path="/pom.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401714979765" ignored="false" />
     <file path="/homePage.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404246347525" ignored="false" />
-    <file path="/a.dummy" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403872248921" ignored="false" />
+    <file path="/a.dummy" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404306769296" ignored="false" />
     <file path="/default.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403179657687" ignored="false" />
     <file path="/UserManagerImpl.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401459169046" ignored="false" />
-    <file path="/fragment.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403789026703" ignored="false" />
+    <file path="/fragment.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404304999265" ignored="false" />
     <file path="/User.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399900224406" ignored="false" />
     <file path="/userform.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1398765322889" ignored="false" />
     <file path="/BucketData.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401454806968" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399356807119" ignored="false" />
     <file path="/bootstrap.css" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403179736640" ignored="false" />
-    <file path="F:/ideaworkplace/site/WEB-INF/urlrewrite.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399961071162" ignored="false" />
+    <file path="F:/ideaworkplace/site/WEB-INF/urlrewrite.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404299412406" ignored="false" />
     <file path="F:/ideaworkplace/site/src/com/minglebox/presentation/forums/actions/QnaAction.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401448927203" ignored="false" />
     <file path="F:/ideaworkplace/core/src/com/minglebox/util/keywords/YahooKeywordsExtractor.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399367704385" ignored="false" />
     <file path="/YahooKeywordsExtractor.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399367691025" ignored="false" />
     <file path="/HttpConnection.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399367996525" ignored="false" />
     <file path="F:/ideaworkplace/core/src/com/minglebox/presentation/util/HttpConnection.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399367996525" ignored="false" />
-    <file path="/RegisterBucketController.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403846015796" ignored="false" />
-    <file path="/BucketForm.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401429968359" ignored="false" />
+    <file path="/RegisterBucketController.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404300446281" ignored="false" />
+    <file path="/BucketForm.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404300393281" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/institute/studyAbroadCourses.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399378516463" ignored="false" />
     <file path="/ForumModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399637010562" ignored="false" />
     <file path="F:/ideaworkplace/site/src/com/minglebox/presentation/forums/model/ForumModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399637027296" ignored="false" />
@@ -82,7 +81,7 @@
     <file path="F:/ideaworkplace/site/src/com/minglebox/presentation/forums/model/ForumComponentModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399637065468" ignored="false" />
     <file path="/ForumComponentModel.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399636530281" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/templates/logoAndLinkz.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403860672781" ignored="false" />
-    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/InviteRequestData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399638822140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/InviteRequestData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
     <file path="/PDFDController.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399881189656" ignored="false" />
     <file path="/PdfReportService.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399874279156" ignored="false" />
     <file path="F:/ideaworkplace/shoppingmall/src/com/minglebox/model/IPEApplicationFormParameters.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399874988578" ignored="false" />
@@ -91,8 +90,8 @@
     <file path="/dummy.vm" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399877816718" ignored="false" />
     <file path="/bucketPDF.vm" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403170559125" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/scripts-2-6/signUpScript.js" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399884983437" ignored="false" />
-    <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/listInstituteCourses.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399894246046" ignored="false" />
-    <file path="/listInstituteCourses.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399893964234" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/listInstituteCourses.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404284480656" ignored="false" />
+    <file path="/listInstituteCourses.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404284378125" ignored="false" />
     <file path="F:/swaraj/paymentgateway/pom.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399899318281" ignored="false" />
     <file path="F:/ideaworkplace/metadata/database/hibernate/mbdata-1.hibernate.cfg.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399899656953" ignored="false" />
     <file path="/mbdata-1.hibernate.cfg.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1399899642187" ignored="false" />
@@ -108,7 +107,7 @@
     <file path="/WCTM.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401258075718" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/microsites/pgi.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401259950609" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/admission-forms.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401267364062" ignored="false" />
-    <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/tags/instituteCourseList.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401267262468" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/tags/instituteCourseList.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404284690453" ignored="false" />
     <file path="/instituteCourseList.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401267262468" ignored="false" />
     <file path="/web.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403846114921" ignored="false" />
     <file path="/index.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401280405484" ignored="false" />
@@ -128,17 +127,17 @@
     <file path="/instituteListCache.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401451472781" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/microsites/institutePremiumPlusHeader.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401458100015" ignored="false" />
     <file path="/UserFormController.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401459291515" ignored="false" />
-    <file path="/bucketPage.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403606143152" ignored="false" />
+    <file path="/bucketPage.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404300291984" ignored="false" />
     <file path="/taglibs.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403844974062" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/upes.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401683000453" ignored="false" />
-    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/WebsiteAssocData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
-    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/WebsiteData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
-    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MingleboxUserData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
-    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/RoleData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
-    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MingleboxConfigData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
-    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MingleboxPropertyData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
-    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UserData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
-    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UserAppData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/WebsiteAssocData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/WebsiteData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MingleboxUserData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/RoleData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MingleboxConfigData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MingleboxPropertyData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UserData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UserAppData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
     <file path="/LoginAuthenticatorService.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401693223750" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/rfi.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401862546281" ignored="false" />
     <file path="/rfi.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401862540500" ignored="false" />
@@ -172,15 +171,15 @@
     <file path="/clearCloudFrontCache.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1401963381156" ignored="false" />
     <file path="F:/ideaworkplace/bloggerbox/src/com/minglebox/pojos/PostData.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403256485656" ignored="false" />
     <file path="/PostData.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403249572359" ignored="false" />
-    <file path="F:/ideaworkplace/education/generated/com/minglebox/pojos/BranchData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
-    <file path="F:/ideaworkplace/education/generated/com/minglebox/pojos/InstituteCategoryData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
-    <file path="F:/ideaworkplace/bloggerbox/generated/com/minglebox/presentation/forms/PostForm.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403002616546" ignored="false" />
+    <file path="F:/ideaworkplace/education/generated/com/minglebox/pojos/BranchData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/education/generated/com/minglebox/pojos/InstituteCategoryData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/bloggerbox/generated/com/minglebox/presentation/forms/PostForm.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
     <file path="F:/ideaworkplace/education/generated/com/minglebox/presentation/forms/InstituteForm.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1402554664843" ignored="false" />
-    <file path="F:/ideaworkplace/education/generated/com/minglebox/pojos/InstituteData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
-    <file path="F:/ideaworkplace/education/generated/com/minglebox/pojos/CourseCategoryData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
-    <file path="F:/ideaworkplace/education/generated/com/minglebox/pojos/CourseData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
-    <file path="F:/ideaworkplace/education/generated/com/minglebox/pojos/EducationCategoryData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403066565078" ignored="false" />
-    <file path="F:/ideaworkplace/site/resources.mangium/login/signupChannel.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1402556031953" ignored="false" />
+    <file path="F:/ideaworkplace/education/generated/com/minglebox/pojos/InstituteData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/education/generated/com/minglebox/pojos/CourseCategoryData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/education/generated/com/minglebox/pojos/CourseData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/education/generated/com/minglebox/pojos/EducationCategoryData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/login/signupChannel.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404305781593" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/blogs/blogScript.source.js" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1402913721425" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/blogs/list.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1402913648081" ignored="false" />
     <file path="F:/ideaworkplace/bloggerbox/generated/com/minglebox/pojos/wrapper/PostDataWrapper.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403002616546" ignored="false" />
@@ -193,8 +192,8 @@
     <file path="/logedBucketPage.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403780533343" ignored="false" />
     <file path="/bucketPDF.html" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403163245140" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/vmtemplates/study_usa.vm" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403163280296" ignored="false" />
-    <file path="F:/ideaworkplace/site/resources.mangium/sales/advertiserList.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403169352375" ignored="false" />
-    <file path="F:/ideaworkplace/site/resources.mangium/admin/editpushLeadstatuspage.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403169376656" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/sales/advertiserList.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404306689734" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/admin/editpushLeadstatuspage.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404306864406" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/login/prefLocStudyAbroad.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403175590875" ignored="false" />
     <file path="/prefLocStudyAbroad.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403175590875" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/US-StudyGuide.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403255474156" ignored="false" />
@@ -217,6 +216,121 @@
     <file path="F:/ideaworkplace/site/resources.mangium/templates/logo_home.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403860750312" ignored="false" />
     <file path="/logo_home.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403860750312" ignored="false" />
     <file path="F:/ideaworkplace/site/resources.mangium/educationchannel/ads.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1403860922781" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/website/showUSAInterestForm.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404303165187" ignored="false" />
+    <file path="/showUSAInterestForm.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404132044765" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/GroupFaqData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ProfessionalProfileData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/SymptomData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/WebsiteAppData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/TemplateData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/DailyDigestData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ExternalAuthData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UserGdPiData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UserCommunityData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MovingWindowTrackingData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/EducationProfileData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MailReaderData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ContactData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/CustomAdStatsDailyData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/BookmarkData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ImportContentData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MailSummaryData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/RfiCallingInstitutesData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/WebsiteCategoryAssoc.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MyFavoritesData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/WebsitePageData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/WebsiteStatsData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UserBookmarkData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/CollegePredictorData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/WordComponentsData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/SubUserData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/AnchorMapData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/WebsiteCategoryData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/AdData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MatchInfoData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ExamData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/CommentArchiveData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/LockerData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UserUpdatesData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/CommentData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MovieData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/SequenceData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/TemplateHistoryData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/SpamRulesData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/NewUserInviteData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/WebsiteSettingsData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/CampusData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/AdStatsData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/FolderAssoc.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/PageData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/CustomProfileFieldsData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ChannelData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/PersonalProfileData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MingleboxUserActivityData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ChannelCityData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ParameterData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ResourcePublishData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ProspectusData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/CityStateData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UserCampusData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/AdStatsDailyData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/AppData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/SubscriptionData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UserInviteData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/GroupCalendarData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MappingConstantsData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UniqueRequestStatsData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/DegreeData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/SEMConversionData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/FeaturedMingleboxUserData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/WebsiteCommentData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/BlockedUserListData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UserUpdatesTypeData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ChannelComponentData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UserExamData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/CommunityData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MetaObjectData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MingleboxServerData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ContextData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UserSurveyData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ChannelInfoData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/RequestStatsData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/S3UploadIndexData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/CommunityStatusData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ExternalRfiData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/PlayerData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/CustomCategoryData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MatchData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/PendingFriendRequestData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/FriendshipData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/StudyProfileData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/FileData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/CategoryData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/FeaturedCommunityData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ExtUserData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/FileStatsData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UserSessionData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/RatingData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ScoreData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/HintActionData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/RewriteData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ActorData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/UserCookieData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/SEMData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MovieActorMapData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/ObjectAuditData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/MembershipData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="F:/ideaworkplace/core/generated/com/minglebox/pojos/FolderData.hbm.xml" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278678140" ignored="false" />
+    <file path="/loggedBucketPage.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404278829734" ignored="false" />
+    <file path="/personalAddressProfile.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404298510234" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/user/profile/personalAddressProfile.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404298511296" ignored="false" />
+    <file path="/personalAddress.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404298668062" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/user/profile/personalAddress.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404298668062" ignored="false" />
+    <file path="F:/ideaworkplace/site/resources.mangium/group/groupforumBuzz.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404303540812" ignored="false" />
+    <file path="/signupChannel.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404304282203" ignored="false" />
+    <file path="F:/ideaworkplace/site/src/com/minglebox/presentation/user/actions/UserNewAction.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404305790968" ignored="false" />
+    <file path="/UserNewAction.java" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404305261234" ignored="false" />
+    <file path="/advertiserList.jsp" changelist="c07491d0-d31f-4a21-b8f3-d133c3b3e465" time="1404306685000" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -363,7 +477,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="162" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="165" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -423,7 +537,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="225" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="228" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -438,7 +552,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="350" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="353" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -453,7 +567,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="189" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" line="192" class="com.desiEngg.webapp.controller.RegisterBucketController" package="com.desiEngg.webapp.controller">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -479,19 +593,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="logedBucketPage.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
+      <file leaf-file-name="loggedBucketPage.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/loggedBucketPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="300" column="74" selection-start="16757" selection-end="16757" vertical-scroll-proportion="0.0">
+            <state line="29" column="95" selection-start="1265" selection-end="1265" vertical-scroll-proportion="-15.884615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterBucketController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
+      <file leaf-file-name="LoginAuthenticatorService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/security/LoginAuthenticatorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="214" column="53" selection-start="8150" selection-end="8150" vertical-scroll-proportion="0.0">
+            <state line="47" column="0" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taglibs.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/taglibs.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="75" selection-start="1062" selection-end="1062" vertical-scroll-proportion="-9.807693">
               <folding />
             </state>
           </provider>
@@ -500,7 +623,56 @@
       <file leaf-file-name="HomeController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="84" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
+            <state line="67" column="86" selection-start="2322" selection-end="2322" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urlrewrite.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="91" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterBucketController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="144" column="136" selection-start="5152" selection-end="5152" vertical-scroll-proportion="-5.064516">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BucketForm.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/form/BucketForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="376" column="72" selection-start="8058" selection-end="8058" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bucketPage.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/bucketPage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="87" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.32595325">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="109" selection-start="1337" selection-end="1337" vertical-scroll-proportion="-13.6">
               <folding />
             </state>
           </provider>
@@ -508,11 +680,6 @@
       </file>
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="94" selection-start="4911" selection-end="4911" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
             <state />
           </provider>
@@ -522,42 +689,8 @@
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urlrewrite.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="81" selection-start="937" selection-end="937" vertical-scroll-proportion="0.36914286">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="110" selection-start="5043" selection-end="5043" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1403849600890" expanded="true" signature="1113:1182" placeholder="..." />
-                <marker date="1403849600890" expanded="true" signature="1133:1170" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="security.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="106" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="taglibs.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/taglibs.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="12" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
+            <state line="14" column="90" selection-start="605" selection-end="605" vertical-scroll-proportion="-8.814815">
               <folding />
             </state>
           </provider>
@@ -606,7 +739,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/appfuse/service/UserManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/form/BucketForm.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/contactUs.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/logedbucketPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/model/BaseModel.java" />
@@ -619,18 +751,20 @@
         <option value="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/terms.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/bucketPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/logedBucketPageBackup.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/404.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/backup/Test.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/taglibs.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/decorators/default.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/form/BucketForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/bucketPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/loggedBucketPage.jsp" />
       </list>
     </option>
   </component>
@@ -745,8 +879,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1015,6 +1147,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1485,7 +1619,11 @@
       <created>1403607500089</created>
       <updated>1403607500089</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Next Level Changes..">
+      <created>1403874259640</created>
+      <updated>1403874259640</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -1516,6 +1654,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.482835" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946581" sideWeight="0.6710963" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1529,14 +1668,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32522124" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10683761" sideWeight="0.6301218" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10683761" sideWeight="0.517165" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24786325" sideWeight="0.6301218" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36987817" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24786325" sideWeight="0.517165" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36877078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48394242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779622" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1620,33 +1758,25 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="300" column="74" selection-start="16757" selection-end="16757" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="214" column="53" selection-start="8150" selection-end="8150" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="84" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="94" selection-start="4911" selection-end="4911" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
@@ -1655,6 +1785,11 @@
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="94" selection-start="4911" selection-end="4911" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
@@ -1667,10 +1802,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="121" column="110" selection-start="5043" selection-end="5043" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1403849600890" expanded="true" signature="1113:1182" placeholder="..." />
-            <marker date="1403849600890" expanded="true" signature="1133:1170" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1688,24 +1820,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="300" column="74" selection-start="16757" selection-end="16757" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="78" selection-start="1661" selection-end="1661" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="100" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1728,30 +1857,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="10" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="84" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="70" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1766,14 +1883,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="180" column="31" selection-start="6603" selection-end="6618" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="74" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1787,7 +1899,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1801,7 +1915,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="192" column="39" selection-start="7142" selection-end="7142" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1860,14 +1976,18 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="99" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="74" selection-start="2169" selection-end="2169" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1885,7 +2005,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/form/BucketForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="670" selection-end="675" vertical-scroll-proportion="0.0" />
+        <state line="28" column="24" selection-start="670" selection-end="675" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css">
@@ -1908,14 +2030,18 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="99" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="85" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1944,14 +2070,18 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="166" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1963,7 +2093,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="105" selection-start="2459" selection-end="2540" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2003,7 +2135,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="57" selection-start="1789" selection-end="1789" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2030,7 +2164,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="144" selection-start="2844" selection-end="2844" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2065,7 +2201,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="74" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2139,7 +2277,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="99" selection-start="3110" selection-end="3110" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2160,16 +2300,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="129" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="124" selection-start="4683" selection-end="4683" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
@@ -2178,6 +2315,11 @@
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="124" selection-start="4683" selection-end="4683" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
@@ -2188,7 +2330,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="99" selection-start="3110" selection-end="3110" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2209,16 +2353,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="51" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="113" selection-start="4835" selection-end="4835" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
@@ -2227,6 +2368,11 @@
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="113" selection-start="4835" selection-end="4835" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
@@ -2242,11 +2388,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="96" selection-start="4417" selection-end="4417" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
@@ -2255,6 +2396,11 @@
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="96" selection-start="4417" selection-end="4417" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/taglibs.jsp">
@@ -2279,7 +2425,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="0" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2293,7 +2441,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="7" selection-start="1773" selection-end="1773" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2324,7 +2474,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="0" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2360,7 +2512,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="98" selection-start="2030" selection-end="2030" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2396,7 +2550,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="0" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2413,7 +2569,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="140" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2437,11 +2595,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="70" selection-start="5627" selection-end="5627" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
@@ -2450,6 +2603,11 @@
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="70" selection-start="5627" selection-end="5627" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/homePage.jsp">
@@ -2482,7 +2640,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="214" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2505,15 +2665,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="135" selection-start="4013" selection-end="4013" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="111" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.0">
+        <state line="143" column="135" selection-start="4013" selection-end="4013" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
@@ -2522,6 +2679,11 @@
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="111" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/model/BucketModel.java">
@@ -2574,7 +2736,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="166" selection-start="2266" selection-end="2266" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2623,7 +2787,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="159" selection-start="2754" selection-end="2754" vertical-scroll-proportion="0.0" />
+        <state line="87" column="159" selection-start="2754" selection-end="2754" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/service/impl/UserManagerImpl.java">
@@ -2634,11 +2800,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="111" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
@@ -2647,6 +2808,11 @@
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="111" selection-start="3378" selection-end="3378" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/taglibs.jsp">
@@ -2853,7 +3019,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="90" selection-start="3889" selection-end="3889" vertical-scroll-proportion="0.0" />
+        <state line="141" column="90" selection-start="3889" selection-end="3889" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/contactUs.jsp">
@@ -2955,11 +3123,6 @@
         <state line="33" column="29" selection-start="2403" selection-end="2403" vertical-scroll-proportion="-14.48" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/form/BucketForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="386" column="26" selection-start="8251" selection-end="8262" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/service/impl/UserManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="0" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.0">
@@ -3005,7 +3168,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/appfuse/model/BucketData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="26" selection-start="5174" selection-end="5185" vertical-scroll-proportion="0.0" />
+        <state line="230" column="26" selection-start="5174" selection-end="5185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/UserController.java">
@@ -3074,13 +3239,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/security/LoginAuthenticatorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/backup/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="103" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0" />
@@ -3093,13 +3251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/bucketPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="182" selection-end="182" vertical-scroll-proportion="-4.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="50" selection-start="700" selection-end="700" vertical-scroll-proportion="-7.48">
@@ -3107,57 +3258,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/taglibs.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="106" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/default.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="121" column="110" selection-start="5043" selection-end="5043" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1403849600890" expanded="true" signature="1113:1182" placeholder="..." />
-            <marker date="1403849600890" expanded="true" signature="1133:1170" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/logedBucketPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="300" column="74" selection-start="16757" selection-end="16757" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="214" column="53" selection-start="8150" selection-end="8150" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="84" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
+        <state line="67" column="86" selection-start="2322" selection-end="2322" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="91" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="109" selection-start="1337" selection-end="1337" vertical-scroll-proportion="-13.6">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="94" selection-start="4911" selection-end="4911" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
@@ -3167,10 +3298,52 @@
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/urlrewrite.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="81" selection-start="937" selection-end="937" vertical-scroll-proportion="0.36914286">
+        <state line="14" column="90" selection-start="605" selection-end="605" vertical-scroll-proportion="-8.814815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/taglibs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="75" selection-start="1062" selection-end="1062" vertical-scroll-proportion="-9.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/form/BucketForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="376" column="72" selection-start="8058" selection-end="8058" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/security/LoginAuthenticatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/desiEngg/webapp/controller/RegisterBucketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="136" selection-start="5152" selection-end="5152" vertical-scroll-proportion="-5.064516">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/loggedBucketPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="95" selection-start="1265" selection-end="1265" vertical-scroll-proportion="-15.884615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/bucketPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="87" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.32595325">
           <folding />
         </state>
       </provider>

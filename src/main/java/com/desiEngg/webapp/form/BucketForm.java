@@ -63,6 +63,8 @@ public class BucketForm {
     private Integer paidAmount;
     private String productInfo;
 
+    private boolean fromRegister;
+
     public String getId() {
         return id;
     }
@@ -389,5 +391,13 @@ public class BucketForm {
 
     public void setProductInfo(String productInfo) {
         this.productInfo = productInfo;
+    }
+
+    public boolean isFromRegister() {
+        return fromRegister;
+    }
+
+    public void setFromRegister(boolean fromRegister) {
+        this.fromRegister = fromRegister;
     }
 }
