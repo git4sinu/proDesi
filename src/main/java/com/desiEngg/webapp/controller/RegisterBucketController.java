@@ -64,7 +64,12 @@ public class RegisterBucketController {
 
     User user=null;
 
-
+    @RequestMapping(value = {"/home/viewBucket","/desiengg/home/viewBucket"})
+    public String viewHome(HttpServletRequest request) {
+        bucketModel.setBucketData(null);
+        request.setAttribute("model", bucketModel);
+        return "bucketPage";
+    }
 
     @RequestMapping(value = {"/home/saveBucket","/desiengg/home/saveBucket"}, method = RequestMethod.POST)
     public String save(@ModelAttribute("bucketForm") BucketForm bucketForm,HttpServletRequest request) {
@@ -80,9 +85,11 @@ public class RegisterBucketController {
         //login here
         bucketModel.setBucketData(bucketData);
         bucketModel.setUser(user);
+        request.getSession().setAttribute("user",user);
         bucketModel.login();
         request.setAttribute("model", bucketModel);
-        return "payUPage";
+        //return "payUPage";
+        return "bucketPage";
     }
 
     @RequestMapping(value = {"/home/showBucket","/desiengg/home/showBucket"})
@@ -104,15 +111,16 @@ public class RegisterBucketController {
             bucketModel.setBucketData(bucketData);
             user = userManager.getUserByID(bucketData.getUserId());
             bucketModel.setUser(user);
+            request.getSession().setAttribute("user",user);
         }
         request.setAttribute("model", bucketModel);
-        return "homePage";
+        return "bucketPage";
     }
 
 
     @RequestMapping(value = {"/user/pdf/{bId}","/desiengg/user/pdf/{bId}"})
     public String generatePDF(@PathVariable String bId ,@ModelAttribute("bucketForm") BucketForm bucketForm,
-                                       HttpServletResponse response) throws Exception {
+                              HttpServletResponse response) throws Exception {
         if (StringUtils.isNotEmpty(bId)) {
             Document document = new Document();
             bucketData = bucketManager.getBucketData(bId);
