@@ -74,7 +74,7 @@
                         <!-- <div class="col-sm-3 col-md-3 col-lg-3"> -->
                         <div class="get-started">
                             <ul class="navbar-right">
-                                <li><a href="#">Get statrted</a></li>
+                                <li><a href="#">Get started</a></li>
                                 <li class="zero"><a href=""></a></li>
                                 <li>
                                 <c:choose>
