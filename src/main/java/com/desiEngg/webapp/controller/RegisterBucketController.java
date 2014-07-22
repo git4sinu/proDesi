@@ -18,7 +18,6 @@ import org.appfuse.service.BucketManager;
 import org.appfuse.service.UserManager;
 import org.appfuse.util.ConvertUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.authentication.dao.SaltSource;
 import org.springframework.security.authentication.encoding.PasswordEncoder;
 import org.springframework.stereotype.Controller;
@@ -30,8 +29,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.StringWriter;
-import java.math.BigInteger;
-import java.security.MessageDigest;
 import java.util.Map;
 
 /**
@@ -182,7 +179,10 @@ public class RegisterBucketController {
             request.getSession().setAttribute("user",user);
         }
         request.setAttribute("model", bucketModel);
+        if (bucketData!=null) {
         return "loggedBucketPage";
+        }
+        return "bucketPage";
     }
 
 
