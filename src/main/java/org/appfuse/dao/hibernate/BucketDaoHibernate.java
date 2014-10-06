@@ -56,4 +56,13 @@ public class BucketDaoHibernate extends GenericDaoHibernate<BucketData, Long> im
         criteria.add(Restrictions.eq("transactionID",transID));
         return (BucketData) criteria.uniqueResult();
     }
+
+    @Override
+    public List<BucketData> getCompleteBucketList() {
+        List blist = null;
+        Criteria criteria = getSession().createCriteria(BucketData.class);
+        criteria.addOrder(Order.desc("dateCreated"));
+        blist = criteria.list();
+        return blist;
+    }
 }

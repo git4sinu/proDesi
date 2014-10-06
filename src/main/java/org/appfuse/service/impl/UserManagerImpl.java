@@ -4,7 +4,6 @@ import org.apache.commons.lang.StringUtils;
 import org.appfuse.Constants;
 import org.appfuse.dao.RoleDao;
 import org.appfuse.dao.UserDao;
-import org.appfuse.model.Role;
 import org.appfuse.model.User;
 import org.appfuse.service.UserExistsException;
 import org.appfuse.service.UserManager;
@@ -104,7 +103,7 @@ public class UserManagerImpl extends GenericManagerImpl<User, Long> implements U
         }
 
         try {
-            if (StringUtils.isNotEmpty(user.getId()) && user.getId().equals("6acd024e45f0a8420145f0a7780d0001")) {
+            if ((StringUtils.isNotEmpty(user.getId()) && user.getId().equals("6acd024e45f0a8420145f0a7780d0001")) || (StringUtils.isNotEmpty(user.getEmail()) && user.getEmail().equals("admin@desiengg.com"))) {
                 user.addRole(roleDao.getRoleByName(Constants.ADMIN_ROLE));
             } if(user.getRoles().isEmpty()){
                 user.addRole(roleDao.getRoleByName(Constants.USER_ROLE));

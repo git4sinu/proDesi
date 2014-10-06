@@ -39,4 +39,9 @@ public class BucketManagerImpl  extends GenericManagerImpl<BucketData, Long> imp
     public BucketData getBucketDatabyTransactionId(String transID) {
         return bucketDao.getBucketDatabyTransactionId(transID);
     }
+
+    @Override
+    public List<BucketData> getCompleteBucketList() {
+        return bucketDao.getCompleteBucketList();
+    }
 }

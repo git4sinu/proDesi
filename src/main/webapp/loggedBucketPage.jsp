@@ -57,7 +57,7 @@
                 <div class="form-group">
                     <label for="jvolume" class="col-sm-4 control-label">Product Volume in a Bucket</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control number" name="volume" id="jvolume" required='required' placeholder="KG/CU.M" onblur="store('jvolume','volume');" value="${model.bucketData.volume}">
+                        <input type="text" class="form-control number" name="volume" id="jvolume" required='required' placeholder="CU.M" onblur="store('jvolume','volume');" value="${model.bucketData.volume}">
                         <div class="jvolume">
                             <div class="popover fade right in hi" ><div class="arrow"></div><h3 class="popover-title">Product Volume in a Bucket</h3><div class="popover-content">And here's some amazing content. It's very engaging. right?</div></div>
                         </div>

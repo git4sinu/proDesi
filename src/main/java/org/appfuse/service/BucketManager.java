@@ -19,4 +19,6 @@ public interface BucketManager extends GenericManager<BucketData, Long> {
     BucketData getBucketData(String id);
 
     BucketData getBucketDatabyTransactionId(String transID);
+
+    List<BucketData> getCompleteBucketList();
 }

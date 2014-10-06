@@ -136,7 +136,7 @@ public class RegisterBucketController {
     @RequestMapping(value = {"/home/saveBucket","/desiengg/home/saveBucket"}, method = RequestMethod.POST)
     public String save(@ModelAttribute("bucketForm") BucketForm bucketForm,HttpServletRequest request) {
         try {
-            if(user==null) user=bucketModel.SaveUser(bucketForm);
+            user=bucketModel.SaveUser(bucketForm);
             bucketModel.setUser(user);
             bucketData=CalculateBucket(bucketForm);
             String tranID=bucketModel.calculatePayu(bucketForm);

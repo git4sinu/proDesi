@@ -28,7 +28,7 @@
                                 <i class="glyphicon glyphicon-envelope"></i>
                             </div>
                             <div class="col-xs-6 text-right">
-                                <p class="announcement-heading">456</p>
+                                <p class="announcement-heading">${fn:length(model.bucketsList)}</p>
                                 <p class="announcement-text">New Mentions!</p>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                                 <i class="glyphicon glyphicon-sort-by-order-alt"></i>
                             </div>
                             <div class="col-xs-6 text-right">
-                                <p class="announcement-heading">56</p>
+                                <p class="announcement-heading">${fn:length(model.bucketsList)}</p>
                                 <p class="announcement-text">New Orders!</p>
                             </div>
                         </div>
