@@ -93,7 +93,7 @@
                                 <tr>
                                     <th>Capacity(Kg/Hour)<i class="fa fa-sort"></i></th>
                                     <th>Density(KG/CU.M) <i class="fa fa-sort"></i></th>
-                                    <th>Volume(KG/CU.M)<i class="fa fa-sort"></i></th>
+                                    <th>Volume(CU.M)<i class="fa fa-sort"></i></th>
                                     <th>Pitch(M)<i class="fa fa-sort"></i></th>
                                     <th>Date<i class="fa fa-sort"></i></th>
                                     <th><i class="glyphicon glyphicon-download-alt"></i><i class="fa fa-sort"></i></th>

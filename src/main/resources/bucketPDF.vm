@@ -5,6 +5,7 @@ Your Recent Transaction is
 Input From your Side
 
 Capacity (KG/HOUR):$model.bucketData.capacity
+Density (KG/CU.M):$model.bucketData.density
 Product Volume(CU.M):$model.bucketData.volume
 Bucket Spacing(M) :$model.bucketData.pitch
 Bucket Width(M) :$model.bucketData.width
@@ -12,7 +13,6 @@ Elevator Height(M):$model.bucketData.height
 Bucket Weight(KG) :$model.bucketData.weight
 Stress In Belt(N / SQ.M) : $model.bucketData.stress
 Angle Contact(DEG) :  $model.bucketData.angle
-
 
 Output From our Side
 
@@ -37,3 +37,13 @@ The No. of arms required for pulley (NO's):$model.bucketData.pulleyArmsCount
 Gear ratio pole for 2-pole motor :$model.bucketData.twoPoleGearRatio
 Gear ratio pole for 4-pole motor :$model.bucketData.fourPoleGearRatio
 Gear ratio pole for 6-pole motor :$model.bucketData.sixPoleGearRatio
+
+NOTE > : THE BELT SPEED FOR BUCKET ELEVATORS IS USUALLY IN THE RANGE OF 1 TO 2 M/SEC.
+         TO ENSURE THE PRODUCT THROWS INTO THE CHUTE AT THE HEAD PULLEY. OTHERWISE
+         CHANGE THE VALUES OF EITHER ANY OF CAPACITY/DENSITY/BUCKET SIZE/BUCKET SPACING
+
+NOTE > : THE GEAR BOX SERVICE FACTOR SHOULD BE ≥ 1.50
+
+NOTE > : CONSIDER SPOKE/ARM DIA 0.02 M FOR UP TO 0.7 M PULLEY DIAMETER AND OVER 0.7 M PULLEY DIA CONSIDER SPOKE/ARM DIA 0.025 M
+
+
