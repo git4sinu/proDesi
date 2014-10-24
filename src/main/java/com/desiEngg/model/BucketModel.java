@@ -44,7 +44,7 @@ public class BucketModel extends BaseModel {
         Random rand = new Random();
         String rndm = Integer.toString(rand.nextInt()) + (System.currentTimeMillis() / 1000L);
         transactionId = hashCal("SHA-256", rndm).substring(0, 20);
-        amount = bucketForm.getPaidAmount();
+        /*amount = bucketForm.getPaidAmount();
         productInfo = bucketForm.getProductInfo();
         String firstName = user!=null?user.getFirstName():getUser().getFirstName();
         String email =user!=null?user.getEmail():getUser().getEmail();
@@ -52,7 +52,7 @@ public class BucketModel extends BaseModel {
         hashString = hashString.concat(merchantKey).concat("|").concat(transactionId).concat("|").concat(amount.toString()).concat("|").concat(productInfo).concat("|").concat(firstName).concat("|").concat(email)
                 .concat("||").concat(transactionId).concat("|")
                 .concat("||||||||").concat(salt);
-        hash = hashCal("SHA-512", hashString);
+        hash = hashCal("SHA-512", hashString);*/
         return transactionId;
     }
 
